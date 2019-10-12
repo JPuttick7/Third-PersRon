@@ -1,0 +1,944 @@
+﻿Log file open, 10/12/19 12:45:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: thirdpersron
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.665386
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.12-11.45.39:242][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.12-11.45.39:243][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:243][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:247][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.12-11.45.39:247][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.12-11.45.39:248][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.12-11.45.39:249][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.12-11.45.39:249][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.12-11.45.39:262][  0]LogHAL: Display: Platform has ~ 8 GB [8476823552 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.12-11.45.39:262][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.12-11.45.39:263][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.10.12-11.45.39:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.10.12-11.45.39:264][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.12-11.45.39:266][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.12-11.45.39:266][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.12-11.45.39:266][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.10.12-11.45.39:267][  0]LogInit: Computer: DESKTOP-39O8R6D
+[2019.10.12-11.45.39:267][  0]LogInit: User: jamie
+[2019.10.12-11.45.39:267][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.10.12-11.45.39:267][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.12-11.45.39:267][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.10.12-11.45.39:267][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.12-11.45.39:267][  0]LogMemory: Process Physical Memory: 101.23 MB used, 101.24 MB peak
+[2019.10.12-11.45.39:267][  0]LogMemory: Process Virtual Memory: 98.21 MB used, 98.21 MB peak
+[2019.10.12-11.45.39:267][  0]LogMemory: Physical Memory: 4864.33 MB used,  3219.80 MB free, 8084.13 MB total
+[2019.10.12-11.45.39:267][  0]LogMemory: Virtual Memory: 4649.87 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.10.12-11.45.39:276][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.12-11.45.39:379][  0]LogInit: Using OS detected language (en-US).
+[2019.10.12-11.45.39:379][  0]LogInit: Using OS detected locale (en-GB).
+[2019.10.12-11.45.39:383][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.12-11.45.39:939][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.12-11.45.40:092][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.12-11.45.40:092][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.12-11.45.43:433][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.12-11.45.43:433][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.12-11.45.43:449][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.10.12-11.45.43:449][  0]LogD3D11RHI:       128/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.10.12-11.45.43:456][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.12-11.45.43:456][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.12-11.45.43:456][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.12-11.45.43:467][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.12-11.45.43:467][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.12-11.45.43:467][  0]LogWindows: EnumDisplayDevices:
+[2019.10.12-11.45.43:469][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.10.12-11.45.43:470][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.10.12-11.45.43:470][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.10.12-11.45.43:471][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.10.12-11.45.43:471][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2019.10.12-11.45.43:471][  0]LogD3D11RHI:   Driver Version: 22.20.16.4836 (internal:22.20.16.4836, unified:22.20.16.4836)
+[2019.10.12-11.45.43:471][  0]LogD3D11RHI:      Driver Date: 10-17-2017
+[2019.10.12-11.45.43:471][  0]LogRHI: Texture pool is 1504 MB (70% of 2149 MB)
+[2019.10.12-11.45.43:481][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.12-11.45.43:494][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2019.10.12-11.45.44:201][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.12-11.45.44:213][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.12-11.45.44:230][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.12-11.45.44:244][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.12-11.45.44:267][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.12-11.45.44:280][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.12-11.45.44:293][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.12-11.45.44:306][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.12-11.45.44:315][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.12-11.45.44:375][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.12-11.45.44:380][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.12-11.45.44:420][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.12-11.45.44:420][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.12-11.45.44:443][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.12-11.45.44:443][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.12-11.45.44:454][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.12-11.45.44:464][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.12-11.45.44:478][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.12-11.45.44:501][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.12-11.45.44:542][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.12-11.45.44:542][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.12-11.45.44:542][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.12-11.45.44:565][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.12-11.45.44:694][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Intermediate/Shaders/WorkingDirectory/8064/).
+[2019.10.12-11.45.44:695][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jamie/AppData/Local/Temp/UnrealShaderWorkingDir/FFC711364D817E3892B01C99C6142136/'.
+[2019.10.12-11.45.44:699][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.12-11.45.44:699][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.12-11.45.44:699][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.12-11.45.48:232][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.12-11.45.48:473][  0]LogDerivedDataCache: Loaded boot cache 0.24s 73MB C:/Users/jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.12-11.45.48:473][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.12-11.45.48:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.12-11.45.48:473][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.12-11.45.48:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.12-11.45.48:473][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.12-11.45.48:492][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.12-11.45.48:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.12-11.45.48:492][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.12-11.45.48:494][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jamie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.12-11.45.48:494][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.12-11.45.48:494][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.12-11.45.48:546][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.12-11.45.48:549][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.12-11.45.48:575][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.12-11.45.48:982][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2019.10.12-11.45.49:653][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.12-11.45.50:015][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.12-11.45.50:015][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.12-11.45.50:015][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.12-11.45.50:015][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.12-11.45.50:016][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.12-11.45.50:046][  0]LogNetVersion: thirdpersron 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2728054761)
+[2019.10.12-11.45.51:163][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.165528 seconds
+[2019.10.12-11.45.51:179][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.12-11.45.51:179][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.12-11.45.51:179][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.12-11.45.56:761][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.12-11.45.56:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.12-11.45.56:917][  0]SourceControl: Source control is disabled
+[2019.10.12-11.45.56:917][  0]SourceControl: Source control is disabled
+[2019.10.12-11.45.56:925][  0]SourceControl: Source control is disabled
+[2019.10.12-11.45.56:929][  0]SourceControl: Source control is disabled
+[2019.10.12-11.45.57:226][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.12-11.45.57:450][  0]LogOcInput: OculusInput pre-init called
+[2019.10.12-11.45.57:464][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.12-11.45.57:464][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.12-11.45.57:617][  0]LogEngine: Initializing Engine...
+[2019.10.12-11.45.57:620][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.12-11.45.57:623][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.10.12-11.45.58:261][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.12-11.45.58:306][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.12-11.45.58:336][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.12-11.45.58:388][  0]LogInit: FAudioDevice initialized.
+[2019.10.12-11.45.58:388][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.12-11.45.58:492][  0]LogDerivedDataCache: Saved boot cache 0.10s 73MB C:/Users/jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.12-11.45.58:507][  0]LogInit: Texture streaming: Enabled
+[2019.10.12-11.45.58:551][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.12-11.45.58:732][  0]LogInit: Transaction tracking system initialized
+[2019.10.12-11.45.58:852][  0]BlueprintLog: New page: Editor Load
+[2019.10.12-11.45.59:088][  0]LocalizationService: Localization service is disabled
+[2019.10.12-11.45.59:672][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.12-11.45.59:673][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.12-11.46.00:017][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/' took 0.07s
+[2019.10.12-11.46.00:284][  0]SourceControl: Source control is disabled
+[2019.10.12-11.46.00:285][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Maps/MyLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.12-11.46.00:286][  0]LightingResults: New page: Lighting Build
+[2019.10.12-11.46.00:296][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.12-11.46.00:296][  0]MapCheck: New page: Map Check
+[2019.10.12-11.46.00:297][  0]LightingResults: New page: Lighting Build
+[2019.10.12-11.46.00:375][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.10.12-11.46.02:905][  0]LogAIModule: Creating AISystem for world MyLevel
+[2019.10.12-11.46.02:909][  0]LogMaterial: Display: Material /Engine/EngineMaterials/EmissiveTexturedMaterial.EmissiveTexturedMaterial needed to have new flag set bUsedWithStaticLighting !
+[2019.10.12-11.46.02:916][  0]LogMaterial: Display: Missing cached shader map for material EmissiveTexturedMaterial, compiling. 
+[2019.10.12-11.46.02:942][  0]MapCheck: Warning: EmissiveTexturedMaterial Material /Engine/EngineMaterials/EmissiveTexturedMaterial.EmissiveTexturedMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.10.12-11.46.02:955][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2019.10.12-11.46.02:955][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2019.10.12-11.46.02:955][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.12-11.46.02:956][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.12-11.46.03:023][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2019.10.12-11.46.03:024][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.12-11.46.03:025][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.618ms to complete.
+[2019.10.12-11.46.03:030][  0]LogFileHelpers: Loading map 'MyLevel' took 2.746
+[2019.10.12-11.46.03:286][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.12-11.46.03:303][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.12-11.46.03:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.12-11.46.03:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.12-11.46.03:380][  0]LogCollectionManager: Loaded 0 collections in 0.003875 seconds
+[2019.10.12-11.46.03:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Collections/' took 0.00s
+[2019.10.12-11.46.03:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Developers/jamie/Collections/' took 0.00s
+[2019.10.12-11.46.03:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Collections/' took 0.00s
+[2019.10.12-11.46.03:394][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.12-11.46.03:414][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2867 classes and 685 folders.
+[2019.10.12-11.46.03:436][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.10.12-11.46.04:101][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.12-11.46.04:120][  0]LogSlate: Took 0.009349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.12-11.46.04:137][  0]LogSlate: Took 0.008869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.12-11.46.04:243][  0]LogRenderer: Reallocating scene render targets to support 928x588 Format 9 NumSamples 1 (Frame:1).
+[2019.10.12-11.46.07:939][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.12-11.46.07:939][  0]LogLoad: (Engine Initialization) Total time: 36.20 seconds
+[2019.10.12-11.46.07:939][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.12-11.46.08:016][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.10.12-11.46.10:093][ 24]LogAssetRegistry: Asset discovery search completed in 21.1126 seconds
+[2019.10.12-11.46.10:102][ 24]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2019.10.12-11.46.10:102][ 24]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2019.10.12-11.49.14:347][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.12-11.49.14:381][607]LogSlate: Took 0.032814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.12-11.49.20:430][856]LogSlate: Took 0.012760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.12-11.49.20:438][856]LogAssetEditorManager: Opening Asset editor for PhysicalMaterial /Game/Core/PhysMat_EnemyDefault.PhysMat_EnemyDefault
+[2019.10.12-11.49.22:267][954]LogSlate: Window 'PhysMat_EnemyDefault' being destroyed
+[2019.10.12-11.49.43:991][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PhysMat_EnemyDefault" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Core/PhysMat_EnemyDefault.uasset" SILENT=true
+[2019.10.12-11.49.44:018][252]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/PhysMat_EnemyDefault30A9FC6549AB19BC4E7F6D9E75FC66EF.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Core/PhysMat_EnemyDefault.uasset'
+[2019.10.12-11.50.32:196][  6]LogAssetEditorManager: Opening Asset editor for PhysicalMaterial /Game/Core/PhysMat_Player.PhysMat_Player
+[2019.10.12-11.50.40:501][496]LogAssetEditorManager: Opening Asset editor for PhysicalMaterial /Game/Core/PhysMat_EnemyVulnerable.PhysMat_EnemyVulnerable
+[2019.10.12-11.50.46:668][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.10.12-11.50.46:685][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PhysMat_Player" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Core/PhysMat_Player.uasset" SILENT=true
+[2019.10.12-11.50.46:715][858]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/PhysMat_Player267E598F4881CA7ADE40B1A9C8046E10.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Core/PhysMat_Player.uasset'
+[2019.10.12-11.50.46:724][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PhysMat_EnemyVulnerable" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Core/PhysMat_EnemyVulnerable.uasset" SILENT=true
+[2019.10.12-11.50.46:750][858]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/PhysMat_EnemyVulnerable37EE8E5048510598BDB80CA95123A198.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Core/PhysMat_EnemyVulnerable.uasset'
+[2019.10.12-11.50.54:285][278]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.10.12-11.50.55:923][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.12-11.53.24:037][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.10.12-11.59.08:141][771]LogHttp: Warning: 000001A6FD3F1800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2C5E4D5-4D68-9CA4-0E10-629FF8F03500%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: request failed, libcurl error: 0 (No error)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a6b7f7ff70 [can pipeline])
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.87.18.159) port 443 (#5))
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 7 (Closing connection 5)
+[2019.10.12-11.59.08:142][771]LogHttp: Warning: 000001A6FD3F1800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.12-11.59.08:474][772]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2C5E4D5-4D68-9CA4-0E10-629FF8F03500%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.12-12.12.04:787][104]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.12-12.12.05:403][140]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.12-12.12.11:046][439]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.12-12.12.11:047][439]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.10.12-12.12.11:047][439]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.12-12.12.11:047][439]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.10.12-12.12.11:047][439]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.12-12.12.11:047][439]LogWindows: Warning: URL: C:\Users\jamie\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.10.12-12.12.11:048][439]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.12-12.12.11:048][439]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.10.12-12.12.11:048][439]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.12-12.12.11:048][439]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.10.12-12.12.56:345][865]LogSlate: Window 'Source Control Login' being destroyed
+[2019.10.12-12.13.54:702][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.12-12.13.56:547][358]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.12-12.14.02:187][658]SourceControl: Source control is disabled
+[2019.10.12-12.14.03:469][694]LogSlate: Window 'Source Control Login' being destroyed
+[2019.10.12-12.14.06:805][787]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2C5E4D5-4D68-9CA4-0E10-629FF8F03500%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: request failed, libcurl error: 0 (No error)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a6b7f7ff70 [can pipeline])
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 1 (Re-using existing connection! (#18) with host datarouter.ol.epicgames.com)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.200.123.101) port 443 (#18))
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 7 (Closing connection 18)
+[2019.10.12-12.28.08:286][883]LogHttp: Warning: 000001A6D07ABD80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.12-12.28.08:625][884]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2C5E4D5-4D68-9CA4-0E10-629FF8F03500%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2C5E4D5-4D68-9CA4-0E10-629FF8F03500%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: request failed, libcurl error: 0 (No error)
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a6b7f7ff70 [can pipeline])
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 1 (Re-using existing connection! (#21) with host datarouter.ol.epicgames.com)
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.54.50) port 443 (#21))
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.12-12.36.08:186][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.12-12.36.08:187][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 7 (Closing connection 21)
+[2019.10.12-12.36.08:187][312]LogHttp: Warning: 000001A6D07AB600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.12-12.36.08:187][312]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2C5E4D5-4D68-9CA4-0E10-629FF8F03500%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.12-12.44.59:620][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.12-12.46.44:463][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_A_SetB.Attack_A_SetB
+[2019.10.12-12.46.44:465][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_A_SetB.Attack_A_SetB) using current/default (AnimCompress_RemoveLinearKeys_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.44:599][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_B_SetB.Attack_B_SetB
+[2019.10.12-12.46.44:599][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_B_SetB.Attack_B_SetB) using current/default (AnimCompress_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.44:674][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_C.Attack_C
+[2019.10.12-12.46.44:675][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_C.Attack_C) using current/default (AnimCompress_RemoveLinearKeys_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.44:832][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_C_SetB.Attack_C_SetB
+[2019.10.12-12.46.44:832][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_C_SetB.Attack_C_SetB) using current/default (AnimCompress_RemoveLinearKeys_9) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.44:902][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_D.Attack_D
+[2019.10.12-12.46.44:902][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_D.Attack_D) using current/default (AnimCompress_RemoveLinearKeys_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:026][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_D_SetA.Attack_D_SetA
+[2019.10.12-12.46.45:026][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_D_SetA.Attack_D_SetA) using current/default (AnimCompress_RemoveLinearKeys_11) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:104][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_D_SetB.Attack_D_SetB
+[2019.10.12-12.46.45:104][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_D_SetB.Attack_D_SetB) using current/default (AnimCompress_RemoveLinearKeys_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:213][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_E_SetB.Attack_E_SetB
+[2019.10.12-12.46.45:213][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Attack_E_SetB.Attack_E_SetB) using current/default (AnimCompress_RemoveLinearKeys_14) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:362][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Combat_JogFwd_AggroMinion.Combat_JogFwd_AggroMinion
+[2019.10.12-12.46.45:362][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Combat_JogFwd_AggroMinion.Combat_JogFwd_AggroMinion) using current/default (AnimCompress_RemoveLinearKeys_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:489][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Combat_JogFwd_Start.Combat_JogFwd_Start
+[2019.10.12-12.46.45:489][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Combat_JogFwd_Start.Combat_JogFwd_Start) using current/default (AnimCompress_RemoveLinearKeys_16) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:598][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Death_A.Death_A
+[2019.10.12-12.46.45:598][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Death_A.Death_A) using current/default (AnimCompress_RemoveLinearKeys_18) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:811][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Death_C.Death_C
+[2019.10.12-12.46.45:811][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Death_C.Death_C) using current/default (AnimCompress_RemoveLinearKeys_20) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:885][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Death_D.Death_D
+[2019.10.12-12.46.45:885][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Death_D.Death_D) using current/default (AnimCompress_RemoveLinearKeys_21) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.45:993][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Back.HitReact_Back
+[2019.10.12-12.46.45:993][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Back.HitReact_Back) using current/default (AnimCompress_RemoveLinearKeys_23) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:055][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Front.HitReact_Front
+[2019.10.12-12.46.46:055][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Front.HitReact_Front) using current/default (AnimCompress_RemoveLinearKeys_24) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:095][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Left.HitReact_Left
+[2019.10.12-12.46.46:095][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Left.HitReact_Left) using current/default (AnimCompress_RemoveLinearKeys_25) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:147][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Right.HitReact_Right
+[2019.10.12-12.46.46:148][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/HitReact_Right.HitReact_Right) using current/default (AnimCompress_RemoveLinearKeys_26) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:187][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_Combat.Jog_Fwd_Downhill_Combat
+[2019.10.12-12.46.46:188][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_Combat.Jog_Fwd_Downhill_Combat) using current/default (AnimCompress_RemoveLinearKeys_27) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:343][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_NonCombat.Jog_Fwd_Downhill_NonCombat
+[2019.10.12-12.46.46:343][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_NonCombat.Jog_Fwd_Downhill_NonCombat) using current/default (AnimCompress_RemoveLinearKeys_29) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:431][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_NonCombat_A.Jog_Fwd_Downhill_NonCombat_A
+[2019.10.12-12.46.46:431][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_NonCombat_A.Jog_Fwd_Downhill_NonCombat_A) using current/default (AnimCompress_RemoveLinearKeys_30) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:512][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_NonCombat_B.Jog_Fwd_Downhill_NonCombat_B
+[2019.10.12-12.46.46:513][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Downhill_NonCombat_B.Jog_Fwd_Downhill_NonCombat_B) using current/default (AnimCompress_RemoveLinearKeys_31) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:585][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_Combat.Jog_Fwd_Uphill_Combat
+[2019.10.12-12.46.46:585][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_Combat.Jog_Fwd_Uphill_Combat) using current/default (AnimCompress_RemoveLinearKeys_32) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:680][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_Combat_AggroMinion.Jog_Fwd_Uphill_Combat_AggroMinion
+[2019.10.12-12.46.46:680][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_Combat_AggroMinion.Jog_Fwd_Uphill_Combat_AggroMinion) using current/default (AnimCompress_RemoveLinearKeys_33) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:772][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_NonCombat.Jog_Fwd_Uphill_NonCombat
+[2019.10.12-12.46.46:772][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_NonCombat.Jog_Fwd_Uphill_NonCombat) using current/default (AnimCompress_RemoveLinearKeys_34) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:857][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_NonCombat_A.Jog_Fwd_Uphill_NonCombat_A
+[2019.10.12-12.46.46:857][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_NonCombat_A.Jog_Fwd_Uphill_NonCombat_A) using current/default (AnimCompress_RemoveLinearKeys_35) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.46:922][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_NonCombat_B.Jog_Fwd_Uphill_NonCombat_B
+[2019.10.12-12.46.46:922][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Jog_Fwd_Uphill_NonCombat_B.Jog_Fwd_Uphill_NonCombat_B) using current/default (AnimCompress_RemoveLinearKeys_36) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.47:006][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/KnockUp.KnockUp
+[2019.10.12-12.46.47:006][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/KnockUp.KnockUp) using current/default (AnimCompress_RemoveLinearKeys_37) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.47:134][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/KnockUp_A.KnockUp_A
+[2019.10.12-12.46.47:134][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/KnockUp_A.KnockUp_A) using current/default (AnimCompress_RemoveLinearKeys_38) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.47:341][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_JogFwd_A.NonCombat_JogFwd_A
+[2019.10.12-12.46.47:341][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_JogFwd_A.NonCombat_JogFwd_A) using current/default (AnimCompress_RemoveLinearKeys_40) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.47:553][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_JogFwd_B.NonCombat_JogFwd_B
+[2019.10.12-12.46.47:553][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_JogFwd_B.NonCombat_JogFwd_B) using current/default (AnimCompress_RemoveLinearKeys_41) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.46.47:705][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Stun.Stun
+[2019.10.12-12.46.47:705][949]LogAnimationCompression: Recompressing (AnimSequence /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/Stun.Stun) using current/default (AnimCompress_RemoveLinearKeys_42) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.12-12.47.00:075][976]Cmd: TRANSACTION UNDO
+[2019.10.12-12.47.00:077][976]LogEditorTransaction: Undo Clicking on Actors
+[2019.10.12-12.47.07:872][ 81]LogUObjectHash: Compacting FUObjectHashTables data took  13.69ms
+[2019.10.12-12.47.37:497][ 81]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.12-12.48.13:666][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_A" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A.uasset" SILENT=true
+[2019.10.12-12.48.13:714][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_A563DF11B45DC513883E68A95DC8DAEF9.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A.uasset'
+[2019.10.12-12.48.13:762][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_A_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_2.uasset" SILENT=true
+[2019.10.12-12.48.13:789][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_A_2CE82B4FA4BB12D8B4F54F5943241DA28.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_2.uasset'
+[2019.10.12-12.48.13:828][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_A_SetA" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_SetA.uasset" SILENT=true
+[2019.10.12-12.48.13:854][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_A_SetA21ACFD384A0A3FA83F20139BF7881BC0.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_SetA.uasset'
+[2019.10.12-12.48.13:915][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_A_SetA_28457DA7045E8E7ACF28562BADCF1284B.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_SetA_2.uasset'
+[2019.10.12-12.48.13:959][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_A_SetB" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_SetB.uasset" SILENT=true
+[2019.10.12-12.48.13:992][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_A_SetB09B9E3854A40B993300D5CB0BC45E582.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_SetB.uasset'
+[2019.10.12-12.48.14:059][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_A_SetB_2FC3AC8BC445AA5C4F95FA7B120E1AA02.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_A_SetB_2.uasset'
+[2019.10.12-12.48.14:106][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_B" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B.uasset" SILENT=true
+[2019.10.12-12.48.14:133][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_BFD61865447D92BBB50650ABBF5EF33AC.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B.uasset'
+[2019.10.12-12.48.14:181][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_B_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_2.uasset" SILENT=true
+[2019.10.12-12.48.14:203][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_B_2FFDA1404402EA331F24CC3AE8F542B65.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_2.uasset'
+[2019.10.12-12.48.14:253][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_B_SetA" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_SetA.uasset" SILENT=true
+[2019.10.12-12.48.14:291][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_B_SetACF8AA718497FCC27F8B792858E3A5C1A.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_SetA.uasset'
+[2019.10.12-12.48.14:368][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_B_SetA_201CFBE664DE6D70E15FFA6BBFBB64837.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_SetA_2.uasset'
+[2019.10.12-12.48.14:415][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_B_SetB" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_SetB.uasset" SILENT=true
+[2019.10.12-12.48.14:447][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_B_SetB2BE5208D45372633FCB8AF9E67A62C71.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_SetB.uasset'
+[2019.10.12-12.48.14:518][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_B_SetB_23237F7304A6F28DDAB9B9FA6EE3062E3.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_B_SetB_2.uasset'
+[2019.10.12-12.48.14:564][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_C" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C.uasset" SILENT=true
+[2019.10.12-12.48.14:600][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_C73E7142743A36EE10BFE36AE36A0B387.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C.uasset'
+[2019.10.12-12.48.14:644][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_C_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_2.uasset" SILENT=true
+[2019.10.12-12.48.14:667][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_C_277A0604F433C2FBA1D0C4F9AD2828462.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_2.uasset'
+[2019.10.12-12.48.14:716][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_C_SetA" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_SetA.uasset" SILENT=true
+[2019.10.12-12.48.14:747][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_C_SetAA68F2B2B46B2CEB7182DD1A189024FC5.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_SetA.uasset'
+[2019.10.12-12.48.14:859][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_C_SetA_2709D43DF4F60F4D2656CD7A63573EE34.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_SetA_2.uasset'
+[2019.10.12-12.48.14:909][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_C_SetB" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_SetB.uasset" SILENT=true
+[2019.10.12-12.48.14:949][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_C_SetBAA30C9704810F3DF4D198DAED7C7044E.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_SetB.uasset'
+[2019.10.12-12.48.15:028][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_C_SetB_2E6042F0349A7C620FECD99A292ABD163.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_C_SetB_2.uasset'
+[2019.10.12-12.48.15:072][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_D" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D.uasset" SILENT=true
+[2019.10.12-12.48.15:106][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_D2042A08447BFFD9CEDF841ABBEFD29A0.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D.uasset'
+[2019.10.12-12.48.15:152][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_D_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_2.uasset" SILENT=true
+[2019.10.12-12.48.15:184][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_D_2FEE185E344DF0A5A56F840BC12BE096F.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_2.uasset'
+[2019.10.12-12.48.15:234][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_D_SetA" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_SetA.uasset" SILENT=true
+[2019.10.12-12.48.15:266][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_D_SetA1A0F13B248F7610340D10BBF2211D684.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_SetA.uasset'
+[2019.10.12-12.48.15:344][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_D_SetA_28FCF47564D667B09FFD00293A017CBA0.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_SetA_2.uasset'
+[2019.10.12-12.48.15:403][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_D_SetB" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_SetB.uasset" SILENT=true
+[2019.10.12-12.48.15:444][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_D_SetB2D09AE644393B6B54B2245864BD7FD80.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_SetB.uasset'
+[2019.10.12-12.48.15:516][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_D_SetB_2725060F545E6BC94E2C211BABFA11A15.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_D_SetB_2.uasset'
+[2019.10.12-12.48.15:565][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_E_SetA" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_E_SetA.uasset" SILENT=true
+[2019.10.12-12.48.15:587][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_E_SetAEA610B0247C47CB321F6A19AAF6C86F2.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_E_SetA.uasset'
+[2019.10.12-12.48.15:656][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_E_SetA_2042342D047C089B3BD5703BF4270BC77.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_E_SetA_2.uasset'
+[2019.10.12-12.48.15:703][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Attack_E_SetB" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_E_SetB.uasset" SILENT=true
+[2019.10.12-12.48.15:760][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_E_SetBA69C96D14A295D92DB1F7CA6105F8D70.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_E_SetB.uasset'
+[2019.10.12-12.48.15:834][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Attack_E_SetB_2D4CA7CFA4413913D54F238A4696665EC.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Attack_E_SetB_2.uasset'
+[2019.10.12-12.48.15:883][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Combat_JogFwd" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd.uasset" SILENT=true
+[2019.10.12-12.48.15:905][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Combat_JogFwdA72E86614BDE1A164466DB9AFF00013C.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd.uasset'
+[2019.10.12-12.48.15:977][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Combat_JogFwd_2F4194D534D11084F1D71CF839B84370B.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd_2.uasset'
+[2019.10.12-12.48.16:075][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Combat_JogFwd_AggroMinionDB0CBCBE486264076CA9FB8AA86A9216.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd_AggroMinion.uasset'
+[2019.10.12-12.48.16:169][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Combat_JogFwd_AggroMinion_260CA683B4D2D811A4F9C1EA908AEBD4A.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd_AggroMinion_2.uasset'
+[2019.10.12-12.48.16:276][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Combat_JogFwd_Start1CD5DDB34C9E6A967A83D28472669C14.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd_Start.uasset'
+[2019.10.12-12.48.16:361][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Combat_JogFwd_Start_22D83CD70440FB04E857A87BAA1A32099.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Combat_JogFwd_Start_2.uasset'
+[2019.10.12-12.48.16:415][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/CoreVibration" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/CoreVibration.uasset" SILENT=true
+[2019.10.12-12.48.16:451][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/CoreVibration0DE0D9494A23903FA24441BBED7DCA10.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/CoreVibration.uasset'
+[2019.10.12-12.48.16:549][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/CoreVibration_22F6936E344B07EE1F391A5B4FD15352A.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/CoreVibration_2.uasset'
+[2019.10.12-12.48.16:608][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_A" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_A.uasset" SILENT=true
+[2019.10.12-12.48.16:647][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_A3D0E3E6C402C625FE0E4EC8581565640.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_A.uasset'
+[2019.10.12-12.48.16:701][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_A_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_A_2.uasset" SILENT=true
+[2019.10.12-12.48.16:733][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_A_2FFF18F5F403C1E18A90BCD9700C348B5.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_A_2.uasset'
+[2019.10.12-12.48.16:786][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_B" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_B.uasset" SILENT=true
+[2019.10.12-12.48.16:814][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_BC093DB2C4A4A10B55A7F0AA32DBE9FAE.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_B.uasset'
+[2019.10.12-12.48.16:867][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_B_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_B_2.uasset" SILENT=true
+[2019.10.12-12.48.16:897][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_B_201F9FF5B4F49B7287417B0A729F912E4.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_B_2.uasset'
+[2019.10.12-12.48.16:951][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_C" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_C.uasset" SILENT=true
+[2019.10.12-12.48.16:985][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_C91AAB03D43B8936BF8859894E1C64037.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_C.uasset'
+[2019.10.12-12.48.17:040][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_C_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_C_2.uasset" SILENT=true
+[2019.10.12-12.48.17:064][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_C_201B491664CB7F76BB163E68CEE3498E4.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_C_2.uasset'
+[2019.10.12-12.48.17:120][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_D" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_D.uasset" SILENT=true
+[2019.10.12-12.48.17:152][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_DD9941AF8469EC4F22658DAA08D522004.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_D.uasset'
+[2019.10.12-12.48.17:208][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_D_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_D_2.uasset" SILENT=true
+[2019.10.12-12.48.17:231][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_D_2F30AAC7047076D523F7D2CBDC51781F6.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_D_2.uasset'
+[2019.10.12-12.48.17:287][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_E" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_E.uasset" SILENT=true
+[2019.10.12-12.48.17:313][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_E7ABE4B3A4C29189AF8AF11BC9A42956C.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_E.uasset'
+[2019.10.12-12.48.17:384][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Death_E_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_E_2.uasset" SILENT=true
+[2019.10.12-12.48.17:419][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Death_E_2DE4FD9984E7C671836F2AE89D451AF24.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Death_E_2.uasset'
+[2019.10.12-12.48.17:492][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/HitReact_Back" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Back.uasset" SILENT=true
+[2019.10.12-12.48.17:562][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_Back639280D3415B6250388CCDBBAD6BBD80.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Back.uasset'
+[2019.10.12-12.48.17:679][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_Back_22988B0654A5F8D69AC31EAA9FFEEB3DE.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Back_2.uasset'
+[2019.10.12-12.48.17:748][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/HitReact_Front" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Front.uasset" SILENT=true
+[2019.10.12-12.48.17:782][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_FrontD1502F504586ACCDA99D42A00F6C18E5.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Front.uasset'
+[2019.10.12-12.48.17:872][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_Front_2764731394EB2CA2DC9F6A5889C599F6A.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Front_2.uasset'
+[2019.10.12-12.48.17:930][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/HitReact_Left" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Left.uasset" SILENT=true
+[2019.10.12-12.48.17:965][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_Left0C51B41844AF7D75117FCF81E596DA1E.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Left.uasset'
+[2019.10.12-12.48.18:049][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_Left_2FAB890614B79F169FE8256A0F40CC3B9.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Left_2.uasset'
+[2019.10.12-12.48.18:108][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/HitReact_Right" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Right.uasset" SILENT=true
+[2019.10.12-12.48.18:143][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_RightF737134E490249B5156224BCE1B2C01B.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Right.uasset'
+[2019.10.12-12.48.18:226][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/HitReact_Right_2E69D75C9497D0979369984AC160B79E7.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/HitReact_Right_2.uasset'
+[2019.10.12-12.48.18:322][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_Combat7D9EFB3542AA779269069F9057C4C720.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_Combat.uasset'
+[2019.10.12-12.48.18:408][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_Combat_27542CE144B6FC2507BF9D081A0176EEB.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_Combat_2.uasset'
+[2019.10.12-12.48.18:501][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_Combat_AggroMin76EF33E34C17789711DA118D8CDB66BA.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_Combat_AggroMinion.uasset'
+[2019.10.12-12.48.18:589][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_Combat_AggroMin4CE444A34C261AFD273CD29704964D17.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_Combat_AggroMinion_2.uasset'
+[2019.10.12-12.48.18:698][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_NonCombat29B1130B499771C592F199921620B65B.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_NonCombat.uasset'
+[2019.10.12-12.48.18:800][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_NonCombat_219E20125419FBE60B5DCA9B7B1A46299.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_NonCombat_2.uasset'
+[2019.10.12-12.48.18:943][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_NonCombat_AF1E6A1AB42BE8BD72BD69D8E7AF650D1.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_NonCombat_A.uasset'
+[2019.10.12-12.48.19:032][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_NonCombat_A_204CCCA6E4715545772140BBC2A28A876.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_NonCombat_A_2.uasset'
+[2019.10.12-12.48.19:122][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_NonCombat_B69AD87EF403FB2947F25C18A45E6D80F.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_NonCombat_B.uasset'
+[2019.10.12-12.48.19:200][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Downhill_NonCombat_B_2AFF397D94F9BA84D8C19AE9637CAD27E.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Downhill_NonCombat_B_2.uasset'
+[2019.10.12-12.48.19:288][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_CombatF7D783ED41E6B371899653ACD33C99B6.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_Combat.uasset'
+[2019.10.12-12.48.19:370][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_Combat_2EF5025A344762F4E1869F6949DE0D04B.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_Combat_2.uasset'
+[2019.10.12-12.48.19:498][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_Combat_AggroMinio178DF43D44E2A020297878ACACC18701.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_Combat_AggroMinion.uasset'
+[2019.10.12-12.48.19:580][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_Combat_AggroMinioDFA435C24FD3BB2089D66B8EB6DE8BEC.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_Combat_AggroMinion_2.uasset'
+[2019.10.12-12.48.19:677][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_NonCombat2AA8DE9D4B95938CD6E2959BB3519805.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_NonCombat.uasset'
+[2019.10.12-12.48.19:763][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_NonCombat_24B3AFEB54FE432575F2B93BD2E72FABA.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_NonCombat_2.uasset'
+[2019.10.12-12.48.19:870][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_NonCombat_A0276ACFE481D4346081989963D82FE46.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_NonCombat_A.uasset'
+[2019.10.12-12.48.19:952][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_NonCombat_A_29961E57B4F68D94B7FDC2BA3E4923DFA.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_NonCombat_A_2.uasset'
+[2019.10.12-12.48.20:044][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_NonCombat_B04C16E704D937F3DFFD240A409FD3C7C.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_NonCombat_B.uasset'
+[2019.10.12-12.48.20:138][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Jog_Fwd_Uphill_NonCombat_B_2131BA2B24280C22B08DB3D9549D09505.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Jog_Fwd_Uphill_NonCombat_B_2.uasset'
+[2019.10.12-12.48.20:206][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/KnockUp" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp.uasset" SILENT=true
+[2019.10.12-12.48.20:271][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/KnockUp9FF28DF346E2476D4D7031AC3BF7F029.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp.uasset'
+[2019.10.12-12.48.20:331][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/KnockUp_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp_2.uasset" SILENT=true
+[2019.10.12-12.48.20:359][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/KnockUp_2D657D75A4916768EAFBE289D388F0DAF.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp_2.uasset'
+[2019.10.12-12.48.20:417][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/KnockUp_A" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp_A.uasset" SILENT=true
+[2019.10.12-12.48.20:450][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/KnockUp_A40BF30C348F68F418696CB9C9E86BC8C.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp_A.uasset'
+[2019.10.12-12.48.20:505][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/KnockUp_A_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp_A_2.uasset" SILENT=true
+[2019.10.12-12.48.20:529][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/KnockUp_A_29B32CB0E4A665E5931EEDCBFA8785E3E.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/KnockUp_A_2.uasset'
+[2019.10.12-12.48.20:585][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/NonCombat_Idle" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_Idle.uasset" SILENT=true
+[2019.10.12-12.48.20:611][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_IdleD59A7D1140E1DB3C7476D7900420C333.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_Idle.uasset'
+[2019.10.12-12.48.20:696][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_Idle_281ECD128474F71734D16FBB31BA0B2C0.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_Idle_2.uasset'
+[2019.10.12-12.48.20:783][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_JogFwdA9C746DE44CBEC9A90D5AB94F908DFC0.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_JogFwd.uasset'
+[2019.10.12-12.48.20:881][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_JogFwd_2E726CF214979869452CDF68E7D580105.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_JogFwd_2.uasset'
+[2019.10.12-12.48.20:999][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_JogFwd_AD603433E410C464AA740278BBDDD2DF1.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_JogFwd_A.uasset'
+[2019.10.12-12.48.21:086][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_JogFwd_A_22A1A1A0F4143D906F4FC34B351E662CE.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_JogFwd_A_2.uasset'
+[2019.10.12-12.48.21:175][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_JogFwd_BB651D38F40263887601F04BB17986E54.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_JogFwd_B.uasset'
+[2019.10.12-12.48.21:261][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/NonCombat_JogFwd_B_228BCA5B64D6CD61F65A097A4EDB314CE.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/NonCombat_JogFwd_B_2.uasset'
+[2019.10.12-12.48.21:317][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Stun" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Stun.uasset" SILENT=true
+[2019.10.12-12.48.21:355][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/StunA08106834B1AF6AC7FE5A0A3E99B83ED.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Stun.uasset'
+[2019.10.12-12.48.21:422][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Animations/Stun_2" FILE="../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Stun_2.uasset" SILENT=true
+[2019.10.12-12.48.21:453][617]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Saved/Stun_2AA326FEF496E1BD7BEB157A755E11E57.tmp' to '../../../../../../Users/jamie/Documents/thirdperson/thirdpersron 4.23/Content/Enemy/Animations/Stun_2.uasset'
+[2019.10.12-12.48.28:088][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.10.12-12.48.28:112][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.10.12-12.48.28:136][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.10.12-12.48.28:162][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.28:188][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.10.12-12.48.28:212][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.10.12-12.48.28:238][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.12-12.48.28:264][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.12-12.48.28:290][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.10.12-12.48.28:317][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.10.12-12.48.28:341][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.10.12-12.48.28:365][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.10.12-12.48.28:395][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.10.12-12.48.28:427][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.10.12-12.48.28:464][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.10.12-12.48.28:494][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.10.12-12.48.28:521][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.10.12-12.48.28:545][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.10.12-12.48.28:569][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.10.12-12.48.28:593][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.10.12-12.48.28:619][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.10.12-12.48.28:643][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.10.12-12.48.28:669][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.28:696][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.10.12-12.48.28:722][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.10.12-12.48.28:747][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.10.12-12.48.28:773][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.10.12-12.48.28:795][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.10.12-12.48.28:820][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.10.12-12.48.28:843][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.10.12-12.48.28:868][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.10.12-12.48.28:893][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.12-12.48.28:924][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.10.12-12.48.28:950][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.10.12-12.48.28:982][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.10.12-12.48.29:008][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.10.12-12.48.29:047][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.10.12-12.48.29:110][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.10.12-12.48.29:140][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.10.12-12.48.29:166][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.10.12-12.48.29:191][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.10.12-12.48.29:214][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.10.12-12.48.29:241][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.10.12-12.48.29:265][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.29:290][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.12-12.48.29:314][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.10.12-12.48.29:339][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.10.12-12.48.29:365][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.10.12-12.48.29:393][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.10.12-12.48.29:415][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.10.12-12.48.29:439][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.10.12-12.48.29:463][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.10.12-12.48.29:489][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.10.12-12.48.29:526][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.10.12-12.48.29:572][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.12-12.48.29:596][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.12-12.48.29:625][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.10.12-12.48.29:647][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.10.12-12.48.29:673][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.10.12-12.48.29:697][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.29:722][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.10.12-12.48.29:748][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.10.12-12.48.29:773][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.10.12-12.48.29:806][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.12-12.48.29:829][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.10.12-12.48.29:853][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.12-12.48.29:878][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.29:901][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.10.12-12.48.29:923][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.10.12-12.48.29:949][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.10.12-12.48.29:978][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.10.12-12.48.30:001][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.12-12.48.30:024][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.10.12-12.48.30:046][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.10.12-12.48.30:071][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.10.12-12.48.30:095][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.30:123][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.10.12-12.48.30:145][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.10.12-12.48.30:173][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.12-12.48.30:202][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.10.12-12.48.30:227][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.10.12-12.48.30:256][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.10.12-12.48.30:295][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.10.12-12.48.30:332][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.10.12-12.48.30:390][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.10.12-12.48.30:427][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.10.12-12.48.30:461][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.10.12-12.48.30:488][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.10.12-12.48.30:524][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.10.12-12.48.30:553][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.10.12-12.49.31:351][453]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.10.12-12.49.31:409][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2019.10.12-12.49.31:409][454]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.12-12.49.31:409][454]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.12-12.49.31:909][454]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.10.12-12.49.36:616][596]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
+[2019.10.12-12.49.37:693][657]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2019.10.12-12.49.38:808][716]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2019.10.12-12.49.43:365][978]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2019.10.12-12.49.44:163][ 19]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2019.10.12-12.49.45:406][ 86]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2019.10.12-12.49.48:046][235]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2019.10.12-12.49.49:573][322]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2019.10.12-12.50.09:222][484]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.12-12.50.09:485][484]LogMaterial: Display: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2019.10.12-12.50.31:672][484]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2019.10.12-12.50.31:672][484]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2019.10.12-12.50.31:672][484]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2019.10.12-12.50.31:672][484]LogTexture: Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F, 4096X2048)
+[2019.10.12-12.50.31:672][484]LogMaterial: Display: Missing cached shader map for material HDRSky, compiling. 
+[2019.10.12-12.50.33:663][484]LogAIModule: Creating AISystem for world Lighting_Background
+[2019.10.12-12.50.39:258][484]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2019.10.12-12.50.39:258][484]LogTexture: Display: Building textures: T_SmallFlower01_N (BC5, 1024X1024)
+[2019.10.12-12.50.39:258][484]LogTexture: Display: Building textures: T_SmallFlower01 (AutoDXT, 512X512)
+[2019.10.12-12.50.39:258][484]LogTexture: Display: Building textures: T_Rust01_N (BC5, 2048X2048)
+[2019.10.12-12.50.39:258][484]LogSkeletalMesh: Building Skeletal Mesh Buff_Blue...
+[2019.10.12-12.50.39:314][484]LogTexture: Display: Building textures: T_Prime_Helix_Minion_Torso_Visor (BC5, 4096X4096)
+[2019.10.12-12.50.39:314][484]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/ParagonMinions/Characters/Buff/Buff_Blue/Meshes/Buff_Blue.Buff_Blue
+[2019.10.12-12.50.39:656][484]LogSkeletalMesh: Building Skeletal Mesh Minion_Lane_Melee_Core_Dawn...
+[2019.10.12-12.50.39:768][484]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Core_Dawn.Minion_Lane_Melee_Core_Dawn
+[2019.10.12-12.50.40:350][484]LogTexture: Display: Building textures: T_Buff_Red_M (AutoDXT, 2048X2048)
+[2019.10.12-12.51.18:703][484]LogTexture: Display: Building textures: T_Prime_Helix_Torso_Blend_Masks (AutoDXT, 4096X4096)
+[2019.10.12-12.51.18:716][484]LogTexture: Display: Building textures: T_Prime_Helix_Minion_Torso_N (BC5, 4096X4096)
+[2019.10.12-12.51.18:716][484]LogTexture: Display: Building textures: T_Prime_Helix_Minion_Torso_M (AutoDXT, 4096X4096)
+[2019.10.12-12.51.18:716][484]LogTexture: Display: Building textures: T_Prime_Helix_Torso_Breakout_Masks (AutoDXT, 4096X4096)
+[2019.10.12-12.51.18:716][484]LogTexture: Display: Building textures: T_PrimeHelixMinionLimbsBreakoutMask (AutoDXT, 4096X4096)
+[2019.10.12-12.51.18:716][484]LogTexture: Display: Building textures: T_Prime_Helix_Torso_Scratches (AutoDXT, 4096X4096)
+[2019.10.12-12.51.18:716][484]LogTexture: Display: Building textures: T_BuffRed_N (BC5, 1024X1024)
+[2019.10.12-12.51.21:266][484]LogTexture: Display: Building textures: T_LavaFloor_02_D (AutoDXT, 2048X2048)
+[2019.10.12-12.52.15:754][484]LogTexture: Display: Building textures: T_Prime_Helix_Minion_Limbs_N (BC5, 4096X4096)
+[2019.10.12-12.52.15:755][484]LogTexture: Display: Building textures: T_Prime_Helix_Minion_Grime_Masks (AutoDXT, 4096X4096)
+[2019.10.12-12.52.15:755][484]LogTexture: Display: Building textures: T_Prime_Helix_Limbs_Blend_Masks (AutoDXT, 4096X4096)
+[2019.10.12-12.52.15:755][484]LogTexture: Display: Building textures: T_ML_FineRubber (AutoDXT, 2048X2048)
+[2019.10.12-12.52.15:755][484]LogTexture: Display: Building textures: T_ML_Gold_Metal01 (AutoDXT, 2048X2048)
+[2019.10.12-12.52.15:755][484]LogTexture: Display: Building textures: T_IronRust_Tile_D (AutoDXT, 4096X4096)
+[2019.10.12-12.52.15:755][484]LogTexture: Display: Building textures: T_TreeBark_D (AutoDXT, 8192X8192)

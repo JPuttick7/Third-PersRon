@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\thirdpersron.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{94A03D00-5A4E-4333-9CBC-697A4608AF4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\thirdpersron.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\thirdpersronEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DD883469-D4BC-450B-821C-7FC17F0BC4AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\thirdpersron">
+      <UniqueIdentifier>{3363E3E3-8690-4AFB-892B-EF4CF2D48148}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\thirdpersron\thirdpersron.Build.cs">
+      <Filter>Source\thirdpersron</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\thirdpersron\thirdpersron.cpp">
+      <Filter>Source\thirdpersron</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\thirdpersron\thirdpersron.h">
+      <Filter>Source\thirdpersron</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\thirdpersron\thirdpersronGameModeBase.cpp">
+      <Filter>Source\thirdpersron</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\thirdpersron\thirdpersronGameModeBase.h">
+      <Filter>Source\thirdpersron</Filter>
+    </ClInclude>
+    <Filter Include="Source\thirdpersron\Private">
+      <UniqueIdentifier>{C0B4BDAC-BE5E-428B-A763-A98624E2FED7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\thirdpersron\Private\MyCharacter.cpp">
+      <Filter>Source\thirdpersron\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\thirdpersron\Private\SWeapon.cpp">
+      <Filter>Source\thirdpersron\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\thirdpersron\Public">
+      <UniqueIdentifier>{775E0528-DDE4-4EC3-A40A-430EBBAE25DF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\thirdpersron\Public\MyCharacter.h">
+      <Filter>Source\thirdpersron\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\thirdpersron\Public\SWeapon.h">
+      <Filter>Source\thirdpersron\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
