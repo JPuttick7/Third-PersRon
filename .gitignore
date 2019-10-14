@@ -84,4 +84,6 @@ thirdpersron/Binaries/Win64/UE4Editor.modules
 thirdpersron/Binaries/Win64/UE4Editor-thirdpersron.pdb
 thirdpersron/Binaries/Win64/UE4Editor-thirdpersron-1721.pdb
 thirdpersron/Binaries/Win64/UE4Editor-thirdpersron-5621.pdb
-thirdpersron 4.23/Content/ParagonMinions/
+thirdpersron 4.23/Content/ParagonMinions/FX/*
+thirdpersron 4.23/Content/ParagonMinions/Characters/*
+!thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Melee/
