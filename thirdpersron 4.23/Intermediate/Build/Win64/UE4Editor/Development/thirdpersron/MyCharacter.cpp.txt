@@ -1,10 +1,10 @@
-C:\Users\jamie\Documents\thirdperson\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\Definitions.thirdpersron.h
-C:\Users\jamie\Documents\thirdperson\thirdpersron 4.23\Source\thirdpersron\Private\../Public/MyCharacter.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\Definitions.thirdpersron.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\../Public/MyCharacter.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\jamie\Documents\thirdperson\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\MyCharacter.generated.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\MyCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
@@ -17,5 +17,5 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
-C:\Users\jamie\Documents\thirdperson\thirdpersron 4.23\Source\thirdpersron\Public\SWeapon.h
-C:\Users\jamie\Documents\thirdperson\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\SWeapon.generated.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\SWeapon.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\SWeapon.generated.h

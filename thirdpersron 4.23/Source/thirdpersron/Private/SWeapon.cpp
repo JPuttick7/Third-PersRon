@@ -4,7 +4,9 @@
 #include "Particles/ParticleSystem.h" //includes the particle system, used to create effects
 #include "Components/SkeletalMeshComponent.h" //includes the mesh components of the skeleton
 #include "Particles/ParticleSystemComponent.h" //includes the particlesystem components
-
+#include "PhysicalMaterials/PhysicalMaterial.h"
+#include "TimerManager.h"	
+#include "thirdpersron.h"
 
 //creates a console command to draw debug lines from the camera to where the player is aiming
 static int32 DebugWeaponDrawing = 0;
@@ -23,6 +25,7 @@ ASWeapon::ASWeapon()
 	MuzzleSocketName = "MuzzleSocket"; //assigns the name of the muzzle socket
 	TracerTargetName = "Target"; // assigns teh name of the target for the tracer
 
+	BaseDamage = 200;
 	
 }
 
@@ -43,22 +46,53 @@ void ASWeapon::Fire() //function that fires the weapon
 		QueryParams.AddIgnoredActor(MyOwner); //cant shoot yourself ;)
 		QueryParams.AddIgnoredActor(this); // cant hit the gun itself
 		QueryParams.bTraceComplex = true; // checks whether it should trace against complex collision models
+		QueryParams.bReturnPhysicalMaterial = true;
 
 		TracerEndPoint = TraceEnd; //assign TracerEndPoint the value of TraceEnd
 
 		FHitResult Hit; //the hit checker variable
 
 		//traces the players eyes, and checks if there is a correct collion model is the direction, if there is, it is a hit
-		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, ECC_Visibility, QueryParams))
+		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
 		{
 			AActor* HitActor = Hit.GetActor(); //fetches the actor that was hit
 			
-			//applies the damage of the weapon
-			UGameplayStatics::ApplyPointDamage(HitActor, 20.0f, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
+			EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get());
 
-			if (ImpactEffect)
+			float ActualDamage = BaseDamage;
+			if (SurfaceType == SURFACE_ENEMYVULNERABLE)
+			{
+				ActualDamage *= 4.0f;
+			}
+			else if (SurfaceType == SURFACE_ENEMYMETAL)
+			{
+				ActualDamage = 0;
+			}
+			
+			//applies the damage of the weapon
+			UGameplayStatics::ApplyPointDamage(HitActor, ActualDamage, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
+			   
+
+			UParticleSystem* SelectedEffect = nullptr;
+			switch (SurfaceType)
+			{
+			case SURFACE_ENEMYDEFAULT:
+				SelectedEffect = EnemyDefaultEffect;
+				break;
+			case SURFACE_ENEMYVULNERABLE:
+				SelectedEffect = EnemyVulnerableEffect;
+				break;
+			case SURFACE_ENEMYMETAL:
+				SelectedEffect = EnemyMetalEffect;
+				break;
+			default:
+				SelectedEffect = DefaultImpactEffect;
+				break;
+			}
+
+			if (SelectedEffect)
 			{   // displays the hit effect
-				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.ImpactPoint, Hit.ImpactNormal.Rotation()); 
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), SelectedEffect, Hit.ImpactPoint, Hit.ImpactNormal.Rotation());
 			}
 
 			TracerEndPoint = Hit.ImpactPoint; //assign TracerEndPoint the value of the impactpoinf if the shot was a ht
@@ -72,11 +106,23 @@ void ASWeapon::Fire() //function that fires the weapon
 	}
 }
 
+
+void ASWeapon::StartFire()
+{
+	GetWorldTimerManager().SetTimer(TimerHandle_TimeBetweenShots, this, &ASWeapon::Fire, 0.2f, true);
+}
+
+void ASWeapon::StopFire()
+{
+	GetWorldTimerManager().ClearTimer(TimerHandle_TimeBetweenShots);
+}
+
 void ASWeapon::PlayFireEffects(FVector TraceEnd) //function for the weapon effects 
 {
 	if (MuzzleEffect)
 	{
 		UGameplayStatics::SpawnEmitterAttached(MuzzleEffect, MeshComp, MuzzleSocketName); //plays the muzzle flash
+	
 	}
 
 	if (TracerEffect)

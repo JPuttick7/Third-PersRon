@@ -43,7 +43,16 @@ protected:
 	UParticleSystem* MuzzleEffect;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon") //declares ImpactEffect
-	UParticleSystem* ImpactEffect;
+	UParticleSystem* DefaultImpactEffect;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UParticleSystem* EnemyDefaultEffect;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UParticleSystem* EnemyVulnerableEffect;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UParticleSystem* EnemyMetalEffect;
 
 	UPROPERTY(EditDefaultsONly, BlueprintReadOnly, Category = "Weapon") //declares TracerEffect
 	UParticleSystem* TracerEffect;
@@ -51,8 +60,15 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	TSubclassOf<UCameraShake> FireCameraShake;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	float BaseDamage;
+
+	void Fire();
+
+	FTimerHandle TimerHandle_TimeBetweenShots;
 
 public:	
-	UFUNCTION(BlueprintCallable, Category = "Weapon") //declares the Fire function in public, so it can be called in MyCharacter.cpp
-	void Fire();
+	void StartFire();
+
+	void StopFire();
 };

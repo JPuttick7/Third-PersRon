@@ -70,7 +70,10 @@ protected: //declaring functions in protected means making the function visible 
 	UPROPERTY(VisibleDefaultsOnly, Category = "Player") //declares WeaponAttachSocketName and exposes to blueprint
 	FName WeaponAttachSocketName;
 
-	void Fire();
+	void StartFire();
+
+	void StopFire();
+
 
 public:	
 	// Called every frame

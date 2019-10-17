@@ -13,28 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THIRDPERSRON_SWeapon_generated_h
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_17_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Fire(); \
-		P_NATIVE_END; \
-	}
-
-
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Fire(); \
-		P_NATIVE_END; \
-	}
-
-
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_17_RPC_WRAPPERS
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_17_RPC_WRAPPERS_NO_PURE_DECLS
 #define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
@@ -83,9 +63,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__MuzzleSocketName() { return STRUCT_OFFSET(ASWeapon, MuzzleSocketName); } \
 	FORCEINLINE static uint32 __PPO__TracerTargetName() { return STRUCT_OFFSET(ASWeapon, TracerTargetName); } \
 	FORCEINLINE static uint32 __PPO__MuzzleEffect() { return STRUCT_OFFSET(ASWeapon, MuzzleEffect); } \
-	FORCEINLINE static uint32 __PPO__ImpactEffect() { return STRUCT_OFFSET(ASWeapon, ImpactEffect); } \
+	FORCEINLINE static uint32 __PPO__DefaultImpactEffect() { return STRUCT_OFFSET(ASWeapon, DefaultImpactEffect); } \
+	FORCEINLINE static uint32 __PPO__EnemyDefaultEffect() { return STRUCT_OFFSET(ASWeapon, EnemyDefaultEffect); } \
+	FORCEINLINE static uint32 __PPO__EnemyVulnerableEffect() { return STRUCT_OFFSET(ASWeapon, EnemyVulnerableEffect); } \
+	FORCEINLINE static uint32 __PPO__EnemyMetalEffect() { return STRUCT_OFFSET(ASWeapon, EnemyMetalEffect); } \
 	FORCEINLINE static uint32 __PPO__TracerEffect() { return STRUCT_OFFSET(ASWeapon, TracerEffect); } \
-	FORCEINLINE static uint32 __PPO__FireCameraShake() { return STRUCT_OFFSET(ASWeapon, FireCameraShake); }
+	FORCEINLINE static uint32 __PPO__FireCameraShake() { return STRUCT_OFFSET(ASWeapon, FireCameraShake); } \
+	FORCEINLINE static uint32 __PPO__BaseDamage() { return STRUCT_OFFSET(ASWeapon, BaseDamage); }
 
 
 #define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_14_PROLOG

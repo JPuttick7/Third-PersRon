@@ -81,11 +81,19 @@ void AMyCharacter::EndZoom()// function to end zooming
 	bWantsToZoom = false; // Turns off the zoom
 }
 
-void AMyCharacter::Fire()//allows non-blueprint input and checks if there is a weapon spawned
+void AMyCharacter::StartFire()//allows non-blueprint input and checks if there is a weapon spawned
 {
 	if(CurrentWeapon)
 	{
-		CurrentWeapon->Fire(); //calls the weapon file to fire
+		CurrentWeapon->StartFire(); //calls the weapon file to fire
+	}
+}
+
+void AMyCharacter::StopFire()
+{
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->StopFire();
 	}
 }
 
@@ -123,7 +131,8 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &AMyCharacter::BeginZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &AMyCharacter::EndZoom);
 
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMyCharacter::Fire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMyCharacter::StartFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AMyCharacter::StopFire);
 }
 
 FVector AMyCharacter::GetPawnViewLocation() const //get the pawns view location
