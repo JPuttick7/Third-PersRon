@@ -1,0 +1,8 @@
+TODO:
+-bad guys die on 0 health
+-bad guy death animation
+-good guy death
+-good guy death animation
+-jump animation
+-enemy AI
+
