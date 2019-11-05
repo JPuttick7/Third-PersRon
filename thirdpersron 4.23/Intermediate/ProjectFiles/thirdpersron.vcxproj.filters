@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\thirdpersron.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{94A03D00-5A4E-4333-9CBC-697A4608AF4B}</UniqueIdentifier>
+      <UniqueIdentifier>{81507C14-19AC-4546-AF1A-042BE9A2DEE6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\thirdpersron.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DD883469-D4BC-450B-821C-7FC17F0BC4AC}</UniqueIdentifier>
+      <UniqueIdentifier>{1BCE7630-E4D8-4C57-A0CF-0A06CD8C401E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\thirdpersron">
-      <UniqueIdentifier>{3363E3E3-8690-4AFB-892B-EF4CF2D48148}</UniqueIdentifier>
+      <UniqueIdentifier>{8BC80BF8-21CB-4ED5-B9DA-D950680A8014}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\thirdpersron\thirdpersron.Build.cs">
       <Filter>Source\thirdpersron</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\thirdpersron</Filter>
     </ClInclude>
     <Filter Include="Source\thirdpersron\Private">
-      <UniqueIdentifier>{C0B4BDAC-BE5E-428B-A763-A98624E2FED7}</UniqueIdentifier>
+      <UniqueIdentifier>{1BD43B8D-7777-41D4-AFE1-914DAAF2F3E2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\MyCharacter.cpp">
       <Filter>Source\thirdpersron\Private</Filter>
@@ -53,14 +53,26 @@
     <ClCompile Include="..\..\Source\thirdpersron\Private\SWeapon.cpp">
       <Filter>Source\thirdpersron\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\thirdpersron\Private\Components">
+      <UniqueIdentifier>{A11FC03B-C4E3-45F1-9C3B-1623E71A5F66}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\thirdpersron\Private\Components\SHealthComponent.cpp">
+      <Filter>Source\thirdpersron\Private\Components</Filter>
+    </ClCompile>
     <Filter Include="Source\thirdpersron\Public">
-      <UniqueIdentifier>{775E0528-DDE4-4EC3-A40A-430EBBAE25DF}</UniqueIdentifier>
+      <UniqueIdentifier>{F1987596-A8EE-4E0F-B2CD-5CC279576046}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\MyCharacter.h">
       <Filter>Source\thirdpersron\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\thirdpersron\Public\SWeapon.h">
       <Filter>Source\thirdpersron\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\thirdpersron\Public\Components">
+      <UniqueIdentifier>{9A19C51F-9EC9-44AB-810F-8CAC83F9611F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\thirdpersron\Public\Components\SHealthComponent.h">
+      <Filter>Source\thirdpersron\Public\Components</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

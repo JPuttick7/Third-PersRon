@@ -17,7 +17,7 @@
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
@@ -32,11 +32,13 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\SHealthComponent.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\MyCharacter.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\SWeapon.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\thirdpersron.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\thirdpersronGameModeBase.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\MyCharacter.gen.cpp.obj"
+"C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\SHealthComponent.gen.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\SWeapon.gen.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\thirdpersron.init.gen.cpp.obj"
 "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\thirdpersronGameModeBase.gen.cpp.obj"

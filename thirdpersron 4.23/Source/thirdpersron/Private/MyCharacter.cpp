@@ -4,6 +4,9 @@
 #include "GameFramework/SpringArmComponent.h"//includes the ability to create a spring arm for you camera, and attach it to a character
 #include "GameFramework/PawnMovementComponent.h"//include the ability to move your character, to also crouch and jump
 #include "Components/SkeletalMeshComponent.h"//includes the mesh components of the skeleton
+#include "Components/CapsuleComponent.h"
+#include "thirdpersron.h"
+#include "SHealthComponent.h"
 #include "SWeapon.h" //includes the weapon file, in order to call its functions
 
 // Sets default values
@@ -19,6 +22,10 @@ AMyCharacter::AMyCharacter()
 
 	//allow the character to crouch, uses built-in function from Unreal Engine
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
+
+	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON, ECR_Ignore);
+
+	HealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 
 	//Attaches the spring arm camera to the character
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
@@ -48,6 +55,7 @@ void AMyCharacter::BeginPlay()
 		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponAttachSocketName);
 	}
 
+	HealthComp->OnHealthChanged.AddDynamic(this, &AMyCharacter::OnHealthChanged);
 }
 
 void AMyCharacter::MoveForward(float Value) // function for moving forward
@@ -97,6 +105,27 @@ void AMyCharacter::StopFire()
 	}
 }
 
+void AMyCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
+{
+	if (Health < 1.0f)
+	{
+		Health = 1.0f;
+	}
+	if (Health <= 1.0f && !bDied)
+	{
+		//You are dead		
+		bDied = true; 
+
+		GetMovementComponent()->StopMovementImmediately();
+
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);	
+
+		DetachFromControllerPendingDestroy();
+
+		SetLifeSpan(5.0f);
+	}
+}
+
 // Called every frame
 void AMyCharacter::Tick(float DeltaTime)
 {
@@ -107,6 +136,8 @@ void AMyCharacter::Tick(float DeltaTime)
 	float NewFOV = FMath::FInterpTo(CameraComp->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed); //magical math makes a smooth zoom transition
 
 	CameraComp->SetFieldOfView(NewFOV); // sets the FOV the user wants (zoomed or not zoomed)
+
+	
 }
 
 // Called to bind functionality to input
