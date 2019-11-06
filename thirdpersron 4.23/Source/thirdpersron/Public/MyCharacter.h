@@ -48,7 +48,7 @@ protected: //declaring functions in protected means making the function visible 
 	USpringArmComponent* SpringArmComp;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components") //intitialises the health component for the character
-	USHealthComponent* HealthComp;
+	USHealthComponent* SHealthComp;
 
 	bool bWantsToZoom; //declares the zoom boolean
 	

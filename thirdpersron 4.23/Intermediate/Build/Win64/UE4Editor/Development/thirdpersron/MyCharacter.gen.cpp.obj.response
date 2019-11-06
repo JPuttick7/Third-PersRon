@@ -503,6 +503,7 @@
 /I "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source"
 /I "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public"
 /I "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron"
+/I "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\AI"
 /I "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\Components"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager

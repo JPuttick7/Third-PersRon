@@ -96,7 +96,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 #define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(AMyCharacter, CameraComp); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(AMyCharacter, SpringArmComp); } \
-	FORCEINLINE static uint32 __PPO__HealthComp() { return STRUCT_OFFSET(AMyCharacter, HealthComp); } \
+	FORCEINLINE static uint32 __PPO__SHealthComp() { return STRUCT_OFFSET(AMyCharacter, SHealthComp); } \
 	FORCEINLINE static uint32 __PPO__ZoomedFOV() { return STRUCT_OFFSET(AMyCharacter, ZoomedFOV); } \
 	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(AMyCharacter, ZoomInterpSpeed); } \
 	FORCEINLINE static uint32 __PPO__StarterWeaponClass() { return STRUCT_OFFSET(AMyCharacter, StarterWeaponClass); } \

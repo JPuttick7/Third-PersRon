@@ -2,26 +2,30 @@
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jamie\Documents\GitHub\Third-PersRon).
   Creating makefile for thirdpersronEditor (no existing makefile)
   Parsing headers for thirdpersronEditor
-    Running UnrealHeaderTool "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for thirdpersronEditor in 10.004796 seconds
+    Running UnrealHeaderTool "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\DebugGame\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for thirdpersronEditor in 7.4972436 seconds
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\AI\STrackerBot.cpp(1): error : Expected STrackerBot.h to be first header included.
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 15 actions with 4 processes...
-    [1/15] Default.rc2
-    [2/15] SharedPCH.Engine.cpp
-    [3/15] thirdpersron.cpp
-    [4/15] thirdpersronGameModeBase.cpp
-    [5/15] MyCharacter.cpp
-    [6/15] SWeapon.cpp
-    [7/15] MyCharacter.gen.cpp
-    [8/15] SHealthComponent.gen.cpp
-    [9/15] SWeapon.gen.cpp
-    [10/15] thirdpersron.init.gen.cpp
-    [11/15] SHealthComponent.cpp
-    [12/15] thirdpersronGameModeBase.gen.cpp
-    [13/15] UE4Editor-thirdpersron.lib
-       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron.exp
-    [14/15] UE4Editor-thirdpersron.dll
-       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron.suppressed.exp
-    [15/15] thirdpersronEditor.target
-  Total time in Parallel executor: 47.60 seconds
-  Total execution time: 83.76 seconds
+  Building 17 actions with 4 processes...
+    [1/17] Default.rc2
+    [2/17] SharedPCH.Engine.NonOptimized.cpp
+    [3/17] thirdpersron.cpp
+    [4/17] STrackerBot.cpp
+    [5/17] SHealthComponent.cpp
+    [6/17] MyCharacter.cpp
+    [7/17] STrackerBot.gen.cpp
+    [8/17] MyCharacter.gen.cpp
+    [9/17] SWeapon.gen.cpp
+    [10/17] SWeapon.cpp
+    [11/17] thirdpersron.init.gen.cpp
+    [12/17] thirdpersronGameModeBase.gen.cpp
+    [13/17] SHealthComponent.gen.cpp
+    [14/17] thirdpersronGameModeBase.cpp
+    [15/17] UE4Editor-thirdpersron-Win64-DebugGame.lib
+       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.exp
+    [16/17] UE4Editor-thirdpersron-Win64-DebugGame.dll
+       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.suppressed.exp
+    [17/17] thirdpersronEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 29.63 seconds
+  Total execution time: 42.15 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Rebuild.bat" thirdpersronEditor Win64 DebugGame -Project="C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" -WaitMutex -FromMsBuild" exited with code -1.

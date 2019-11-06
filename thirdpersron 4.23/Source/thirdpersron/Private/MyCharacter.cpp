@@ -25,7 +25,7 @@ AMyCharacter::AMyCharacter()
 
 	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON, ECR_Ignore);
 
-	HealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
+	SHealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 
 	//Attaches the spring arm camera to the character
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
@@ -55,7 +55,7 @@ void AMyCharacter::BeginPlay()
 		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponAttachSocketName);
 	}
 
-	HealthComp->OnHealthChanged.AddDynamic(this, &AMyCharacter::OnHealthChanged);
+	SHealthComp->OnHealthChanged.AddDynamic(this, &AMyCharacter::OnHealthChanged);
 }
 
 void AMyCharacter::MoveForward(float Value) // function for moving forward

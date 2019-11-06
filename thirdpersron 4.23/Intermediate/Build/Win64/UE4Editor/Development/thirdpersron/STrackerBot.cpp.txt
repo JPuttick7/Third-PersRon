@@ -1,0 +1,3 @@
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\Definitions.thirdpersron.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\AI\STrackerBot.h
+C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\STrackerBot.generated.h
