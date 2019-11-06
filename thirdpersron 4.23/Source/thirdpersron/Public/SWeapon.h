@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include <Runtime\Engine\Classes\Camera\CameraModifier_CameraShake.h>
 #include "SWeapon.generated.h"
 
 //initialises the classes
@@ -24,10 +23,8 @@ public:
 	
 
 protected:
-	
-	virtual void BeginPlay() override;
-	
 	//UPROPERTY exposes whatever specified to blueprint
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USkeletalMeshComponent* MeshComp;
 
@@ -70,13 +67,6 @@ protected:
 
 	FTimerHandle TimerHandle_TimeBetweenShots;
 
-	float LastFireTime;
-
-	
-	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
-	float RateOfFire; // In Rounds Per Minute
-
-	float TimeBetweenShots; // Derived from RateOfFire
 public:	
 	void StartFire();
 

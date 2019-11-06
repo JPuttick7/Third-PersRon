@@ -12,7 +12,6 @@
 class UCameraComponent; 
 class USpringArmComponent;
 class ASWeapon; 
-class USHealthComponent;
 
 UCLASS()
 class THIRDPERSRON_API AMyCharacter : public ACharacter
@@ -47,9 +46,12 @@ protected: //declaring functions in protected means making the function visible 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components") //intitialises the spring arm component for the camera
 	USpringArmComponent* SpringArmComp;
 
+<<<<<<< HEAD
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components") //intitialises the health component for the character
 	USHealthComponent* SHealthComp;
 
+=======
+>>>>>>> parent of 1f3bab7... Health V1
 	bool bWantsToZoom; //declares the zoom boolean
 	
 
@@ -66,6 +68,7 @@ protected: //declaring functions in protected means making the function visible 
 
 	void EndZoom();
 
+
 	ASWeapon* CurrentWeapon; //uses a pointer to fetch the current weapon from the ASWeapon class
 	UPROPERTY(EditDefaultsOnly, Category = "Player") 
 	TSubclassOf<ASWeapon> StarterWeaponClass; //creates a subclass of the ASWeapon class
@@ -77,14 +80,8 @@ protected: //declaring functions in protected means making the function visible 
 
 	void StopFire();
 
-	UFUNCTION()
-	void OnHealthChanged(USHealthComponent* OwningHealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
-	//Has the pawn died previously
-	UPROPERTY(BlueprintReadOnly, Category = "Player")
-	bool bDied;
-
-	public:	
+public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

@@ -26,16 +26,7 @@ ASWeapon::ASWeapon()
 	TracerTargetName = "Target"; // assigns teh name of the target for the tracer
 
 	BaseDamage = 200;
-
-	RateOfFire = 600;
 	
-}
-
-void ASWeapon::BeginPlay()
-{
-	Super::BeginPlay();
-
-	TimeBetweenShots = 60 / RateOfFire;
 }
 
 void ASWeapon::Fire() //function that fires the weapon
@@ -112,16 +103,13 @@ void ASWeapon::Fire() //function that fires the weapon
 			DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::White, false, 1.0f, 0, 1.0f); //draws a line from the camera to the hit point
 		}
 		PlayFireEffects(TracerEndPoint); //plays the muzzle flash and bullet tracer effects
-
-		LastFireTime = GetWorld()->TimeSeconds;
 	}
 }
 
 
 void ASWeapon::StartFire()
 {
-	float FirstDelay = FMath::Max(LastFireTime + TimeBetweenShots - GetWorld()->TimeSeconds, 0.0f);
-	GetWorldTimerManager().SetTimer(TimerHandle_TimeBetweenShots, this, &ASWeapon::Fire, TimeBetweenShots, true, FirstDelay);
+	GetWorldTimerManager().SetTimer(TimerHandle_TimeBetweenShots, this, &ASWeapon::Fire, 0.2f, true);
 }
 
 void ASWeapon::StopFire()
