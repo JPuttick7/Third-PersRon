@@ -6,7 +6,7 @@
 // Sets default values for this component's properties
 USHealthComponent::USHealthComponent()
 {
-	DefaultHealth = 1000;
+	DefaultHealth = 5000;
 }
 
 

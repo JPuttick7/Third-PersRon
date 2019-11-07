@@ -1,55 +1,29 @@
-﻿  Cleaning thirdpersronEditor and UnrealHeaderTool binaries...
-  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jamie\Documents\GitHub\Third-PersRon).
-  Creating makefile for thirdpersronEditor (no existing makefile)
-  Parsing headers for thirdpersronEditor
-<<<<<<< HEAD
-    Running UnrealHeaderTool "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\DebugGame\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for thirdpersronEditor in 7.4972436 seconds
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\AI\STrackerBot.cpp(1): error : Expected STrackerBot.h to be first header included.
-  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 17 actions with 4 processes...
-    [1/17] Default.rc2
-    [2/17] SharedPCH.Engine.NonOptimized.cpp
-    [3/17] thirdpersron.cpp
-    [4/17] STrackerBot.cpp
-    [5/17] SHealthComponent.cpp
-    [6/17] MyCharacter.cpp
-    [7/17] STrackerBot.gen.cpp
-    [8/17] MyCharacter.gen.cpp
-    [9/17] SWeapon.gen.cpp
-    [10/17] SWeapon.cpp
-    [11/17] thirdpersron.init.gen.cpp
-    [12/17] thirdpersronGameModeBase.gen.cpp
-    [13/17] SHealthComponent.gen.cpp
-    [14/17] thirdpersronGameModeBase.cpp
-    [15/17] UE4Editor-thirdpersron-Win64-DebugGame.lib
-       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.exp
-    [16/17] UE4Editor-thirdpersron-Win64-DebugGame.dll
-       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\DebugGame\thirdpersron\UE4Editor-thirdpersron-Win64-DebugGame.suppressed.exp
-    [17/17] thirdpersronEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 29.63 seconds
-  Total execution time: 42.15 seconds
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Rebuild.bat" thirdpersronEditor Win64 DebugGame -Project="C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" -WaitMutex -FromMsBuild" exited with code -1.
-=======
+﻿  Parsing headers for thirdpersronEditor
     Running UnrealHeaderTool "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for thirdpersronEditor in 9.0650579 seconds
-  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 13 actions with 4 processes...
-    [1/13] Default.rc2
-    [2/13] SharedPCH.Engine.cpp
-    [3/13] thirdpersron.cpp
-    [4/13] thirdpersronGameModeBase.cpp
-    [5/13] MyCharacter.gen.cpp
-    [6/13] SWeapon.cpp
-    [7/13] thirdpersron.init.gen.cpp
-    [8/13] SWeapon.gen.cpp
-    [9/13] thirdpersronGameModeBase.gen.cpp
-    [10/13] MyCharacter.cpp
-    [11/13] UE4Editor-thirdpersron-0001.lib
-       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0001.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0001.exp
-    [12/13] UE4Editor-thirdpersron-0001.dll
-       Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0001.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0001.suppressed.exp
-    [13/13] thirdpersronEditor.target
-  Total time in Parallel executor: 43.35 seconds
-  Total execution time: 73.23 seconds
->>>>>>> parent of 1f3bab7... Health V1
+  Reflection code generated for thirdpersronEditor in 34.1196965 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 6 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  thirdpersron.init.gen.cpp (0:14.67 at +0:00)
+  STrackerBot.gen.cpp (0:02.96 at +0:14)
+  STrackerBot.cpp (0:15.18 at +0:17)
+  UE4Editor-thirdpersron-0021.dll (0:01.26 at +0:32)
+     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.suppressed.exp
+  UE4Editor-thirdpersron-0021.lib (0:00.28 at +0:34)
+     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.exp
+  thirdpersronEditor.target (0:00.42 at +0:34)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 35.18 seconds
+  Total execution time: 72.17 seconds

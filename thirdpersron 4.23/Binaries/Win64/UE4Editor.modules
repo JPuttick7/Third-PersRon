@@ -2,10 +2,6 @@
 	"BuildId": "8386587",
 	"Modules": 
 	{
-<<<<<<< HEAD
-		"thirdpersron": "UE4Editor-thirdpersron.dll"
-=======
-		"thirdpersron": "UE4Editor-thirdpersron-6888.dll"
->>>>>>> parent of 1f3bab7... Health V1
+		"thirdpersron": "UE4Editor-thirdpersron-0021.dll"
 	}
 }

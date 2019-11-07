@@ -8,14 +8,50 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USHealthComponent;
+class UDamageType;
+class AController;
+class AActor;
 #ifdef THIRDPERSRON_MyCharacter_generated_h
 #error "MyCharacter.generated.h already included, missing '#pragma once' in MyCharacter.h"
 #endif
 #define THIRDPERSRON_MyCharacter_generated_h
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_RPC_WRAPPERS
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_INCLASS_NO_PURE_DECLS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHealthChanged) \
+	{ \
+		P_GET_OBJECT(USHealthComponent,Z_Param_OwningHealthComp); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthDelta); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHealthChanged(Z_Param_OwningHealthComp,Z_Param_Health,Z_Param_HealthDelta,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	}
+
+
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHealthChanged) \
+	{ \
+		P_GET_OBJECT(USHealthComponent,Z_Param_OwningHealthComp); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthDelta); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHealthChanged(Z_Param_OwningHealthComp,Z_Param_Health,Z_Param_HealthDelta,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	}
+
+
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
@@ -24,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_INCLASS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
@@ -33,7 +69,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_STANDARD_CONSTRUCTORS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyCharacter) \
@@ -46,7 +82,7 @@ private: \
 public:
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_ENHANCED_CONSTRUCTORS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyCharacter(AMyCharacter&&); \
@@ -57,38 +93,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyCharacter)
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(AMyCharacter, CameraComp); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(AMyCharacter, SpringArmComp); } \
-<<<<<<< HEAD
-	FORCEINLINE static uint32 __PPO__SHealthComp() { return STRUCT_OFFSET(AMyCharacter, SHealthComp); } \
-=======
->>>>>>> parent of 1f3bab7... Health V1
+	FORCEINLINE static uint32 __PPO__HealthComp() { return STRUCT_OFFSET(AMyCharacter, HealthComp); } \
 	FORCEINLINE static uint32 __PPO__ZoomedFOV() { return STRUCT_OFFSET(AMyCharacter, ZoomedFOV); } \
 	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(AMyCharacter, ZoomInterpSpeed); } \
 	FORCEINLINE static uint32 __PPO__StarterWeaponClass() { return STRUCT_OFFSET(AMyCharacter, StarterWeaponClass); } \
-	FORCEINLINE static uint32 __PPO__WeaponAttachSocketName() { return STRUCT_OFFSET(AMyCharacter, WeaponAttachSocketName); }
+	FORCEINLINE static uint32 __PPO__WeaponAttachSocketName() { return STRUCT_OFFSET(AMyCharacter, WeaponAttachSocketName); } \
+	FORCEINLINE static uint32 __PPO__bDied() { return STRUCT_OFFSET(AMyCharacter, bDied); }
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_16_PROLOG
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_GENERATED_BODY_LEGACY \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_17_PROLOG
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_RPC_WRAPPERS \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_INCLASS \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_STANDARD_CONSTRUCTORS \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_RPC_WRAPPERS \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_INCLASS \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_GENERATED_BODY \
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_INCLASS_NO_PURE_DECLS \
-	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_19_ENHANCED_CONSTRUCTORS \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_INCLASS_NO_PURE_DECLS \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

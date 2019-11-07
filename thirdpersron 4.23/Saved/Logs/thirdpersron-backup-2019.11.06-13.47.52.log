@@ -1,0 +1,1381 @@
+﻿Log file open, 11/06/19 13:43:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: thirdpersron
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.835930
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.06-13.43.56:430][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.06-13.43.56:430][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.06-13.43.56:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.06-13.43.56:432][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:432][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:439][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.06-13.43.56:439][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.06-13.43.56:440][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.06-13.43.56:441][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.06-13.43.56:442][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:442][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.06-13.43.56:442][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.06-13.43.56:443][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.06-13.43.56:443][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.06-13.43.56:462][  0]LogHAL: Display: Platform has ~ 8 GB [8476823552 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.06-13.43.56:462][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.06-13.43.56:462][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:462][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.06-13.43.56:462][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.11.06-13.43.56:462][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:462][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.11.06-13.43.56:462][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:462][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.06-13.43.56:462][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.11.06-13.43.56:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.11.06-13.43.56:464][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.11.06-13.43.56:465][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.06-13.43.56:465][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.06-13.43.56:465][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.06-13.43.56:465][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.06-13.43.56:468][  0]LogInit: Computer: DESKTOP-39O8R6D
+[2019.11.06-13.43.56:468][  0]LogInit: User: jamie
+[2019.11.06-13.43.56:468][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.11.06-13.43.56:468][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.06-13.43.56:468][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.11.06-13.43.56:468][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.06-13.43.56:468][  0]LogMemory: Process Physical Memory: 101.45 MB used, 101.45 MB peak
+[2019.11.06-13.43.56:468][  0]LogMemory: Process Virtual Memory: 98.17 MB used, 98.17 MB peak
+[2019.11.06-13.43.56:468][  0]LogMemory: Physical Memory: 5959.11 MB used,  2125.02 MB free, 8084.13 MB total
+[2019.11.06-13.43.56:469][  0]LogMemory: Virtual Memory: 4649.99 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.11.06-13.43.56:475][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.06-13.43.56:845][  0]LogInit: Using OS detected language (en-US).
+[2019.11.06-13.43.56:846][  0]LogInit: Using OS detected locale (en-GB).
+[2019.11.06-13.43.56:852][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.06-13.43.57:483][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.06-13.43.57:666][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.06-13.43.57:666][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.06-13.44.01:938][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.06-13.44.01:938][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.06-13.44.01:958][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.11.06-13.44.01:958][  0]LogD3D11RHI:       128/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.11.06-13.44.01:963][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.06-13.44.01:964][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.06-13.44.01:964][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.06-13.44.01:976][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.06-13.44.01:977][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.06-13.44.01:977][  0]LogWindows: EnumDisplayDevices:
+[2019.11.06-13.44.01:977][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.11.06-13.44.01:978][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.11.06-13.44.01:978][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.11.06-13.44.01:979][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.11.06-13.44.01:979][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2019.11.06-13.44.01:979][  0]LogD3D11RHI:   Driver Version: 22.20.16.4836 (internal:22.20.16.4836, unified:22.20.16.4836)
+[2019.11.06-13.44.01:979][  0]LogD3D11RHI:      Driver Date: 10-17-2017
+[2019.11.06-13.44.01:979][  0]LogRHI: Texture pool is 1504 MB (70% of 2149 MB)
+[2019.11.06-13.44.01:991][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.06-13.44.02:030][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2019.11.06-13.44.02:776][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.06-13.44.02:797][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.06-13.44.02:817][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.06-13.44.02:838][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.06-13.44.02:864][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.06-13.44.02:884][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.06-13.44.02:902][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.06-13.44.02:920][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.06-13.44.02:930][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.06-13.44.03:007][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.06-13.44.03:007][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.06-13.44.03:008][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.06-13.44.03:015][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.06-13.44.03:078][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.06-13.44.03:078][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.06-13.44.03:104][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.06-13.44.03:104][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.06-13.44.03:121][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.06-13.44.03:138][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.06-13.44.03:153][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.06-13.44.03:181][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.06-13.44.03:235][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.06-13.44.03:235][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.06-13.44.03:235][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.06-13.44.03:313][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.06-13.44.03:534][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Intermediate/Shaders/WorkingDirectory/7536/).
+[2019.11.06-13.44.03:534][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jamie/AppData/Local/Temp/UnrealShaderWorkingDir/4C99BC654D8545ACF357AE96A41E8FD0/'.
+[2019.11.06-13.44.03:538][  0]LogXGEController: Cleaning working directory: C:/Users/jamie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.06-13.44.03:538][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.11.06-13.44.08:141][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.06-13.44.08:379][  0]LogDerivedDataCache: Loaded boot cache 0.24s 73MB C:/Users/jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.06-13.44.08:379][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.06-13.44.08:379][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.06-13.44.08:379][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.06-13.44.08:379][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.06-13.44.08:379][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.06-13.44.08:413][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.06-13.44.08:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.06-13.44.08:413][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.06-13.44.08:416][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jamie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.06-13.44.08:416][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.06-13.44.08:416][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.06-13.44.08:465][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.06-13.44.08:477][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.06-13.44.08:510][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.06-13.44.09:005][  0]LogAssetRegistry: FAssetRegistry took 0.0066 seconds to start up
+[2019.11.06-13.44.09:844][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.06-13.44.10:497][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.06-13.44.10:497][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.06-13.44.10:497][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.06-13.44.10:497][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.06-13.44.10:498][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.06-13.44.10:582][  0]LogNetVersion: thirdpersron 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2728054761)
+[2019.11.06-13.44.12:751][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.104758 seconds
+[2019.11.06-13.44.12:763][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.06-13.44.12:763][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.06-13.44.12:764][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.06-13.44.19:302][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.06-13.44.19:314][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.06-13.44.19:621][  0]SourceControl: Source control is disabled
+[2019.11.06-13.44.19:622][  0]SourceControl: Source control is disabled
+[2019.11.06-13.44.19:641][  0]SourceControl: Source control is disabled
+[2019.11.06-13.44.19:648][  0]SourceControl: Source control is disabled
+[2019.11.06-13.44.20:055][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.06-13.44.20:491][  0]LogOcInput: OculusInput pre-init called
+[2019.11.06-13.44.20:519][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.06-13.44.20:519][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.06-13.44.20:857][  0]LogEngine: Initializing Engine...
+[2019.11.06-13.44.20:865][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.06-13.44.20:873][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+[2019.11.06-13.44.21:699][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.06-13.44.21:818][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.06-13.44.21:905][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.06-13.44.22:177][  0]LogInit: FAudioDevice initialized.
+[2019.11.06-13.44.22:179][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.06-13.44.22:271][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.06-13.44.22:293][  0]LogInit: Texture streaming: Enabled
+[2019.11.06-13.44.22:347][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.06-13.44.22:348][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.11.06-13.44.22:350][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.11.06-13.44.22:537][  0]LogInit: Transaction tracking system initialized
+[2019.11.06-13.44.22:669][  0]BlueprintLog: New page: Editor Load
+[2019.11.06-13.44.22:978][  0]LocalizationService: Localization service is disabled
+[2019.11.06-13.44.24:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/' took 0.04s
+[2019.11.06-13.44.24:133][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.06-13.44.24:133][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.06-13.44.25:013][  0]SourceControl: Source control is disabled
+[2019.11.06-13.44.25:159][  0]LogSlate: Took 0.010878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.06-13.44.31:708][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.11.06-13.44.31:709][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.06-13.44.31:712][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.06-13.44.34:268][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2019.11.06-13.44.34:270][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.06-13.44.34:272][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.06-13.44.34:316][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.06-13.44.34:320][  0]LightingResults: New page: Lighting Build
+[2019.11.06-13.44.34:349][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.44.34:357][  0]MapCheck: New page: Map Check
+[2019.11.06-13.44.34:357][  0]LightingResults: New page: Lighting Build
+[2019.11.06-13.44.34:450][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.11.06-13.44.34:460][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.34:460][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.35:693][  0]LogLinker: Error: HOTRELOADED_SHealthComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/UI/WBP_HealthIndicator.uasset)
+[2019.11.06-13.44.35:693][  0]LogLinker: Error: HOTRELOADED_SHealthComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/UI/WBP_HealthIndicator.uasset)
+[2019.11.06-13.44.35:696][  0]LogLinker: Error: HOTRELOADED_SHealthComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/UI/WBP_HealthIndicator.uasset)
+[2019.11.06-13.44.35:698][  0]LogLinker: Error: HOTRELOADED_SHealthComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/UI/WBP_HealthIndicator.uasset)
+[2019.11.06-13.44.35:698][  0]LogLinker: Error: HOTRELOADED_SHealthComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/UI/WBP_HealthIndicator.uasset)
+[2019.11.06-13.44.35:698][  0]LogLinker: Error: HOTRELOADED_SHealthComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/UI/WBP_HealthIndicator.uasset)
+[2019.11.06-13.44.35:925][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.35:925][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.35:926][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn': Can't find file.
+[2019.11.06-13.44.35:926][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn': Can't find file.
+[2019.11.06-13.44.35:926][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.35:927][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.35:927][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash': Can't find file.
+[2019.11.06-13.44.35:929][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash': Can't find file.
+[2019.11.06-13.44.35:929][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2019.11.06-13.44.35:930][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2019.11.06-13.44.35:931][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2019.11.06-13.44.35:931][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2019.11.06-13.44.35:932][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2019.11.06-13.44.35:932][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2019.11.06-13.44.35:932][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.35:933][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.35:933][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2019.11.06-13.44.35:933][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2019.11.06-13.44.35:933][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.35:934][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.35:934][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2019.11.06-13.44.35:935][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2019.11.06-13.44.35:935][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.35:935][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.35:935][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2019.11.06-13.44.35:936][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2019.11.06-13.44.35:936][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2019.11.06-13.44.35:936][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2019.11.06-13.44.35:937][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2019.11.06-13.44.35:937][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2019.11.06-13.44.35:941][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.35:941][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.35:941][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn': Can't find file.
+[2019.11.06-13.44.35:942][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn': Can't find file.
+[2019.11.06-13.44.35:942][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.35:942][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.35:942][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash': Can't find file.
+[2019.11.06-13.44.35:943][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash': Can't find file.
+[2019.11.06-13.44.35:943][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2019.11.06-13.44.35:943][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2019.11.06-13.44.35:943][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2019.11.06-13.44.35:944][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2019.11.06-13.44.35:944][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2019.11.06-13.44.35:944][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2019.11.06-13.44.35:944][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.35:945][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.35:945][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2019.11.06-13.44.35:946][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2019.11.06-13.44.35:946][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.35:947][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.35:947][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2019.11.06-13.44.35:947][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2019.11.06-13.44.35:947][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.35:947][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.35:948][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2019.11.06-13.44.35:948][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2019.11.06-13.44.35:948][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2019.11.06-13.44.35:948][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2019.11.06-13.44.35:949][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2019.11.06-13.44.35:949][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2019.11.06-13.44.35:956][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Melee/MI_Minion_Dusk_Melee.uasset' failed to load '/Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default': Can't find file.
+[2019.11.06-13.44.35:956][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Melee/MI_Minion_Dusk_Melee.uasset' failed to load '/Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default': Can't find file.
+[2019.11.06-13.44.35:959][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Melee/MI_Minion_Dusk_Melee.uasset' failed to load '/Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default': Can't find file.
+[2019.11.06-13.44.35:960][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Melee/MI_Minion_Dusk_Melee.uasset' failed to load '/Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default': Can't find file.
+[2019.11.06-13.44.35:963][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton': Can't find file.
+[2019.11.06-13.44.35:964][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton': Can't find file.
+[2019.11.06-13.44.35:964][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics': Can't find file.
+[2019.11.06-13.44.35:964][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics': Can't find file.
+[2019.11.06-13.44.35:965][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl': Can't find file.
+[2019.11.06-13.44.35:965][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl': Can't find file.
+[2019.11.06-13.44.35:967][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics': Can't find file.
+[2019.11.06-13.44.35:968][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics': Can't find file.
+[2019.11.06-13.44.35:968][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl': Can't find file.
+[2019.11.06-13.44.35:969][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl': Can't find file.
+[2019.11.06-13.44.35:969][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton': Can't find file.
+[2019.11.06-13.44.35:969][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton': Can't find file.
+[2019.11.06-13.44.35:982][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.35:982][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:009][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:009][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:010][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:010][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:013][  0]LogLinker: Warning: Failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:013][  0]LogLinker: Warning: Failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:013][  0]LogLinker: Warning: Failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:014][  0]LogLinker: Warning: Failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:014][  0]LogLinker: Warning: Failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:014][  0]LogLinker: Warning: Failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:014][  0]LogLinker: Warning: Failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:015][  0]LogLinker: Warning: Failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:052][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:052][  0]LoadErrors: Failed to load /Game/Maps/MyLevel_BuiltData.MyLevel_BuiltData Referenced by PersistentLevel
+[2019.11.06-13.44.36:053][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/Maps/MyLevel_BuiltData': Can't find file.
+[2019.11.06-13.44.36:053][  0]LoadErrors: Failed to load /Game/Maps/MyLevel_BuiltData.MyLevel_BuiltData Referenced by PersistentLevel
+[2019.11.06-13.44.36:060][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:060][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle.NonCombat_Idle Referenced by SkeletalMesh
+[2019.11.06-13.44.36:061][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle': Can't find file.
+[2019.11.06-13.44.36:061][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Animations/Melee/NonCombat_Idle.NonCombat_Idle Referenced by SkeletalMesh
+[2019.11.06-13.44.36:374][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton': Can't find file.
+[2019.11.06-13.44.36:374][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton.Minion_Lane_Core_Skeleton Referenced by Minion_Lane_Melee_Dusk
+[2019.11.06-13.44.36:374][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton': Can't find file.
+[2019.11.06-13.44.36:374][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Core_Skeleton.Minion_Lane_Core_Skeleton Referenced by Minion_Lane_Melee_Dusk
+[2019.11.06-13.44.36:375][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics': Can't find file.
+[2019.11.06-13.44.36:375][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics.Minion_Lane_Melee_Physics Referenced by Minion_Lane_Melee_Dusk
+[2019.11.06-13.44.36:376][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics': Can't find file.
+[2019.11.06-13.44.36:376][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_Physics.Minion_Lane_Melee_Physics Referenced by Minion_Lane_Melee_Dusk
+[2019.11.06-13.44.36:376][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl': Can't find file.
+[2019.11.06-13.44.36:376][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl.Minion_Lane_Melee_ShadowCyl Referenced by Minion_Lane_Melee_Dusk
+[2019.11.06-13.44.36:377][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Enemy/Meshes/Minion_Lane_Melee_Dusk.uasset' failed to load '/Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl': Can't find file.
+[2019.11.06-13.44.36:377][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Minions/Down_Minions/Meshes/Minion_Lane_Melee_ShadowCyl.Minion_Lane_Melee_ShadowCyl Referenced by Minion_Lane_Melee_Dusk
+[2019.11.06-13.44.36:422][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Melee/MI_Minion_Dusk_Melee.uasset' failed to load '/Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default': Can't find file.
+[2019.11.06-13.44.36:423][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default.SSP_Human_Default Referenced by MI_Minion_Dusk_Melee
+[2019.11.06-13.44.36:423][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Melee/MI_Minion_Dusk_Melee.uasset' failed to load '/Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default': Can't find file.
+[2019.11.06-13.44.36:423][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/NotForShip/Human_Scans/_Common/SSP_Human_Default.SSP_Human_Default Referenced by MI_Minion_Dusk_Melee
+[2019.11.06-13.44.36:424][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2019.11.06-13.44.36:424][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank.ML__Blank Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:424][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2019.11.06-13.44.36:425][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialLayers/ML__Blank.ML__Blank Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:426][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash': Can't find file.
+[2019.11.06-13.44.36:426][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash.HitFlash Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:426][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash': Can't find file.
+[2019.11.06-13.44.36:427][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/HitFlash.HitFlash Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:427][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2019.11.06-13.44.36:427][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade.MF_DeathFade Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:427][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2019.11.06-13.44.36:427][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_DeathFade.MF_DeathFade Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:428][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2019.11.06-13.44.36:428][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust.MF_BrightnessAdjust Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:428][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2019.11.06-13.44.36:428][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_BrightnessAdjust.MF_BrightnessAdjust Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:429][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2019.11.06-13.44.36:429][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard.MLC_Standard Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:430][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2019.11.06-13.44.36:430][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard.MLC_Standard Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:430][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2019.11.06-13.44.36:430][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime.MLC_ScratchAndGrime Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:430][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2019.11.06-13.44.36:430][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime.MLC_ScratchAndGrime Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:431][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2019.11.06-13.44.36:431][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal.ML_blue_Metal Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:431][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2019.11.06-13.44.36:431][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialLayers/Metal/ML_blue_Metal.ML_blue_Metal Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:432][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2019.11.06-13.44.36:432][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight.MF_OrionRimlight Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:432][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2019.11.06-13.44.36:432][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_OrionRimlight.MF_OrionRimlight Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:432][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.36:432][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects.MF_CharacterEffects Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:433][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.36:433][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects.MF_CharacterEffects Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:433][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn': Can't find file.
+[2019.11.06-13.44.36:433][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn.MinionBurn Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:434][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn': Can't find file.
+[2019.11.06-13.44.36:434][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MinionBurn.MinionBurn Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:435][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.36:435][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX.MF_Minion_EmissiveFX Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:435][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.36:435][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX.MF_Minion_EmissiveFX Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:436][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.36:436][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel.MF_ThinFilm_Frensel Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:436][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.36:436][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel.MF_ThinFilm_Frensel Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:437][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.36:437][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation.MF_MinionApperation Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:437][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.36:437][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation.MF_MinionApperation Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:438][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.36:438][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff.mf_MinionPrimeBuff Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:438][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.36:438][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff.mf_MinionPrimeBuff Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:438][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2019.11.06-13.44.36:439][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection.OrionGlobalGameplayCollection Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:439][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2019.11.06-13.44.36:439][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection.OrionGlobalGameplayCollection Referenced by M_Minion_Dusk_Parent
+[2019.11.06-13.44.36:440][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.36:440][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation.MF_MinionApperation Referenced by MaterialExpressionMaterialFunctionCall_0
+[2019.11.06-13.44.36:440][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation': Can't find file.
+[2019.11.06-13.44.36:440][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/FX/Materials/Functions/MF_MinionApperation.MF_MinionApperation Referenced by MaterialExpressionMaterialFunctionCall_0
+[2019.11.06-13.44.36:449][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.36:449][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX.MF_Minion_EmissiveFX Referenced by MaterialExpressionMaterialFunctionCall_2
+[2019.11.06-13.44.36:450][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX': Can't find file.
+[2019.11.06-13.44.36:450][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/Eyes/MaterialFunctions/MF_Minion_EmissiveFX.MF_Minion_EmissiveFX Referenced by MaterialExpressionMaterialFunctionCall_2
+[2019.11.06-13.44.36:450][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.36:450][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff.mf_MinionPrimeBuff Referenced by MaterialExpressionMaterialFunctionCall_3
+[2019.11.06-13.44.36:450][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff': Can't find file.
+[2019.11.06-13.44.36:451][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/mf_MinionPrimeBuff.mf_MinionPrimeBuff Referenced by MaterialExpressionMaterialFunctionCall_3
+[2019.11.06-13.44.36:451][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.36:451][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel.MF_ThinFilm_Frensel Referenced by MaterialExpressionMaterialFunctionCall_4
+[2019.11.06-13.44.36:451][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel': Can't find file.
+[2019.11.06-13.44.36:451][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_ThinFilm_Frensel.MF_ThinFilm_Frensel Referenced by MaterialExpressionMaterialFunctionCall_4
+[2019.11.06-13.44.36:452][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.36:452][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects.MF_CharacterEffects Referenced by MaterialExpressionMaterialFunctionCall_9
+[2019.11.06-13.44.36:453][  0]LogLinker: Warning: While loading '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset' failed to load '/Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2019.11.06-13.44.36:453][  0]LoadErrors: Failed to load /Game/ParagonMinions/Characters/Global/MaterialFunctions/MF_CharacterEffects.MF_CharacterEffects Referenced by MaterialExpressionMaterialFunctionCall_9
+[2019.11.06-13.44.37:956][  0]LogMaterial: Display: Missing cached shader map for material M_Minion_Dusk_Parent, compiling. 
+[2019.11.06-13.44.37:962][  0]LogMaterial: Warning: C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Content\ParagonMinions\Characters\Minions\Dusk_Minions\Materials\Shared\M_Minion_Dusk_Parent.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.06-13.44.37:962][  0]LogMaterial: Display: 	Missing Material Function
+[2019.11.06-13.44.37:962][  0]LogMaterial: Display: 	Function MatLayerBlend_Emissive: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2019.11.06-13.44.37:977][  0]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.06-13.44.38:083][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.06-13.44.38:138][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2019.11.06-13.44.38:140][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.06-13.44.38:141][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.148ms to complete.
+[2019.11.06-13.44.38:141][  0]LogFileHelpers: Loading map 'MyLevel' took 3.829
+[2019.11.06-13.44.38:492][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-13.44.38:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-13.44.38:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-13.44.38:535][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-13.44.38:630][  0]LogCollectionManager: Loaded 0 collections in 0.003596 seconds
+[2019.11.06-13.44.38:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Collections/' took 0.00s
+[2019.11.06-13.44.38:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Developers/jamie/Collections/' took 0.00s
+[2019.11.06-13.44.38:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Collections/' took 0.00s
+[2019.11.06-13.44.38:673][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.06-13.44.38:702][  0]LogContentBrowser: Native class hierarchy populated in 0.0266 seconds. Added 2868 classes and 686 folders.
+[2019.11.06-13.44.38:735][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.11.06-13.44.39:267][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.11.06-13.44.39:289][  0]LogSlate: Took 0.008832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.06-13.44.39:303][  0]LogSlate: Took 0.008610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.06-13.44.39:314][  0]LogSlate: Took 0.009670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.06-13.44.39:552][  0]LogRenderer: Reallocating scene render targets to support 928x408 Format 9 NumSamples 1 (Frame:1).
+[2019.11.06-13.44.41:775][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.06-13.44.41:776][  0]LogLoad: (Engine Initialization) Total time: 52.17 seconds
+[2019.11.06-13.44.41:776][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.06-13.44.41:875][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.11.06-13.44.41:884][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.06-13.44.42:181][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/' took 0.37s
+[2019.11.06-13.44.42:971][  6]LogSlate: Took 0.011735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.06-13.44.43:565][ 16]LogAssetRegistry: Asset discovery search completed in 34.5617 seconds
+[2019.11.06-13.44.43:575][ 16]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.11.06-13.44.43:575][ 16]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000249 seconds (updated 0 objects)
+[2019.11.06-13.44.49:149][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-13.44.49:298][221]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-13.45.02:928][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-13.45.03:013][732]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.06-13.45.03:056][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.06-13.45.03:058][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.06-13.45.03:063][732]PIE: New page: PIE session: MyLevel (6 Nov 2019 13:45:03)
+[2019.11.06-13.45.03:069][732]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.06-13.45.03:072][732]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.06-13.45.03:079][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006905s)
+[2019.11.06-13.45.03:081][732]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.06-13.45.03:082][732]LogPlayLevel: PIE: World Init took: (0.002590s)
+[2019.11.06-13.45.03:083][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyLevel.MyLevel to /Game/Maps/UEDPIE_0_MyLevel.MyLevel (0.010664s)
+[2019.11.06-13.45.03:109][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.11.06-13.45.03:120][732]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.06-13.45.03:146][732]LogInit: FAudioDevice initialized.
+[2019.11.06-13.45.03:166][732]LogLoad: Game class is 'GameModeBase'
+[2019.11.06-13.45.03:180][732]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2019.11.06-13.45.03
+[2019.11.06-13.45.03:199][732]LogWorld: Bringing up level for play took: 0.022612
+[2019.11.06-13.45.03:200][732]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2019.11.06-13.45.03:222][732]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.11.06-13.45.03:241][732]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MyLevel 0.236
+[2019.11.06-13.45.03:241][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.06-13.45.11:753][ 19]LogTemp: Health Changed: 4800.0
+[2019.11.06-13.45.11:841][ 23]LogTemp: Health Changed: 4600.0
+[2019.11.06-13.45.11:937][ 27]LogTemp: Health Changed: 4400.0
+[2019.11.06-13.45.12:059][ 32]LogTemp: Health Changed: 4200.0
+[2019.11.06-13.45.12:150][ 35]LogTemp: Health Changed: 4000.0
+[2019.11.06-13.45.12:237][ 38]LogTemp: Health Changed: 3800.0
+[2019.11.06-13.45.12:346][ 42]LogTemp: Health Changed: 3600.0
+[2019.11.06-13.45.12:446][ 46]LogTemp: Health Changed: 3400.0
+[2019.11.06-13.45.12:556][ 50]LogTemp: Health Changed: 3200.0
+[2019.11.06-13.45.12:656][ 54]LogTemp: Health Changed: 3000.0
+[2019.11.06-13.45.12:759][ 58]LogTemp: Health Changed: 2800.0
+[2019.11.06-13.45.12:837][ 61]LogTemp: Health Changed: 2600.0
+[2019.11.06-13.45.12:937][ 65]LogTemp: Health Changed: 2400.0
+[2019.11.06-13.45.13:036][ 69]LogTemp: Health Changed: 2200.0
+[2019.11.06-13.45.13:137][ 73]LogTemp: Health Changed: 2000.0
+[2019.11.06-13.45.13:237][ 77]LogTemp: Health Changed: 1800.0
+[2019.11.06-13.45.13:353][ 81]LogTemp: Health Changed: 1600.0
+[2019.11.06-13.45.13:445][ 84]LogTemp: Health Changed: 1400.0
+[2019.11.06-13.45.13:538][ 87]LogTemp: Health Changed: 1200.0
+[2019.11.06-13.45.13:642][ 91]LogTemp: Health Changed: 1000.0
+[2019.11.06-13.45.13:742][ 95]LogTemp: Health Changed: 800.0
+[2019.11.06-13.45.13:843][ 99]LogTemp: Health Changed: 600.0
+[2019.11.06-13.45.13:944][103]LogTemp: Health Changed: 400.0
+[2019.11.06-13.45.14:043][107]LogTemp: Health Changed: 200.0
+[2019.11.06-13.45.14:143][111]LogTemp: Health Changed: 0.0
+[2019.11.06-13.45.14:243][115]LogTemp: Health Changed: 0.0
+[2019.11.06-13.45.14:348][119]LogTemp: Health Changed: 0.0
+[2019.11.06-13.45.18:188][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.06-13.45.18:194][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-13.45.18:194][285]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.06-13.45.18:197][285]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.45.18:243][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.06-13.45.18:243][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.06-13.45.18:308][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-13.45.18:324][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.11.06-13.45.18:359][286]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.11.06-13.45.21:370][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.06-13.45.22:324][387]LogEditorViewport: Clicking on Actor (LMB): BP_Dummy_C (BP_Dummy)
+[2019.11.06-13.45.24:139][442]LogSlate: Took 0.028952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.06-13.45.41:793][ 21]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={457C3E07-456F-AA34-A937-BDA1B3DDA8A8}
+[2019.11.06-13.45.46:935][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-13.45.52:028][351]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Dummy.BP_Dummy
+[2019.11.06-13.45.52:568][351]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2019.11.06-13.45.53:964][351]LogSlate: Took 0.008653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.06-13.45.59:017][639]LogRenderer: Reallocating scene render targets to support 928x460 Format 9 NumSamples 1 (Frame:1).
+[2019.11.06-13.46.00:378][669]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:231][741]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:259][742]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:474][746]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:498][747]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:575][748]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:643][749]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:714][750]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:791][751]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:864][752]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.02:938][753]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:011][754]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:084][755]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:157][756]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:231][757]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:304][758]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:393][759]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:475][760]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:552][761]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:623][762]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:693][763]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:764][764]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:836][765]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:908][766]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.03:990][767]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:062][768]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:141][769]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:209][770]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:282][771]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:351][772]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:428][773]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:502][774]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:590][775]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:671][776]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:755][777]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:825][778]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.04:899][779]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.05:050][780]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.06-13.46.05:051][780]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.05:123][781]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.05:200][782]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.05:230][783]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.05:284][784]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.06:729][835]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.06:751][836]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.06:824][837]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.06:901][838]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.06:980][839]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:065][840]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:154][841]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:228][842]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:301][843]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:377][844]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:450][845]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:523][846]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:596][847]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:670][848]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:741][849]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:811][850]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:883][851]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.07:951][852]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:098][854]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:125][855]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:218][856]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:299][857]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:369][858]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:436][859]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:509][860]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:584][861]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:652][862]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:725][863]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:803][864]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:877][865]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.08:949][866]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:021][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-13.46.09:022][867]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:092][868]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:168][869]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:241][870]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:322][871]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:406][872]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:489][873]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:568][874]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:638][875]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:707][876]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:779][877]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:847][878]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:918][879]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.09:993][880]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:064][881]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:138][882]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:212][883]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:281][884]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:353][885]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:421][886]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:496][887]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:581][888]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:678][889]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:736][890]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:806][891]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:879][892]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.10:948][893]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:017][894]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:088][895]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:162][896]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:234][897]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:305][898]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:377][899]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:446][900]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:523][901]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:606][902]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:672][903]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:752][904]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:916][905]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.11:938][906]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:077][908]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:101][909]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:152][910]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:230][911]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:298][912]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:372][913]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:441][914]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:509][915]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:582][916]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:654][917]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:721][918]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:791][919]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:866][920]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.12:949][921]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.13:030][922]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.42:560][ 29]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:133][ 53]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:157][ 54]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:247][ 55]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:351][ 56]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:423][ 57]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:512][ 58]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:592][ 59]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:676][ 60]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:761][ 61]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:841][ 62]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:919][ 63]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.43:988][ 64]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:069][ 65]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:141][ 66]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:212][ 67]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:291][ 68]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:372][ 69]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:450][ 70]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:528][ 71]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:600][ 72]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:749][ 74]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:783][ 75]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:851][ 76]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.44:934][ 77]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:016][ 78]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:095][ 79]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:170][ 80]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:249][ 81]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:329][ 82]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:413][ 83]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:484][ 84]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:568][ 85]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:638][ 86]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:714][ 87]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:788][ 88]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:862][ 89]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.45:937][ 90]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:091][ 92]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:128][ 93]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:202][ 94]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:283][ 95]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:358][ 96]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:438][ 97]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:512][ 98]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:598][ 99]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:677][100]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:754][101]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:826][102]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:905][103]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.46:983][104]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.47:053][105]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.47:129][106]LogAnimation: Warning: SkeletalMesh Minion_Lane_Melee_Dusk has no skeleton. This needs to fixed before an animation can be set
+[2019.11.06-13.46.47:287][107]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Enemy/Meshes/Minion_Lane_Melee_Dusk.Minion_Lane_Melee_Dusk
+[2019.11.06-13.46.55:595][107]LogSlate: Window 'Message' being destroyed
+[2019.11.06-13.46.55:671][107]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.06-13.47.08:884][107]LogSlate: Window 'Choose Skeleton' being destroyed
+[2019.11.06-13.47.11:723][107]LogSlate: Window 'Message' being destroyed
+[2019.11.06-13.47.43:446][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.06-13.47.44:634][512]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2019.11.06-13.47.44:647][512]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.06-13.47.44:713][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.11.06-13.47.45:161][512]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/MyLevel2ABCFF1A40D6E1B261FDC38E3DAE7B75.tmp' to '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap'
+[2019.11.06-13.47.45:264][512]LogFileHelpers: Saving map 'MyLevel' took 0.603
+[2019.11.06-13.47.45:466][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Dummy" FILE="../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Blueprints/BP_Dummy.uasset" SILENT=true
+[2019.11.06-13.47.45:674][512]LogSavePackage: Moving '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/BP_Dummy5F732FEB43FB6DA322337AAE471534BE.tmp' to '../../../../../../Users/jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Blueprints/BP_Dummy.uasset'
+[2019.11.06-13.47.46:666][537]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.11.06-13.47.46:859][537]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.46:917][537]LogSlate: Window 'thirdpersron - Unreal Editor' being destroyed
+[2019.11.06-13.47.46:920][537]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.06-13.47.47:127][538]Cmd: QUIT_EDITOR
+[2019.11.06-13.47.48:203][538]LogExit: Preparing to exit.
+[2019.11.06-13.47.48:539][538]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:543][538]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:548][538]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:553][538]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:557][538]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:564][538]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:641][538]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.11.06-13.47.48:749][538]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.06-13.47.48:750][538]LogExit: Editor shut down
+[2019.11.06-13.47.48:753][538]LogExit: Transaction tracking system shut down
+[2019.11.06-13.47.49:292][538]LogExit: Object subsystem successfully closed.
+[2019.11.06-13.47.49:334][538]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.06-13.47.49:440][538]LogModuleManager: Shutting down and abandoning module BlueprintGraph (676)
+[2019.11.06-13.47.49:440][538]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (674)
+[2019.11.06-13.47.49:440][538]LogModuleManager: Shutting down and abandoning module Voice (672)
+[2019.11.06-13.47.49:441][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (670)
+[2019.11.06-13.47.49:441][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (668)
+[2019.11.06-13.47.49:443][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (667)
+[2019.11.06-13.47.49:443][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (664)
+[2019.11.06-13.47.49:443][538]LogModuleManager: Shutting down and abandoning module CollectionManager (662)
+[2019.11.06-13.47.49:444][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (660)
+[2019.11.06-13.47.49:444][538]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
+[2019.11.06-13.47.49:445][538]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
+[2019.11.06-13.47.49:445][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
+[2019.11.06-13.47.49:446][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module BspMode (640)
+[2019.11.06-13.47.49:450][538]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
+[2019.11.06-13.47.49:451][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
+[2019.11.06-13.47.49:452][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
+[2019.11.06-13.47.49:452][538]LogModuleManager: Shutting down and abandoning module OculusMR (632)
+[2019.11.06-13.47.49:452][538]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
+[2019.11.06-13.47.49:453][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
+[2019.11.06-13.47.49:453][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
+[2019.11.06-13.47.49:458][538]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
+[2019.11.06-13.47.49:458][538]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
+[2019.11.06-13.47.49:460][538]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
+[2019.11.06-13.47.49:460][538]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
+[2019.11.06-13.47.49:461][538]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
+[2019.11.06-13.47.49:461][538]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
+[2019.11.06-13.47.49:461][538]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
+[2019.11.06-13.47.49:461][538]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
+[2019.11.06-13.47.49:461][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
+[2019.11.06-13.47.49:462][538]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module SessionServices (576)
+[2019.11.06-13.47.49:464][538]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
+[2019.11.06-13.47.49:466][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
+[2019.11.06-13.47.49:466][538]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
+[2019.11.06-13.47.49:466][538]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
+[2019.11.06-13.47.49:468][538]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
+[2019.11.06-13.47.49:470][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
+[2019.11.06-13.47.49:472][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
+[2019.11.06-13.47.49:472][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
+[2019.11.06-13.47.49:473][538]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
+[2019.11.06-13.47.49:473][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
+[2019.11.06-13.47.49:473][538]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
+[2019.11.06-13.47.49:473][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
+[2019.11.06-13.47.49:474][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
+[2019.11.06-13.47.50:240][538]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
+[2019.11.06-13.47.50:240][538]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
+[2019.11.06-13.47.50:240][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
+[2019.11.06-13.47.50:240][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
+[2019.11.06-13.47.50:240][538]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
+[2019.11.06-13.47.50:240][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
+[2019.11.06-13.47.50:241][538]LogModuleManager: Shutting down and abandoning module MergeActors (536)
+[2019.11.06-13.47.50:242][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
+[2019.11.06-13.47.50:243][538]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
+[2019.11.06-13.47.50:244][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
+[2019.11.06-13.47.50:244][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
+[2019.11.06-13.47.50:244][538]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
+[2019.11.06-13.47.50:245][538]LogModuleManager: Shutting down and abandoning module XmlParser (524)
+[2019.11.06-13.47.50:245][538]LogModuleManager: Shutting down and abandoning module Blutility (522)
+[2019.11.06-13.47.50:245][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
+[2019.11.06-13.47.50:245][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
+[2019.11.06-13.47.50:245][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
+[2019.11.06-13.47.50:246][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
+[2019.11.06-13.47.50:247][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
+[2019.11.06-13.47.50:247][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
+[2019.11.06-13.47.50:248][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
+[2019.11.06-13.47.50:248][538]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
+[2019.11.06-13.47.50:250][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
+[2019.11.06-13.47.50:305][538]LogModuleManager: Shutting down and abandoning module AutomationController (502)
+[2019.11.06-13.47.50:305][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
+[2019.11.06-13.47.50:306][538]LogModuleManager: Shutting down and abandoning module Layers (498)
+[2019.11.06-13.47.50:308][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
+[2019.11.06-13.47.50:308][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
+[2019.11.06-13.47.50:308][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
+[2019.11.06-13.47.50:309][538]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
+[2019.11.06-13.47.50:312][538]LogModuleManager: Shutting down and abandoning module Persona (488)
+[2019.11.06-13.47.50:314][538]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
+[2019.11.06-13.47.50:315][538]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
+[2019.11.06-13.47.50:315][538]LogModuleManager: Shutting down and abandoning module Kismet (482)
+[2019.11.06-13.47.50:321][538]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
+[2019.11.06-13.47.50:322][538]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
+[2019.11.06-13.47.50:322][538]LogModuleManager: Shutting down and abandoning module StructViewer (476)
+[2019.11.06-13.47.50:322][538]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
+[2019.11.06-13.47.50:322][538]LogModuleManager: Shutting down and abandoning module Toolbox (472)
+[2019.11.06-13.47.50:322][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (471)
+[2019.11.06-13.47.50:323][538]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.11.06-13.47.50:323][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.11.06-13.47.50:330][538]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.11.06-13.47.50:331][538]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.11.06-13.47.50:331][538]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.11.06-13.47.50:331][538]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.11.06-13.47.50:333][538]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.11.06-13.47.50:333][538]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.11.06-13.47.50:333][538]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.11.06-13.47.50:333][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.11.06-13.47.50:334][538]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.11.06-13.47.50:334][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.11.06-13.47.50:334][538]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.11.06-13.47.50:334][538]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.11.06-13.47.50:334][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.11.06-13.47.50:334][538]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.11.06-13.47.50:335][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.11.06-13.47.50:335][538]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.11.06-13.47.50:336][538]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.11.06-13.47.50:336][538]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (430)
+[2019.11.06-13.47.50:341][538]LogModuleManager: Shutting down and abandoning module ProfilerService (428)
+[2019.11.06-13.47.50:496][538]LogModuleManager: Shutting down and abandoning module TaskGraph (426)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module ScreenshotTools (424)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module SteamVRController (422)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (420)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (418)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module OculusEditor (416)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module OculusInput (414)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (412)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module EditableMesh (410)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module CableComponent (406)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module AudioCapture (404)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (402)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (400)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module AppleImageUtils (398)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
+[2019.11.06-13.47.50:498][538]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
+[2019.11.06-13.47.50:499][538]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
+[2019.11.06-13.47.50:500][538]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
+[2019.11.06-13.47.50:500][538]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (378)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (376)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module BackChannel (374)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (372)
+[2019.11.06-13.47.50:501][538]LogModuleManager: Shutting down and abandoning module AutomationUtils (370)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module AlembicImporter (368)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module AlembicLibrary (367)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module GeometryCache (366)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (365)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module VariantManagerContent (360)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (358)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (356)
+[2019.11.06-13.47.50:502][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (354)
+[2019.11.06-13.47.50:505][538]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (352)
+[2019.11.06-13.47.50:507][538]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (350)
+[2019.11.06-13.47.50:507][538]LogModuleManager: Shutting down and abandoning module CurveEditorTools (348)
+[2019.11.06-13.47.50:508][538]LogModuleManager: Shutting down and abandoning module CurveEditor (347)
+[2019.11.06-13.47.50:510][538]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (344)
+[2019.11.06-13.47.50:510][538]LogModuleManager: Shutting down and abandoning module CryptoKeys (342)
+[2019.11.06-13.47.50:510][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (340)
+[2019.11.06-13.47.50:511][538]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
+[2019.11.06-13.47.50:511][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
+[2019.11.06-13.47.50:511][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
+[2019.11.06-13.47.50:511][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (332)
+[2019.11.06-13.47.50:513][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (330)
+[2019.11.06-13.47.50:515][538]LogModuleManager: Shutting down and abandoning module SourceControl (329)
+[2019.11.06-13.47.50:515][538]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
+[2019.11.06-13.47.50:515][538]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (324)
+[2019.11.06-13.47.50:515][538]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (322)
+[2019.11.06-13.47.50:515][538]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (320)
+[2019.11.06-13.47.50:515][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (318)
+[2019.11.06-13.47.50:516][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (316)
+[2019.11.06-13.47.50:516][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (314)
+[2019.11.06-13.47.50:516][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (312)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module thirdpersron (310)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.11.06-13.47.50:519][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.11.06-13.47.50:621][538]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.11.06-13.47.50:721][538]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.11.06-13.47.50:722][538]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.11.06-13.47.50:722][538]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.11.06-13.47.50:723][538]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.11.06-13.47.50:724][538]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.11.06-13.47.50:728][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.11.06-13.47.50:729][538]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.11.06-13.47.50:730][538]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.11.06-13.47.50:731][538]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.11.06-13.47.50:732][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.11.06-13.47.50:733][538]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.11.06-13.47.50:733][538]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.11.06-13.47.50:734][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.11.06-13.47.50:734][538]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.11.06-13.47.50:734][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.11.06-13.47.50:740][538]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.11.06-13.47.50:741][538]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.11.06-13.47.50:741][538]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.11.06-13.47.50:741][538]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.11.06-13.47.50:741][538]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.11.06-13.47.50:742][538]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.11.06-13.47.50:742][538]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.11.06-13.47.50:742][538]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.11.06-13.47.50:742][538]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.11.06-13.47.50:743][538]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.11.06-13.47.50:744][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.11.06-13.47.50:744][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.11.06-13.47.50:747][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.11.06-13.47.50:748][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.11.06-13.47.50:750][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.11.06-13.47.50:751][538]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.11.06-13.47.50:752][538]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.11.06-13.47.50:752][538]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.11.06-13.47.50:756][538]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.11.06-13.47.50:757][538]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.11.06-13.47.50:759][538]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.11.06-13.47.50:759][538]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.11.06-13.47.50:759][538]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.11.06-13.47.50:762][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.11.06-13.47.50:763][538]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.11.06-13.47.50:764][538]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.11.06-13.47.50:764][538]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.11.06-13.47.50:764][538]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.11.06-13.47.50:768][538]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.11.06-13.47.50:768][538]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.11.06-13.47.50:770][538]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.11.06-13.47.50:770][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.11.06-13.47.50:827][538]LogDerivedDataCache: Shutdown
+[2019.11.06-13.47.50:828][538]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.11.06-13.47.50:828][538]LogXGEController: Cleaning working directory: C:/Users/jamie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.06-13.47.50:829][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.11.06-13.47.50:829][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.11.06-13.47.50:830][538]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.11.06-13.47.50:831][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.11.06-13.47.50:831][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.11.06-13.47.50:832][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.11.06-13.47.50:833][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.11.06-13.47.50:834][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.11.06-13.47.50:834][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.11.06-13.47.50:834][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.11.06-13.47.50:835][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.11.06-13.47.50:835][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.11.06-13.47.50:835][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.11.06-13.47.50:835][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.11.06-13.47.50:835][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.11.06-13.47.50:835][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.11.06-13.47.50:836][538]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.11.06-13.47.50:861][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.11.06-13.47.50:862][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.11.06-13.47.50:862][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.11.06-13.47.50:862][538]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.11.06-13.47.50:863][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.11.06-13.47.50:871][538]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.11.06-13.47.50:872][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.11.06-13.47.50:906][538]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.11.06-13.47.50:906][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.11.06-13.47.50:988][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.11.06-13.47.50:988][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.11.06-13.47.50:989][538]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.11.06-13.47.50:990][538]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.11.06-13.47.50:990][538]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.06-13.47.50:990][538]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.11.06-13.47.50:999][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.11.06-13.47.50:999][538]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.11.06-13.47.50:999][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.11.06-13.47.50:999][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.11.06-13.47.51:002][538]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.11.06-13.47.51:003][538]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.11.06-13.47.51:046][538]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.11.06-13.47.51:046][538]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.06-13.47.51:046][538]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2DFDDB04-4544-BB28-AEF8-DAAF0E789746%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=36caf47b480e3f616cb21d9877f97963%7Ca85322c062ab4204a0d5627d245a9e44%7C478f9311-b8c9-4c80-a953-d9d4014165d1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.06-13.47.51:071][538]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.11.06-13.47.51:093][538]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.11.06-13.47.51:119][538]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.11.06-13.47.51:122][538]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.11.06-13.47.51:123][538]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.11.06-13.47.51:124][538]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.11.06-13.47.51:124][538]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.11.06-13.47.51:125][538]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.11.06-13.47.51:125][538]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.06-13.47.51:126][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.06-13.47.51:127][538]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.06-13.47.51:135][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.06-13.47.51:137][538]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.06-13.47.51:137][538]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.06-13.47.51:138][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.06-13.47.51:157][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.06-13.47.51:158][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.06-13.47.51:159][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.06-13.47.51:159][538]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.06-13.47.51:159][538]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.06-13.47.51:160][538]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.06-13.47.51:160][538]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.06-13.47.51:162][538]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.06-13.47.51:162][538]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.06-13.47.51:163][538]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.06-13.47.51:163][538]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.06-13.47.51:165][538]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.06-13.47.51:226][538]LogD3D11RHI: Shutdown
+[2019.11.06-13.47.51:226][538]LogD3D11RHI: CleanupD3DDevice
+[2019.11.06-13.47.51:244][538]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.06-13.47.51:245][538]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.06-13.47.51:245][538]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.06-13.47.52:282][538]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.06-13.47.52:313][538]LogExit: Exiting.
+[2019.11.06-13.47.52:327][538]Log file closed, 11/06/19 13:47:52
