@@ -1,8 +1,9 @@
-﻿  Parsing headers for thirdpersronEditor
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jamie\Documents\GitHub\Third-PersRon).
+  Parsing headers for thirdpersronEditor
     Running UnrealHeaderTool "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for thirdpersronEditor in 34.1196965 seconds
+  Reflection code generated for thirdpersronEditor in 17.2841771 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Distributing 6 actions to XGE
+  Distributing 4 actions to XGE
   --------------------Build System Warning---------------------------------------
   License is invalid:
       License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
@@ -10,14 +11,12 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  thirdpersron.init.gen.cpp (0:14.67 at +0:00)
-  STrackerBot.gen.cpp (0:02.96 at +0:14)
-  STrackerBot.cpp (0:15.18 at +0:17)
-  UE4Editor-thirdpersron-0021.dll (0:01.26 at +0:32)
-     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.suppressed.exp
-  UE4Editor-thirdpersron-0021.lib (0:00.28 at +0:34)
-     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0021.exp
-  thirdpersronEditor.target (0:00.42 at +0:34)
+  EnemyCharacter.cpp (0:11.09 at +0:00)
+  UE4Editor-thirdpersron-0002.dll (0:01.40 at +0:11)
+     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.suppressed.exp
+  UE4Editor-thirdpersron-0002.lib (0:00.25 at +0:12)
+     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.exp
+  thirdpersronEditor.target (0:00.29 at +0:12)
   ---------------------- Done ----------------------
   
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
@@ -25,5 +24,5 @@
   1 build system warning(s):
      - License is invalid
   
-  Total time in XGE executor: 35.18 seconds
-  Total execution time: 72.17 seconds
+  Total time in XGE executor: 13.37 seconds
+  Total execution time: 33.73 seconds

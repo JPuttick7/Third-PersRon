@@ -11,6 +11,7 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodethirdpersron_init() {}
+	THIRDPERSRON_API UFunction* Z_Construct_UDelegateFunction_thirdpersron_OnEnemyHealthChanged__DelegateSignature();
 	THIRDPERSRON_API UFunction* Z_Construct_UDelegateFunction_thirdpersron_OnHealthChangedSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_thirdpersron()
 	{
@@ -18,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodethirdpersron_init() {}
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_thirdpersron_OnEnemyHealthChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_thirdpersron_OnHealthChangedSignature__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
@@ -25,8 +27,8 @@ void EmptyLinkFunctionForGeneratedCodethirdpersron_init() {}
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x3C27226F,
-				0x0E1851C1,
+				0x7DCF4DC4,
+				0x27AEC067,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

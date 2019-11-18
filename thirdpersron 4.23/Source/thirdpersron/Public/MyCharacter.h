@@ -6,8 +6,6 @@
 #include "MyCharacter.generated.h"
 
 
-
-
 //initializes classes
 class UCameraComponent; 
 class USpringArmComponent;

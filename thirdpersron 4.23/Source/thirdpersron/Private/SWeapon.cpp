@@ -23,7 +23,7 @@ ASWeapon::ASWeapon()
 	RootComponent = MeshComp; //assigns the RootComponent the value of MeshComp
 
 	MuzzleSocketName = "MuzzleSocket"; //assigns the name of the muzzle socket
-	TracerTargetName = "Target"; // assigns teh name of the target for the tracer
+	TracerTargetName = "Target"; // assigns the name of the target for the tracer
 
 	BaseDamage = 200;
 
