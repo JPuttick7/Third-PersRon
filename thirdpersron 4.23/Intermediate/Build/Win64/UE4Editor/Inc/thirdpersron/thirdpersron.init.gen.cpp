@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodethirdpersron_init() {}
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x7DCF4DC4,
+				0xA9ECF6EE,
 				0x27AEC067,
 				METADATA_PARAMS(nullptr, 0)
 			};

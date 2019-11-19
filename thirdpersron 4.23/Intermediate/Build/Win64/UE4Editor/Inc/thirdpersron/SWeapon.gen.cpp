@@ -126,9 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASWeapon_Statics::NewProp_TracerEffect_MetaData[] = {
 		{ "Category", "Weapon" },
-		{ "Comment", "//declares TracerEffect\n" },
 		{ "ModuleRelativePath", "Public/SWeapon.h" },
-		{ "ToolTip", "declares TracerEffect" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASWeapon_Statics::NewProp_TracerEffect = { "TracerEffect", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASWeapon, TracerEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASWeapon_Statics::NewProp_TracerEffect_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASWeapon_Statics::NewProp_TracerEffect_MetaData)) };
@@ -156,9 +154,9 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASWeapon_Statics::NewProp_DefaultImpactEffect_MetaData[] = {
 		{ "Category", "Weapon" },
-		{ "Comment", "//declares ImpactEffect\n" },
+		{ "Comment", "//Declares the effects to play for the weapons\n" },
 		{ "ModuleRelativePath", "Public/SWeapon.h" },
-		{ "ToolTip", "declares ImpactEffect" },
+		{ "ToolTip", "Declares the effects to play for the weapons" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASWeapon_Statics::NewProp_DefaultImpactEffect = { "DefaultImpactEffect", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASWeapon, DefaultImpactEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASWeapon_Statics::NewProp_DefaultImpactEffect_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASWeapon_Statics::NewProp_DefaultImpactEffect_MetaData)) };
@@ -250,7 +248,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASWeapon, 4174199485);
+	IMPLEMENT_CLASS(ASWeapon, 2455050036);
 	template<> THIRDPERSRON_API UClass* StaticClass<ASWeapon>()
 	{
 		return ASWeapon::StaticClass();

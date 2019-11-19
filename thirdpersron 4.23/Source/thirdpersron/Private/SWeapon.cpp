@@ -47,7 +47,7 @@ void ASWeapon::Fire() //function that fires the weapon
 		FRotator EyeRotation; //declares EyeRotation
 		MyOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation); //get the location of the characters eyes
 
-		FVector ShotDirection = EyeRotation.Vector(); //assign the direction of the shot to the 
+		FVector ShotDirection = EyeRotation.Vector(); //assign the direction of the shot to the rotation of the player eye
 
 		FVector TraceEnd = EyeLocation + (ShotDirection * 10000); //traces the direction of the shot that is fires
 
