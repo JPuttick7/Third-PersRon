@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\thirdpersron.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{49DE0056-07BC-461F-B794-F69893C9C36E}</UniqueIdentifier>
+      <UniqueIdentifier>{472C3BF2-C78A-4541-9ED3-0F4021308746}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\thirdpersron.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{25A31766-0609-4D04-BA2A-4FC7683D1C02}</UniqueIdentifier>
+      <UniqueIdentifier>{5BF1D0D7-2332-4CE1-B5A6-66972565F30E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\thirdpersron">
-      <UniqueIdentifier>{CCE78E71-1F50-4768-B810-5BC004737642}</UniqueIdentifier>
+      <UniqueIdentifier>{46E67B02-94B3-49A0-A6C0-C701F9198425}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\thirdpersron\thirdpersron.Build.cs">
       <Filter>Source\thirdpersron</Filter>
@@ -38,16 +38,13 @@
     <ClInclude Include="..\..\Source\thirdpersron\thirdpersron.h">
       <Filter>Source\thirdpersron</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\thirdpersron\thirdpersronGameModeBase.cpp">
-      <Filter>Source\thirdpersron</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\thirdpersron\thirdpersronGameModeBase.h">
-      <Filter>Source\thirdpersron</Filter>
-    </ClInclude>
     <Filter Include="Source\thirdpersron\Private">
-      <UniqueIdentifier>{6DFF25AF-F974-4EBB-AD84-45E31F63D915}</UniqueIdentifier>
+      <UniqueIdentifier>{DDDC39E3-12E7-495F-B721-556D715152D3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\EnemyCharacter.cpp">
+      <Filter>Source\thirdpersron\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\thirdpersron\Private\HordeGameMode.cpp">
       <Filter>Source\thirdpersron\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\thirdpersron\Private\MyCharacter.cpp">
@@ -57,13 +54,13 @@
       <Filter>Source\thirdpersron\Private</Filter>
     </ClCompile>
     <Filter Include="Source\thirdpersron\Private\AI">
-      <UniqueIdentifier>{C75AA6DB-C0BA-415D-86B8-23FE79BB1DB5}</UniqueIdentifier>
+      <UniqueIdentifier>{B26D9F44-49D9-42DA-8832-F303E50898A9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\AI\STrackerBot.cpp">
       <Filter>Source\thirdpersron\Private\AI</Filter>
     </ClCompile>
     <Filter Include="Source\thirdpersron\Private\Components">
-      <UniqueIdentifier>{44CD47A9-890A-40C6-A7DE-8EFF5B7EC5A8}</UniqueIdentifier>
+      <UniqueIdentifier>{36A61C04-710B-4ABF-B3AA-154ED567791D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\Components\EnemyHealthComponent.cpp">
       <Filter>Source\thirdpersron\Private\Components</Filter>
@@ -72,9 +69,12 @@
       <Filter>Source\thirdpersron\Private\Components</Filter>
     </ClCompile>
     <Filter Include="Source\thirdpersron\Public">
-      <UniqueIdentifier>{2450C922-BB29-4EA6-8570-5544F5AD06D5}</UniqueIdentifier>
+      <UniqueIdentifier>{25640861-1DE8-4CF1-8F95-BC842DBD669F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\EnemyCharacter.h">
+      <Filter>Source\thirdpersron\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\thirdpersron\Public\HordeGameMode.h">
       <Filter>Source\thirdpersron\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\thirdpersron\Public\MyCharacter.h">
@@ -84,13 +84,13 @@
       <Filter>Source\thirdpersron\Public</Filter>
     </ClInclude>
     <Filter Include="Source\thirdpersron\Public\AI">
-      <UniqueIdentifier>{19CA4C7A-6C91-409B-8BDC-74507912B466}</UniqueIdentifier>
+      <UniqueIdentifier>{19FABFBA-3EB8-4DF4-A33F-3ACC7C5628F2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\AI\STrackerBot.h">
       <Filter>Source\thirdpersron\Public\AI</Filter>
     </ClInclude>
     <Filter Include="Source\thirdpersron\Public\Components">
-      <UniqueIdentifier>{09D1F77B-12F1-4793-BEB0-4318B681DF8F}</UniqueIdentifier>
+      <UniqueIdentifier>{10516275-16FC-401E-A29E-454CA3B67AA8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\Components\EnemyHealthComponent.h">
       <Filter>Source\thirdpersron\Public\Components</Filter>

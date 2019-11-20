@@ -374,15 +374,15 @@
     <None Include="..\..\Source\thirdpersron\thirdpersron.Build.cs"/>
     <ClCompile Include="..\..\Source\thirdpersron\thirdpersron.cpp"/>
     <ClInclude Include="..\..\Source\thirdpersron\thirdpersron.h"/>
-    <ClCompile Include="..\..\Source\thirdpersron\thirdpersronGameModeBase.cpp"/>
-    <ClInclude Include="..\..\Source\thirdpersron\thirdpersronGameModeBase.h"/>
     <ClCompile Include="..\..\Source\thirdpersron\Private\EnemyCharacter.cpp"/>
+    <ClCompile Include="..\..\Source\thirdpersron\Private\HordeGameMode.cpp"/>
     <ClCompile Include="..\..\Source\thirdpersron\Private\MyCharacter.cpp"/>
     <ClCompile Include="..\..\Source\thirdpersron\Private\SWeapon.cpp"/>
     <ClCompile Include="..\..\Source\thirdpersron\Private\AI\STrackerBot.cpp"/>
     <ClCompile Include="..\..\Source\thirdpersron\Private\Components\EnemyHealthComponent.cpp"/>
     <ClCompile Include="..\..\Source\thirdpersron\Private\Components\SHealthComponent.cpp"/>
     <ClInclude Include="..\..\Source\thirdpersron\Public\EnemyCharacter.h"/>
+    <ClInclude Include="..\..\Source\thirdpersron\Public\HordeGameMode.h"/>
     <ClInclude Include="..\..\Source\thirdpersron\Public\MyCharacter.h"/>
     <ClInclude Include="..\..\Source\thirdpersron\Public\SWeapon.h"/>
     <ClInclude Include="..\..\Source\thirdpersron\Public\AI\STrackerBot.h"/>
