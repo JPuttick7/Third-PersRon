@@ -1,0 +1,1968 @@
+﻿Log file open, 11/29/19 16:20:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: thirdpersron
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.773209
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.29-16.20.40:191][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.29-16.20.40:191][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.29-16.20.40:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:192][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.29-16.20.40:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:192][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.29-16.20.40:192][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.29-16.20.40:192][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.29-16.20.40:193][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:193][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:207][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.29-16.20.40:208][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.29-16.20.40:209][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.29-16.20.40:211][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.29-16.20.40:211][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.29-16.20.40:233][  0]LogHAL: Display: Platform has ~ 16 GB [17022173184 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.29-16.20.40:233][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.29-16.20.40:234][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.29-16.20.40:234][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.29-16.20.40:235][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.29-16.20.40:247][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.29-16.20.40:247][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.29-16.20.40:247][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Config/Windows/Engine.ini]
+[2019.11.29-16.20.40:249][  0]LogInit: Computer: J-ZEPHYRUS
+[2019.11.29-16.20.40:249][  0]LogInit: User: Jamie
+[2019.11.29-16.20.40:250][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.11.29-16.20.40:250][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.29-16.20.40:252][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.29-16.20.40:252][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.29-16.20.40:252][  0]LogMemory: Process Physical Memory: 100.32 MB used, 100.32 MB peak
+[2019.11.29-16.20.40:252][  0]LogMemory: Process Virtual Memory: 103.85 MB used, 103.85 MB peak
+[2019.11.29-16.20.40:252][  0]LogMemory: Physical Memory: 5834.32 MB used,  10399.29 MB free, 16233.61 MB total
+[2019.11.29-16.20.40:252][  0]LogMemory: Virtual Memory: 4689.11 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.11.29-16.20.40:338][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.29-16.20.40:708][  0]LogInit: Using OS detected language (en-GB).
+[2019.11.29-16.20.40:708][  0]LogInit: Using OS detected locale (en-GB).
+[2019.11.29-16.20.40:711][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.11.29-16.20.41:454][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.29-16.20.41:626][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.29-16.20.41:626][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.29-16.20.44:089][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.29-16.20.44:089][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.29-16.20.44:183][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2019.11.29-16.20.44:183][  0]LogD3D11RHI:       5980/0/8116 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.29-16.20.44:204][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.11.29-16.20.44:204][  0]LogD3D11RHI:       128/0/8116 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.29-16.20.44:207][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.29-16.20.44:207][  0]LogD3D11RHI:       0/0/8116 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.29-16.20.44:207][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.29-16.20.44:243][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.29-16.20.44:243][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.29-16.20.44:243][  0]LogWindows: EnumDisplayDevices:
+[2019.11.29-16.20.44:243][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.11.29-16.20.44:243][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.29-16.20.44:244][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.29-16.20.44:244][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.11.29-16.20.44:245][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.11.29-16.20.44:246][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.11.29-16.20.44:247][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.11.29-16.20.44:247][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.29-16.20.44:247][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2019.11.29-16.20.44:247][  0]LogD3D11RHI:   Driver Version: 431.87 (internal:26.21.14.3187, unified:431.87)
+[2019.11.29-16.20.44:248][  0]LogD3D11RHI:      Driver Date: 8-28-2019
+[2019.11.29-16.20.44:248][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2019.11.29-16.20.44:293][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.29-16.20.44:316][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.29-16.20.44:813][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.29-16.20.44:824][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.29-16.20.44:833][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.29-16.20.44:842][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.29-16.20.44:857][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.29-16.20.44:869][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.29-16.20.44:879][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.29-16.20.44:891][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.29-16.20.44:898][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.29-16.20.44:942][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.29-16.20.44:946][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.29-16.20.44:977][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.29-16.20.44:977][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.29-16.20.44:992][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.29-16.20.44:992][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.29-16.20.45:002][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.29-16.20.45:011][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.29-16.20.45:022][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.29-16.20.45:039][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.29-16.20.45:067][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.29-16.20.45:067][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.29-16.20.45:069][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.29-16.20.45:115][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.29-16.20.45:273][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Intermediate/Shaders/WorkingDirectory/6428/).
+[2019.11.29-16.20.45:273][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jamie/AppData/Local/Temp/UnrealShaderWorkingDir/07F5FC5245C4B438CAF462B6037367FB/'.
+[2019.11.29-16.20.45:276][  0]LogXGEController: Cleaning working directory: C:/Users/Jamie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.29-16.20.45:277][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.29-16.20.45:277][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.29-16.20.45:277][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.29-16.20.47:720][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.29-16.20.47:866][  0]LogDerivedDataCache: Loaded boot cache 0.15s 73MB C:/Users/Jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.29-16.20.47:866][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.29-16.20.47:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.29-16.20.47:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.29-16.20.47:867][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.29-16.20.47:867][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.29-16.20.47:886][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.29-16.20.47:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.29-16.20.47:886][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.29-16.20.47:888][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jamie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.29-16.20.47:888][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.29-16.20.47:888][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.29-16.20.47:909][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.29-16.20.47:917][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.29-16.20.47:935][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.29-16.20.48:209][  0]LogAssetRegistry: FAssetRegistry took 0.0056 seconds to start up
+[2019.11.29-16.20.48:602][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.29-16.20.48:933][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.29-16.20.48:933][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.29-16.20.48:933][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.29-16.20.48:933][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.29-16.20.48:933][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.29-16.20.48:985][  0]LogNetVersion: thirdpersron 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2728054761)
+[2019.11.29-16.20.50:175][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.059025 seconds
+[2019.11.29-16.20.50:182][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.29-16.20.50:182][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.29-16.20.50:182][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.29-16.20.53:582][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.29-16.20.53:588][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.29-16.20.53:738][  0]SourceControl: Source control is disabled
+[2019.11.29-16.20.53:739][  0]SourceControl: Source control is disabled
+[2019.11.29-16.20.53:751][  0]SourceControl: Source control is disabled
+[2019.11.29-16.20.53:754][  0]SourceControl: Source control is disabled
+[2019.11.29-16.20.54:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.29-16.20.54:842][  0]LogOcInput: OculusInput pre-init called
+[2019.11.29-16.20.54:858][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.29-16.20.54:858][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.29-16.20.55:015][  0]LogEngine: Initializing Engine...
+[2019.11.29-16.20.55:017][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.29-16.20.55:020][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2019.11.29-16.20.55:438][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.29-16.20.55:484][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.29-16.20.55:515][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.29-16.20.55:653][  0]LogInit: FAudioDevice initialized.
+[2019.11.29-16.20.55:653][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.29-16.20.55:704][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/Jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.29-16.20.55:708][  0]LogInit: Texture streaming: Enabled
+[2019.11.29-16.20.55:739][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.29-16.20.55:739][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.11.29-16.20.55:740][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.11.29-16.20.55:846][  0]LogInit: Transaction tracking system initialized
+[2019.11.29-16.20.55:929][  0]BlueprintLog: New page: Editor Load
+[2019.11.29-16.20.56:120][  0]LocalizationService: Localization service is disabled
+[2019.11.29-16.20.56:707][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.29-16.20.56:707][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.29-16.20.56:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/' took 0.04s
+[2019.11.29-16.20.57:221][  0]SourceControl: Source control is disabled
+[2019.11.29-16.20.57:223][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.29-16.20.57:229][  0]LightingResults: New page: Lighting Build
+[2019.11.29-16.20.57:241][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-16.20.57:243][  0]MapCheck: New page: Map Check
+[2019.11.29-16.20.57:243][  0]LightingResults: New page: Lighting Build
+[2019.11.29-16.20.57:275][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.11.29-16.21.00:444][  0]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.29-16.21.00:479][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.29-16.21.00:515][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.11.29-16.21.00:515][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.29-16.21.00:516][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.65ms to complete.
+[2019.11.29-16.21.00:516][  0]LogFileHelpers: Loading map 'MyLevel' took 3.294
+[2019.11.29-16.21.00:724][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-16.21.00:735][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-16.21.00:741][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-16.21.00:748][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-16.21.00:768][  0]LogCollectionManager: Loaded 0 collections in 0.001981 seconds
+[2019.11.29-16.21.00:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/Collections/' took 0.00s
+[2019.11.29-16.21.00:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Developers/Jamie/Collections/' took 0.00s
+[2019.11.29-16.21.00:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Collections/' took 0.00s
+[2019.11.29-16.21.00:795][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2019.11.29-16.21.00:809][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2877 classes and 687 folders.
+[2019.11.29-16.21.00:823][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.29-16.21.01:172][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.29-16.21.01:189][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.29-16.21.01:402][  0]LogSlate: Took 0.005005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.29-16.21.01:410][  0]LogSlate: Took 0.005402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.29-16.21.01:422][  0]LogSlate: Took 0.005642 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.29-16.21.01:524][  0]LogRenderer: Reallocating scene render targets to support 876x488 Format 10 NumSamples 1 (Frame:1).
+[2019.11.29-16.21.01:625][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.29-16.21.01:625][  0]LogLoad: (Engine Initialization) Total time: 30.94 seconds
+[2019.11.29-16.21.01:625][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.29-16.21.01:701][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.29-16.21.01:733][  0]LogSlate: Took 0.004354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.29-16.21.01:747][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/' took 0.09s
+[2019.11.29-16.21.02:413][ 12]LogAssetRegistry: Asset discovery search completed in 14.2047 seconds
+[2019.11.29-16.21.02:419][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000438 seconds (found 0 objects)
+[2019.11.29-16.21.02:419][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000537 seconds (updated 0 objects)
+[2019.11.29-16.21.02:812][ 14]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.29-16.21.02:816][ 14]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_TestGamemode.BP_TestGamemode
+[2019.11.29-16.21.03:139][ 14]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.11.29-16.21.03:969][ 14]LogSlate: Took 0.006770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.29-16.22.01:665][186]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={D82C2BB2-42E7-4226-D108-70908EE7A02F}
+[2019.11.29-16.24.16:644][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-16.24.16:817][655]LogSlate: Took 0.011542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.29-16.24.17:121][674]LogSlate: Window 'BP_TestGamemode' being destroyed
+[2019.11.29-16.24.17:890][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-16.24.22:311][981]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.11.29-16.24.28:722][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-16.24.30:053][440]Cmd: DELETE
+[2019.11.29-16.24.30:053][440]Cmd: ACTOR DELETE
+[2019.11.29-16.24.30:075][440]LogEditorActor: Deleted Actor: TestingPawn_C
+[2019.11.29-16.24.30:108][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.29-16.24.30:109][440]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2019.11.29-16.24.31:976][552]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.29-16.24.32:012][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-16.24.32:013][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.29-16.24.32:015][552]PIE: New page: PIE session: MyLevel (29 Nov 2019 16:24:32)
+[2019.11.29-16.24.32:017][552]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.29-16.24.32:019][552]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-16.24.32:027][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007854s)
+[2019.11.29-16.24.32:028][552]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.29-16.24.32:029][552]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2019.11.29-16.24.32:029][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyLevel.MyLevel to /Game/Maps/UEDPIE_0_MyLevel.MyLevel (0.009359s)
+[2019.11.29-16.24.32:059][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.11.29-16.24.32:067][552]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.29-16.24.32:140][552]LogInit: FAudioDevice initialized.
+[2019.11.29-16.24.32:148][552]LogLoad: Game class is 'BP_TestGamemode_C'
+[2019.11.29-16.24.32:151][552]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2019.11.29-16.24.32
+[2019.11.29-16.24.32:152][552]LogWorld: Bringing up level for play took: 0.001571
+[2019.11.29-16.24.32:152][552]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.11.29-16.24.32:162][552]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.11.29-16.24.32:169][552]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MyLevel -0.077
+[2019.11.29-16.24.32:169][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-16.24.38:122][888]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.24.38:218][894]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.24.38:339][900]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.24.38:420][903]LogTemp: Health Changed: 600.0
+[2019.11.29-16.24.38:928][930]LogTemp: Health Changed: 400.0
+[2019.11.29-16.24.39:038][936]LogTemp: Health Changed: 200.0
+[2019.11.29-16.24.39:324][953]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.39:424][959]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.39:922][986]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.40:222][  4]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.46:010][351]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.24.46:094][356]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.24.46:200][362]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.24.46:819][399]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.24.46:919][405]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.24.47:022][411]LogTemp: Health Changed: 800.0
+[2019.11.29-16.24.47:835][460]LogTemp: Health Changed: 600.0
+[2019.11.29-16.24.47:936][466]LogTemp: Health Changed: 400.0
+[2019.11.29-16.24.49:303][548]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.24.49:388][553]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.24.49:820][579]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.24.50:588][625]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.24.50:670][630]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.24.50:769][636]LogTemp: Health Changed: 800.0
+[2019.11.29-16.24.50:870][642]LogTemp: Health Changed: 600.0
+[2019.11.29-16.24.50:970][648]LogTemp: Health Changed: 400.0
+[2019.11.29-16.24.51:826][699]LogTemp: Health Changed: 900.0
+[2019.11.29-16.24.53:210][782]LogTemp: Health Changed: 200.0
+[2019.11.29-16.24.53:310][788]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.53:410][794]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.53:511][800]LogTemp: Health Changed: 200.0
+[2019.11.29-16.24.53:612][806]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.53:712][812]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.53:813][818]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.53:911][824]LogTemp: Health Changed: 0.0
+[2019.11.29-16.24.54:011][830]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.00:581][224]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.01:351][269]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.01:559][281]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.01:771][293]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.01:855][298]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.01:954][304]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.02:822][356]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.03:104][373]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.03:337][387]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.03:421][392]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.03:955][424]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.04:037][429]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.04:138][435]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.04:837][477]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.04:937][483]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.05:037][489]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.05:237][501]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.05:338][507]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.06:504][577]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.07:705][649]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.08:121][674]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.08:204][679]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.08:304][685]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.14:356][ 48]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.14:455][ 54]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.14:556][ 60]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.15:156][ 96]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.15:859][138]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.15:959][144]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.16:061][150]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:160][156]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:268][162]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:362][167]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:662][185]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:763][191]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:862][197]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.16:968][203]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.17:070][209]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.17:269][221]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.17:369][227]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.17:469][233]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.17:568][239]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.18:268][281]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.18:970][323]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.19:369][347]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.19:468][353]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.19:570][359]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.19:669][365]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.19:768][371]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.19:869][377]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.19:970][383]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.20:069][389]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.20:169][395]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.20:270][401]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.20:370][407]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.23:103][571]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.23:204][577]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.23:304][583]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.23:404][589]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.23:704][607]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.23:804][613]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.23:904][619]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.24:004][625]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.24:104][631]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.24:204][637]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.24:404][649]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.24:705][667]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.24:804][673]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.24:905][679]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.25:006][685]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.25:110][691]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.25:210][697]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.25:310][703]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.25:410][709]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.25:710][727]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.26:011][745]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.26:111][751]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.26:210][757]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.26:310][763]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.36:553][368]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.36:636][373]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.36:840][385]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.36:940][391]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.37:041][397]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.37:140][403]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.37:240][409]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.37:342][415]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.37:744][439]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.37:844][445]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.37:944][451]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.38:644][493]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.38:742][499]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.38:944][511]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.39:043][517]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.39:142][523]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.39:242][529]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.39:343][535]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.40:926][630]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.41:026][636]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.41:126][642]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.41:226][648]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.41:326][654]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.41:426][660]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.41:526][666]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.41:627][672]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.41:726][678]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.41:826][684]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.41:927][690]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.42:027][696]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.42:127][702]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.42:226][708]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.43:310][773]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.43:393][778]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.43:493][784]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.43:693][796]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.43:895][808]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.44:495][844]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.44:596][850]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.44:695][856]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.44:795][862]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.44:895][868]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.44:996][874]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.45:095][880]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.45:195][886]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.45:295][892]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.45:395][898]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.46:096][940]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.46:195][946]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.46:295][952]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.46:395][958]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.46:495][964]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.46:595][970]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.47:095][  0]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:195][  6]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:295][ 12]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:396][ 18]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:494][ 24]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:594][ 30]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:695][ 36]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:795][ 42]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:897][ 48]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.47:994][ 54]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.48:095][ 60]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.55:396][497]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.55:496][503]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.55:597][509]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.55:697][515]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.55:797][521]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.55:898][527]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.56:401][557]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.56:502][563]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.56:600][569]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.57:003][593]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.25.57:101][599]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.25.57:606][629]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.25.57:705][635]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.25.57:805][641]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.25.57:905][647]LogTemp: Health Changed: 800.0
+[2019.11.29-16.25.58:006][653]LogTemp: Health Changed: 600.0
+[2019.11.29-16.25.58:906][707]LogTemp: Health Changed: 400.0
+[2019.11.29-16.25.59:005][713]LogTemp: Health Changed: 200.0
+[2019.11.29-16.25.59:106][719]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.59:206][725]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.59:305][731]LogTemp: Health Changed: 0.0
+[2019.11.29-16.25.59:406][737]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.00:922][828]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.26.01:021][834]LogTemp: Health Changed: 400.0
+[2019.11.29-16.26.01:122][840]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.01:222][846]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.01:322][852]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.02:388][916]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.26.02:488][922]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.26.02:589][928]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.26.02:688][934]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.26.02:788][940]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.26.02:889][946]LogTemp: Health Changed: 800.0
+[2019.11.29-16.26.02:988][952]LogTemp: Health Changed: 600.0
+[2019.11.29-16.26.03:756][998]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.26.03:856][  4]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.26.03:957][ 10]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.26.04:690][ 54]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.26.04:774][ 59]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.26.04:874][ 65]LogTemp: Health Changed: 1800.0
+[2019.11.29-16.26.04:973][ 71]LogTemp: Health Changed: 400.0
+[2019.11.29-16.26.05:073][ 77]LogTemp: Health Changed: 200.0
+[2019.11.29-16.26.05:173][ 83]LogTemp: Health Changed: 200.0
+[2019.11.29-16.26.05:274][ 89]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.05:373][ 95]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.05:473][101]LogTemp: Health Changed: 1600.0
+[2019.11.29-16.26.05:574][107]LogTemp: Health Changed: 1400.0
+[2019.11.29-16.26.05:674][113]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.05:773][119]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.05:874][125]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.06:078][137]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.06:176][143]LogTemp: Health Changed: 1200.0
+[2019.11.29-16.26.06:276][149]LogTemp: Health Changed: 1000.0
+[2019.11.29-16.26.06:376][155]LogTemp: Health Changed: 800.0
+[2019.11.29-16.26.06:477][161]LogTemp: Health Changed: 600.0
+[2019.11.29-16.26.06:576][167]LogTemp: Health Changed: 400.0
+[2019.11.29-16.26.07:076][197]LogTemp: Health Changed: 200.0
+[2019.11.29-16.26.07:576][227]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.07:676][233]LogTemp: Health Changed: 0.0
+[2019.11.29-16.26.10:226][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-16.26.10:229][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-16.26.10:229][386]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-16.26.10:229][386]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-16.26.10:243][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.29-16.26.10:243][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-16.26.10:287][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-16.26.10:301][386]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.11.29-16.26.10:342][388]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.11.29-16.26.22:233][621]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.29-16.26.22:274][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.11.29-16.26.22:569][621]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/MyLevel039425924A55C9E199CE9FA6B589375F.tmp' to '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap'
+[2019.11.29-16.26.22:630][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyLevel_BuiltData" FILE="../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel_BuiltData.uasset" SILENT=true
+[2019.11.29-16.26.22:690][621]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/MyLevel_BuiltData6C69375642DA1EE67C33E2BEEB9C27D0.tmp' to '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel_BuiltData.uasset'
+[2019.11.29-16.26.23:441][664]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.29-16.29.01:391][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.29-17.35.33:658][657]LogHotReload: New module detected: UE4Editor-thirdpersron-0011.dll
+[2019.11.29-17.35.34:623][661]LogHotReload: Starting Hot-Reload from IDE
+[2019.11.29-17.35.34:862][661]LogUObjectHash: Compacting FUObjectHashTables data took  19.88ms
+[2019.11.29-17.35.34:957][661]LogContentBrowser: Native class hierarchy updated for 'thirdpersron' in 0.0038 seconds. Added 7 classes and 5 folders.
+[2019.11.29-17.35.34:967][661]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.11.29-17.35.35:104][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.11.29-17.35.35:185][661]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2878 classes and 689 folders.
+[2019.11.29-17.35.35:208][661]Display: HotReload took  0.6s.
+[2019.11.29-17.35.53:762][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.35.53:868][790]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.29-17.35.53:924][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.35.53:924][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.29-17.35.53:926][790]PIE: New page: PIE session: MyLevel (29 Nov 2019 17:35:53)
+[2019.11.29-17.35.53:928][790]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.35.53:975][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046521s)
+[2019.11.29-17.35.53:985][790]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.29-17.35.53:990][790]LogPlayLevel: PIE: World Init took: (0.014376s)
+[2019.11.29-17.35.53:990][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyLevel.MyLevel to /Game/Maps/UEDPIE_0_MyLevel.MyLevel (0.061487s)
+[2019.11.29-17.35.54:154][790]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.11.29-17.35.54:179][790]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.29-17.35.54:265][790]LogInit: FAudioDevice initialized.
+[2019.11.29-17.35.54:284][790]LogLoad: Game class is 'BP_TestGamemode_C'
+[2019.11.29-17.35.54:304][790]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2019.11.29-17.35.54
+[2019.11.29-17.35.54:306][790]LogWorld: Bringing up level for play took: 0.017909
+[2019.11.29-17.35.54:307][790]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.29-17.35.54:324][790]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MyLevel 0.08
+[2019.11.29-17.35.54:325][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.35.59:582][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.35.59:600][ 90]LogSlate: Took 0.008625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.29-17.36.00:457][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.29-17.36.02:224][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.29-17.36.03:632][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.29-17.36.04:224][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.29-17.36.04:484][365]LogTemp: Health Changed: 900.0
+[2019.11.29-17.36.06:610][492]LogTemp: Health Changed: 800.0
+[2019.11.29-17.36.07:350][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.36.07:354][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.36.07:354][536]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.36.07:356][536]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-17.36.07:366][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.29-17.36.07:367][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.36.07:418][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.36.07:462][536]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.11.29-17.36.07:474][537]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.29-17.36.09:469][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.36.09:602][664]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.29-17.36.09:632][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.36.09:633][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.29-17.36.09:633][664]PIE: New page: PIE session: MyLevel (29 Nov 2019 17:36:09)
+[2019.11.29-17.36.09:633][664]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.36.09:636][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003136s)
+[2019.11.29-17.36.09:637][664]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.29-17.36.09:638][664]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2019.11.29-17.36.09:638][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyLevel.MyLevel to /Game/Maps/UEDPIE_0_MyLevel.MyLevel (0.004769s)
+[2019.11.29-17.36.09:673][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.11.29-17.36.09:681][664]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.29-17.36.09:760][664]LogInit: FAudioDevice initialized.
+[2019.11.29-17.36.09:766][664]LogLoad: Game class is 'BP_TestGamemode_C'
+[2019.11.29-17.36.09:768][664]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2019.11.29-17.36.09
+[2019.11.29-17.36.09:768][664]LogWorld: Bringing up level for play took: 0.001312
+[2019.11.29-17.36.09:768][664]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.11.29-17.36.09:770][664]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MyLevel -0.475
+[2019.11.29-17.36.09:771][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.36.17:485][120]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.36.17:569][125]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.36.18:785][198]LogTemp: Health Changed: 900.0
+[2019.11.29-17.36.20:911][324]LogTemp: Health Changed: 800.0
+[2019.11.29-17.36.22:811][438]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.36.22:911][444]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.36.23:011][450]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.36.23:112][456]LogTemp: Health Changed: 800.0
+[2019.11.29-17.36.23:211][462]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.23:311][468]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.30:736][887]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.36.30:919][898]LogTemp: Health Changed: 400.0
+[2019.11.29-17.36.32:052][966]LogTemp: Health Changed: 200.0
+[2019.11.29-17.36.33:653][ 62]LogTemp: Health Changed: 700.0
+[2019.11.29-17.36.34:553][116]LogTemp: Health Changed: 600.0
+[2019.11.29-17.36.36:236][217]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.36.37:136][271]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.37:219][276]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.39:652][422]LogTemp: Health Changed: 500.0
+[2019.11.29-17.36.39:869][435]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.36.39:953][440]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.36.40:553][476]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.36.40:753][488]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.36.40:853][494]LogTemp: Health Changed: 800.0
+[2019.11.29-17.36.40:953][500]LogTemp: Health Changed: 600.0
+[2019.11.29-17.36.41:052][506]LogTemp: Health Changed: 400.0
+[2019.11.29-17.36.41:153][512]LogTemp: Health Changed: 200.0
+[2019.11.29-17.36.41:252][518]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.41:353][524]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.41:453][530]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.47:994][901]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.36.48:079][906]LogTemp: Health Changed: 400.0
+[2019.11.29-17.36.48:478][930]LogTemp: Health Changed: 200.0
+[2019.11.29-17.36.48:678][942]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.48:878][954]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.48:977][960]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.49:077][966]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.49:178][972]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.49:278][978]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.49:378][984]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.49:478][990]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.50:278][ 38]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.36.50:378][ 44]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.36.50:478][ 50]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.36.50:778][ 68]LogTemp: Health Changed: 600.0
+[2019.11.29-17.36.50:877][ 74]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.50:977][ 80]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.51:077][ 86]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.51:178][ 92]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.51:278][ 98]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.51:377][104]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.51:478][110]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.53:028][203]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.36.53:111][208]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.36.53:211][214]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.36.53:311][220]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.36.53:411][226]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.36.53:511][232]LogTemp: Health Changed: 800.0
+[2019.11.29-17.36.53:611][238]LogTemp: Health Changed: 600.0
+[2019.11.29-17.36.53:711][244]LogTemp: Health Changed: 400.0
+[2019.11.29-17.36.53:811][250]LogTemp: Health Changed: 200.0
+[2019.11.29-17.36.53:911][256]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.54:011][262]LogTemp: Health Changed: 0.0
+[2019.11.29-17.36.54:111][268]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.02:175][732]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.02:276][738]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.02:792][769]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.03:077][786]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.03:176][792]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.04:543][874]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.04:843][892]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.04:943][898]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.05:043][904]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.05:144][910]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.05:243][916]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.05:343][922]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.05:643][940]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.05:944][958]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.08:376][104]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.08:477][110]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.08:577][116]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.08:678][122]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.08:877][134]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.08:976][140]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.09:177][152]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.09:277][158]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.10:077][206]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.10:277][218]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.10:576][236]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.10:677][242]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.10:777][248]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.10:877][254]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.10:977][260]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.11:076][266]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.11:177][272]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.11:277][278]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.12:477][350]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.19:566][750]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.19:651][755]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.19:752][761]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.20:051][779]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.20:218][789]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.20:302][794]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.21:069][840]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.21:461][862]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.21:561][868]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.21:661][874]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.21:760][880]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.21:860][886]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.21:961][892]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.22:062][898]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.23:910][  9]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.24:094][ 20]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.24:194][ 26]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.24:293][ 32]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.24:695][ 56]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.24:794][ 62]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.25:294][ 92]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.25:394][ 98]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.25:494][104]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.25:794][122]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.25:894][128]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.25:994][134]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.26:094][140]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.26:794][182]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.27:295][212]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.27:394][218]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.28:094][260]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.28:195][266]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.28:295][272]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.28:395][278]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.28:495][284]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.28:596][290]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.28:695][296]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.28:795][302]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.29:196][326]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.29:295][332]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.30:095][380]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.30:195][386]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:295][392]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:397][398]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:495][404]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:595][410]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:695][416]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:795][422]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:895][428]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.30:995][434]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.31:095][440]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.37:656][811]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.37:738][816]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.38:338][852]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.38:438][858]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.38:538][864]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.38:639][870]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.38:738][876]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.38:838][882]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.39:739][936]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.39:938][948]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.40:038][954]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.40:138][960]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.40:238][966]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.40:339][972]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.41:139][ 20]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.41:239][ 26]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.41:739][ 56]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.42:038][ 74]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.42:538][104]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.42:638][110]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.42:739][116]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.42:838][122]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.42:938][128]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.43:039][134]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.45:088][257]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.45:389][275]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.45:488][281]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.45:588][287]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.45:689][293]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.45:788][299]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.45:888][305]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.46:088][317]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.46:189][323]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.47:505][402]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.47:588][407]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.47:989][431]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.48:088][437]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.48:188][443]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.48:288][449]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.48:689][473]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.48:789][479]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.48:989][491]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.49:089][497]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.49:288][509]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.49:389][515]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.49:588][527]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.49:688][533]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.49:789][539]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.49:988][551]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:088][557]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:188][563]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:289][569]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:388][575]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:589][587]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:688][593]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:788][599]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:888][605]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.50:988][611]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.56:335][925]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.56:417][930]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.56:519][936]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.56:618][942]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:096][961]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:128][963]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:228][969]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:329][975]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:428][981]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:528][987]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.57:629][993]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.58:212][ 26]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.37.58:311][ 30]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.37.58:411][ 36]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.37.58:711][ 54]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.37.58:811][ 60]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.37.58:911][ 66]LogTemp: Health Changed: 800.0
+[2019.11.29-17.37.59:011][ 72]LogTemp: Health Changed: 600.0
+[2019.11.29-17.37.59:112][ 78]LogTemp: Health Changed: 400.0
+[2019.11.29-17.37.59:211][ 84]LogTemp: Health Changed: 200.0
+[2019.11.29-17.37.59:311][ 90]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.59:411][ 96]LogTemp: Health Changed: 0.0
+[2019.11.29-17.37.59:511][102]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.00:628][169]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.00:928][187]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.01:029][193]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.01:128][199]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.01:228][205]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.01:328][211]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.01:429][217]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.01:529][223]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.01:628][229]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.01:729][235]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.01:929][247]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.02:028][253]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.02:128][259]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.02:528][283]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.02:629][289]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.02:728][295]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.03:528][343]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.03:628][349]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.03:728][355]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.03:828][361]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.04:228][385]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.04:328][391]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.04:429][397]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.04:528][403]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.04:628][409]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.04:729][415]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.04:828][421]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.04:929][427]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.05:029][433]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.06:928][547]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.07:029][553]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.07:163][561]LogTemp: Health Changed: 300.0
+[2019.11.29-17.38.07:928][607]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.08:028][613]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.08:128][619]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.08:228][625]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.14:440][996]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.14:524][  1]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.14:624][  7]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.15:278][ 32]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.15:560][ 49]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.16:160][ 85]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.16:259][ 91]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.16:361][ 97]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.16:460][103]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.16:860][127]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.16:961][133]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.17:728][179]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.17:828][185]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.17:928][191]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.18:027][197]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.18:128][203]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.18:730][239]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.19:030][257]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.19:132][263]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.19:330][275]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.19:432][281]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.20:031][317]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.21:151][384]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.21:352][396]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.21:452][402]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.21:552][408]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.22:052][438]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.22:352][456]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.22:462][461]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.22:562][467]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.22:661][473]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.22:762][479]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.22:861][485]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.22:961][491]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.23:061][497]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.23:162][503]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.23:461][521]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.23:561][527]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.26:362][695]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.26:461][701]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.26:561][707]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.26:861][725]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.26:961][731]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.27:061][737]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.27:162][743]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.27:261][749]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.27:662][773]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.28:162][803]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.28:262][809]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.28:362][815]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.28:461][821]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.28:561][827]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.28:662][833]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.28:761][839]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.29:061][857]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.29:161][863]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.29:261][869]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.29:461][881]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.29:762][899]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.29:861][905]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.30:062][917]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.30:162][923]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.30:762][959]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.30:862][965]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.30:961][971]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.31:061][977]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.31:162][983]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.31:262][989]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.31:361][995]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.31:461][  1]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.32:061][ 37]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.38:243][388]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.38:543][406]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.38:743][418]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.39:143][442]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.39:243][448]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.39:343][454]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.39:444][460]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.39:543][466]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.39:644][472]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.39:744][478]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.40:243][508]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.40:344][514]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.40:744][538]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.40:843][544]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.40:945][550]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.41:043][556]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.41:244][568]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.41:443][580]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.41:544][586]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.41:644][592]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.41:944][610]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.42:245][628]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.42:444][640]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.42:845][664]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.43:044][676]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.43:145][682]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.43:245][688]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.43:345][694]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.43:944][730]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.44:045][736]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.44:144][742]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.44:345][754]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.44:945][790]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.45:247][808]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.46:046][856]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.46:147][862]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.46:248][868]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.46:348][874]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.46:446][880]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.46:547][886]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.46:645][892]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.46:746][898]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.46:945][910]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.48:795][ 21]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.49:695][ 75]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.49:778][ 80]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.49:878][ 86]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.50:279][110]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.50:379][116]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.50:479][122]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.50:579][128]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.50:679][134]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.50:779][140]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.50:878][146]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.50:979][152]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.51:079][158]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.51:179][164]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.51:879][206]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.51:980][212]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.52:080][218]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.52:479][242]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.52:679][254]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.52:779][260]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.52:879][266]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.52:979][272]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.53:079][278]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.38.53:180][284]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.38.53:279][290]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.53:378][296]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.53:479][302]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.38.53:579][308]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.38.53:679][314]LogTemp: Health Changed: 800.0
+[2019.11.29-17.38.53:779][320]LogTemp: Health Changed: 600.0
+[2019.11.29-17.38.53:879][326]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.53:979][332]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.54:080][338]LogTemp: Health Changed: 400.0
+[2019.11.29-17.38.54:180][344]LogTemp: Health Changed: 200.0
+[2019.11.29-17.38.54:279][350]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.54:380][356]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.54:479][362]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.54:580][368]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.54:679][374]LogTemp: Health Changed: 0.0
+[2019.11.29-17.38.58:929][629]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.38.59:032][635]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.01:279][770]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.01:380][776]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.01:579][788]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.01:679][794]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.01:779][800]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.01:878][806]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.07:887][149]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.07:974][150]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.39.08:068][151]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.39.08:536][179]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.08:636][185]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.08:919][202]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.09:001][207]LogTemp: Health Changed: 600.0
+[2019.11.29-17.39.09:102][213]LogTemp: Health Changed: 400.0
+[2019.11.29-17.39.09:204][219]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.10:119][274]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.10:202][279]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.11:088][332]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.11:187][338]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.39.11:286][344]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.39.11:388][350]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.11:488][356]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.11:586][362]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.11:687][368]LogTemp: Health Changed: 600.0
+[2019.11.29-17.39.11:786][374]LogTemp: Health Changed: 400.0
+[2019.11.29-17.39.11:887][380]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.11:988][386]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.39.12:086][392]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.39.12:387][410]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.12:486][416]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.12:587][422]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.12:687][428]LogTemp: Health Changed: 600.0
+[2019.11.29-17.39.12:788][434]LogTemp: Health Changed: 400.0
+[2019.11.29-17.39.12:887][440]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.13:188][458]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.13:586][482]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.13:687][488]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.14:087][512]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.14:288][524]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.14:386][530]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.15:889][620]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.15:988][626]LogTemp: Health Changed: 400.0
+[2019.11.29-17.39.16:088][632]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.16:392][650]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.16:495][656]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.16:695][668]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.16:793][674]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.39.16:893][680]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.39.16:993][686]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.17:093][692]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.39.17:194][698]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.17:293][704]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.17:394][710]LogTemp: Health Changed: 600.0
+[2019.11.29-17.39.17:494][716]LogTemp: Health Changed: 400.0
+[2019.11.29-17.39.17:594][722]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.18:192][758]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.18:793][794]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.18:894][800]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.19:093][812]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.19:194][818]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.19:293][824]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.19:594][842]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.21:194][938]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.39.21:396][950]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.21:495][956]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.21:794][974]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.21:894][980]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.21:994][986]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.22:194][998]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.22:294][  4]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.22:395][ 10]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.22:596][ 22]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.22:694][ 28]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.22:795][ 34]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.22:894][ 40]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.22:995][ 46]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.23:396][ 70]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.23:496][ 76]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.23:603][ 81]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.23:902][ 99]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.24:101][111]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.39.24:202][117]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.24:302][123]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.24:402][129]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.26:152][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.39.26:153][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.39.26:153][234]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.39.26:153][234]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-17.39.26:159][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.29-17.39.26:159][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.39.26:207][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.39.26:211][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.29-17.39.26:260][237]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.29-17.39.29:312][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.39.29:794][449]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.29-17.39.29:824][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.39.29:824][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.29-17.39.29:824][449]PIE: New page: PIE session: MyLevel (29 Nov 2019 17:39:29)
+[2019.11.29-17.39.29:824][449]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.39.29:828][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002900s)
+[2019.11.29-17.39.29:828][449]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.29-17.39.29:829][449]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2019.11.29-17.39.29:829][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyLevel.MyLevel to /Game/Maps/UEDPIE_0_MyLevel.MyLevel (0.004510s)
+[2019.11.29-17.39.29:863][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.11.29-17.39.29:869][449]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.29-17.39.29:950][449]LogInit: FAudioDevice initialized.
+[2019.11.29-17.39.29:957][449]LogLoad: Game class is 'BP_TestGamemode_C'
+[2019.11.29-17.39.29:959][449]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2019.11.29-17.39.29
+[2019.11.29-17.39.29:959][449]LogWorld: Bringing up level for play took: 0.001190
+[2019.11.29-17.39.29:959][449]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.11.29-17.39.29:961][449]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MyLevel -0.284
+[2019.11.29-17.39.29:961][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.39.37:371][882]LogTemp: Health Changed: 900.0
+[2019.11.29-17.39.39:488][  9]LogTemp: Health Changed: 800.0
+[2019.11.29-17.39.41:604][136]LogTemp: Health Changed: 700.0
+[2019.11.29-17.39.43:721][263]LogTemp: Health Changed: 600.0
+[2019.11.29-17.39.45:838][390]LogTemp: Health Changed: 500.0
+[2019.11.29-17.39.47:955][517]LogTemp: Health Changed: 400.0
+[2019.11.29-17.39.50:038][642]LogTemp: Health Changed: 300.0
+[2019.11.29-17.39.52:121][767]LogTemp: Health Changed: 200.0
+[2019.11.29-17.39.54:222][893]LogTemp: Health Changed: 100.0
+[2019.11.29-17.39.56:305][ 18]LogTemp: Health Changed: 0.0
+[2019.11.29-17.39.56:622][ 37]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.39.56:623][ 37]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.39.57:672][100]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.39.57:673][100]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.39.58:739][164]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.39.58:739][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.39.59:806][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.39.59:806][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.40.00:873][292]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.40.00:873][292]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.40.01:938][356]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.40.01:939][356]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.40.03:006][420]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.40.03:006][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.40.04:073][484]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.40.04:073][484]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.40.05:143][548]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.40.05:143][548]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.40.05:675][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.44.18:976][680]LogHotReload: New module detected: UE4Editor-thirdpersron-0012.dll
+[2019.11.29-17.45.54:220][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.45.54:837][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.45.54:837][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.45.55:921][110]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.45.55:922][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.45.56:506][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.45.56:506][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.45.56:506][145]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.45.56:508][145]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-17.45.56:517][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.29-17.45.56:518][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.45.56:559][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.45.56:564][145]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.29-17.45.56:662][146]LogHotReload: Starting Hot-Reload from IDE
+[2019.11.29-17.45.56:786][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.11.29-17.45.56:860][146]LogContentBrowser: Native class hierarchy updated for 'thirdpersron' in 0.0011 seconds. Added 7 classes and 5 folders.
+[2019.11.29-17.45.56:868][146]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.11.29-17.45.56:953][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.11.29-17.45.56:969][146]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2878 classes and 689 folders.
+[2019.11.29-17.45.56:977][146]Display: HotReload took  0.3s.
+[2019.11.29-17.45.56:983][146]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.29-17.45.59:355][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.45.59:469][272]LogSlate: Window 'Message Log' being destroyed
+[2019.11.29-17.45.59:472][272]LogSlate: Window 'Message Log' being destroyed
+[2019.11.29-17.46.00:429][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-17.46.00:529][335]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.29-17.46.00:569][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.46.00:569][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.29-17.46.00:569][335]PIE: New page: PIE session: MyLevel (29 Nov 2019 17:46:00)
+[2019.11.29-17.46.00:569][335]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.46.00:573][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003784s)
+[2019.11.29-17.46.00:573][335]LogAIModule: Creating AISystem for world MyLevel
+[2019.11.29-17.46.00:574][335]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2019.11.29-17.46.00:574][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyLevel.MyLevel to /Game/Maps/UEDPIE_0_MyLevel.MyLevel (0.005708s)
+[2019.11.29-17.46.00:654][335]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.11.29-17.46.00:661][335]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.29-17.46.00:749][335]LogInit: FAudioDevice initialized.
+[2019.11.29-17.46.00:758][335]LogLoad: Game class is 'BP_TestGamemode_C'
+[2019.11.29-17.46.00:760][335]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2019.11.29-17.46.00
+[2019.11.29-17.46.00:761][335]LogWorld: Bringing up level for play took: 0.001438
+[2019.11.29-17.46.00:761][335]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.11.29-17.46.00:764][335]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MyLevel 0.519
+[2019.11.29-17.46.00:764][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.46.08:092][763]LogTemp: Health Changed: 900.0
+[2019.11.29-17.46.09:509][848]LogTemp: Health Changed: 1800.0
+[2019.11.29-17.46.10:208][890]LogTemp: Health Changed: 800.0
+[2019.11.29-17.46.10:410][902]LogTemp: Health Changed: 1600.0
+[2019.11.29-17.46.10:513][908]LogTemp: Health Changed: 1400.0
+[2019.11.29-17.46.10:809][926]LogTemp: Health Changed: 1200.0
+[2019.11.29-17.46.11:110][944]LogTemp: Health Changed: 1000.0
+[2019.11.29-17.46.11:510][968]LogTemp: Health Changed: 200.0
+[2019.11.29-17.46.12:325][ 17]LogTemp: Health Changed: 700.0
+[2019.11.29-17.46.14:441][144]LogTemp: Health Changed: 600.0
+[2019.11.29-17.46.16:560][271]LogTemp: Health Changed: 500.0
+[2019.11.29-17.46.18:676][398]LogTemp: Health Changed: 400.0
+[2019.11.29-17.46.20:793][525]LogTemp: Health Changed: 300.0
+[2019.11.29-17.46.22:893][651]LogTemp: Health Changed: 200.0
+[2019.11.29-17.46.25:010][778]LogTemp: Health Changed: 100.0
+[2019.11.29-17.46.27:127][905]LogTemp: Health Changed: 0.0
+[2019.11.29-17.46.27:444][924]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.46.27:445][924]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.46.27:543][930]LogTemp: GAME OVER -- PLAYER DIED
+[2019.11.29-17.46.28:494][987]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.46.28:494][987]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.46.28:543][990]LogTemp: GAME OVER -- PLAYER DIED
+[2019.11.29-17.46.29:543][ 50]LogTemp: GAME OVER -- PLAYER DIED
+[2019.11.29-17.46.29:560][ 51]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.46.29:560][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.46.30:543][110]LogTemp: GAME OVER -- PLAYER DIED
+[2019.11.29-17.46.30:610][114]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.46.30:610][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.46.31:544][170]LogTemp: GAME OVER -- PLAYER DIED
+[2019.11.29-17.46.31:677][178]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.46.31:677][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.46.32:543][230]LogTemp: GAME OVER -- PLAYER DIED
+[2019.11.29-17.46.32:726][241]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	BTT_FindPlayerLocation_C /Game/Maps/UEDPIE_0_MyLevel.MyLevel:PersistentLevel.NPC_AI_C_0.BTComponent.BTT_FindPlayerLocation_C_0
+	Function /Game/Blueprints/AI/NPC/BTT_FindPLayerLocation.BTT_FindPlayerLocation_C:ExecuteUbergraph_BTT_FindPlayerLocation:0042
+[2019.11.29-17.46.32:727][241]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  BTT_FindPlayerLocation Function:  Execute Ubergraph BTT Find Player Location Graph:  EventGraph Node:  Set Blackboard Value as Vector
+[2019.11.29-17.46.33:127][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.46.33:128][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.46.33:128][265]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyLevel
+[2019.11.29-17.46.33:128][265]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-17.46.33:137][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.29-17.46.33:137][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MyLevel.MyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel' with GeneratedClass '/Game/Maps/MyLevel.MyLevel_C' with ClassGeneratedBy '/Game/Maps/MyLevel.MyLevel:PersistentLevel.MyLevel'
+[2019.11.29-17.46.33:187][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-17.46.33:213][265]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2019.11.29-17.46.33:231][265]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.29-17.46.33:284][266]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.29-17.46.35:866][415]LogSlate: Window 'Message Log' being destroyed
+[2019.11.29-17.46.35:872][415]LogSlate: Window 'Message Log' being destroyed
+[2019.11.29-18.28.19:622][119]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2019.11.29-18.28.21:083][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.11.29-18.28.24:755][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-18.28.24:913][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.11.29-18.28.25:135][433]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.25:264][433]LogSlate: Window 'thirdpersron - Unreal Editor' being destroyed
+[2019.11.29-18.28.25:672][434]Cmd: QUIT_EDITOR
+[2019.11.29-18.28.26:671][434]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.29-18.28.26:691][434]LogExit: Preparing to exit.
+[2019.11.29-18.28.26:938][434]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.26:941][434]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.26:943][434]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:946][434]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.29-18.28.26:949][434]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.27:019][434]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.11.29-18.28.27:058][434]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.29-18.28.27:059][434]LogExit: Editor shut down
+[2019.11.29-18.28.27:060][434]LogExit: Transaction tracking system shut down
+[2019.11.29-18.28.27:764][434]LogExit: Object subsystem successfully closed.
+[2019.11.29-18.28.27:816][434]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.29-18.28.27:920][434]LogModuleManager: Shutting down and abandoning module thirdpersron (680)
+[2019.11.29-18.28.27:921][434]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (678)
+[2019.11.29-18.28.27:921][434]LogModuleManager: Shutting down and abandoning module Voice (676)
+[2019.11.29-18.28.27:922][434]LogModuleManager: Shutting down and abandoning module BlueprintGraph (674)
+[2019.11.29-18.28.27:922][434]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (672)
+[2019.11.29-18.28.27:922][434]LogModuleManager: Shutting down and abandoning module SceneOutliner (670)
+[2019.11.29-18.28.27:922][434]LogModuleManager: Shutting down and abandoning module AddContentDialog (668)
+[2019.11.29-18.28.27:927][434]LogModuleManager: Shutting down and abandoning module WidgetCarousel (667)
+[2019.11.29-18.28.27:927][434]LogModuleManager: Shutting down and abandoning module EditorWidgets (664)
+[2019.11.29-18.28.27:927][434]LogModuleManager: Shutting down and abandoning module CollectionManager (662)
+[2019.11.29-18.28.27:928][434]LogModuleManager: Shutting down and abandoning module StatsViewer (660)
+[2019.11.29-18.28.27:930][434]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (658)
+[2019.11.29-18.28.27:930][434]LogModuleManager: Shutting down and abandoning module FoliageEdit (656)
+[2019.11.29-18.28.27:930][434]LogModuleManager: Shutting down and abandoning module LandscapeEditor (654)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module MeshPaintMode (652)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (650)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module ActorPickerMode (648)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module GeometryMode (646)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module TextureAlignMode (644)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module BspMode (642)
+[2019.11.29-18.28.27:935][434]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (640)
+[2019.11.29-18.28.27:936][434]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (638)
+[2019.11.29-18.28.27:937][434]LogModuleManager: Shutting down and abandoning module AutomationWorker (636)
+[2019.11.29-18.28.27:937][434]LogModuleManager: Shutting down and abandoning module OculusMR (634)
+[2019.11.29-18.28.27:937][434]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (632)
+[2019.11.29-18.28.27:937][434]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (630)
+[2019.11.29-18.28.27:938][434]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (628)
+[2019.11.29-18.28.27:943][434]LogModuleManager: Shutting down and abandoning module PlacementMode (627)
+[2019.11.29-18.28.27:943][434]LogModuleManager: Shutting down and abandoning module MaterialEditor (626)
+[2019.11.29-18.28.27:945][434]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (622)
+[2019.11.29-18.28.27:946][434]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (620)
+[2019.11.29-18.28.27:946][434]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (618)
+[2019.11.29-18.28.27:946][434]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (616)
+[2019.11.29-18.28.27:946][434]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (614)
+[2019.11.29-18.28.27:946][434]LogModuleManager: Shutting down and abandoning module WebMMedia (612)
+[2019.11.29-18.28.27:946][434]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (610)
+[2019.11.29-18.28.27:948][434]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (608)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module SequenceRecorder (607)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (604)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (602)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (600)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (598)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (596)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (594)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (592)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (590)
+[2019.11.29-18.28.27:951][434]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (588)
+[2019.11.29-18.28.27:952][434]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (586)
+[2019.11.29-18.28.27:952][434]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (584)
+[2019.11.29-18.28.27:952][434]LogModuleManager: Shutting down and abandoning module CharacterAI (582)
+[2019.11.29-18.28.27:952][434]LogModuleManager: Shutting down and abandoning module SmartSnapping (580)
+[2019.11.29-18.28.27:952][434]LogModuleManager: Shutting down and abandoning module SessionServices (578)
+[2019.11.29-18.28.27:952][434]LogModuleManager: Shutting down and abandoning module MeshPaint (576)
+[2019.11.29-18.28.27:953][434]LogModuleManager: Shutting down and abandoning module ViewportSnapping (574)
+[2019.11.29-18.28.27:953][434]LogModuleManager: Shutting down and abandoning module ViewportInteraction (572)
+[2019.11.29-18.28.27:954][434]LogModuleManager: Shutting down and abandoning module ClothPainter (570)
+[2019.11.29-18.28.27:956][434]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (569)
+[2019.11.29-18.28.27:957][434]LogModuleManager: Shutting down and abandoning module LogVisualizer (566)
+[2019.11.29-18.28.27:960][434]LogModuleManager: Shutting down and abandoning module IntroTutorials (564)
+[2019.11.29-18.28.27:961][434]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (563)
+[2019.11.29-18.28.27:962][434]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (560)
+[2019.11.29-18.28.27:962][434]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (558)
+[2019.11.29-18.28.27:962][434]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (556)
+[2019.11.29-18.28.27:962][434]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (554)
+[2019.11.29-18.28.27:962][434]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (553)
+[2019.11.29-18.28.29:533][434]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (550)
+[2019.11.29-18.28.29:533][434]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (548)
+[2019.11.29-18.28.29:533][434]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (546)
+[2019.11.29-18.28.29:533][434]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (544)
+[2019.11.29-18.28.29:533][434]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (542)
+[2019.11.29-18.28.29:534][434]LogModuleManager: Shutting down and abandoning module InputBindingEditor (540)
+[2019.11.29-18.28.29:534][434]LogModuleManager: Shutting down and abandoning module MergeActors (538)
+[2019.11.29-18.28.29:536][434]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (536)
+[2019.11.29-18.28.29:537][434]LogModuleManager: Shutting down and abandoning module LocalizationService (535)
+[2019.11.29-18.28.29:537][434]LogModuleManager: Shutting down and abandoning module HardwareTargeting (532)
+[2019.11.29-18.28.29:537][434]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (530)
+[2019.11.29-18.28.29:538][434]LogModuleManager: Shutting down and abandoning module UndoHistory (528)
+[2019.11.29-18.28.29:538][434]LogModuleManager: Shutting down and abandoning module XmlParser (526)
+[2019.11.29-18.28.29:539][434]LogModuleManager: Shutting down and abandoning module Blutility (524)
+[2019.11.29-18.28.29:539][434]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (522)
+[2019.11.29-18.28.29:539][434]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (521)
+[2019.11.29-18.28.29:540][434]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (518)
+[2019.11.29-18.28.29:540][434]LogModuleManager: Shutting down and abandoning module SettingsEditor (516)
+[2019.11.29-18.28.29:541][434]LogModuleManager: Shutting down and abandoning module ProjectLauncher (514)
+[2019.11.29-18.28.29:542][434]LogModuleManager: Shutting down and abandoning module SessionFrontend (512)
+[2019.11.29-18.28.29:543][434]LogModuleManager: Shutting down and abandoning module ProfilerClient (510)
+[2019.11.29-18.28.29:543][434]LogModuleManager: Shutting down and abandoning module DeviceManager (508)
+[2019.11.29-18.28.29:544][434]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (507)
+[2019.11.29-18.28.29:589][434]LogModuleManager: Shutting down and abandoning module AutomationController (504)
+[2019.11.29-18.28.29:590][434]LogModuleManager: Shutting down and abandoning module AutomationWindow (502)
+[2019.11.29-18.28.29:590][434]LogModuleManager: Shutting down and abandoning module Layers (500)
+[2019.11.29-18.28.29:593][434]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (498)
+[2019.11.29-18.28.29:593][434]LogModuleManager: Shutting down and abandoning module DetailCustomizations (496)
+[2019.11.29-18.28.29:593][434]LogModuleManager: Shutting down and abandoning module PackagesDialog (494)
+[2019.11.29-18.28.29:595][434]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (492)
+[2019.11.29-18.28.29:596][434]LogModuleManager: Shutting down and abandoning module Persona (490)
+[2019.11.29-18.28.29:598][434]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (489)
+[2019.11.29-18.28.29:598][434]LogModuleManager: Shutting down and abandoning module AnimGraph (487)
+[2019.11.29-18.28.29:598][434]LogModuleManager: Shutting down and abandoning module Kismet (484)
+[2019.11.29-18.28.29:612][434]LogModuleManager: Shutting down and abandoning module KismetWidgets (483)
+[2019.11.29-18.28.29:612][434]LogModuleManager: Shutting down and abandoning module GraphEditor (480)
+[2019.11.29-18.28.29:612][434]LogModuleManager: Shutting down and abandoning module StructViewer (478)
+[2019.11.29-18.28.29:612][434]LogModuleManager: Shutting down and abandoning module ClassViewer (476)
+[2019.11.29-18.28.29:613][434]LogModuleManager: Shutting down and abandoning module Toolbox (474)
+[2019.11.29-18.28.29:613][434]LogModuleManager: Shutting down and abandoning module DesktopPlatform (473)
+[2019.11.29-18.28.29:613][434]LogModuleManager: Shutting down and abandoning module ModuleUI (470)
+[2019.11.29-18.28.29:613][434]LogModuleManager: Shutting down and abandoning module MovieSceneTools (468)
+[2019.11.29-18.28.29:616][434]LogModuleManager: Shutting down and abandoning module OutputLog (466)
+[2019.11.29-18.28.29:617][434]LogModuleManager: Shutting down and abandoning module GammaUI (464)
+[2019.11.29-18.28.29:617][434]LogModuleManager: Shutting down and abandoning module Documentation (462)
+[2019.11.29-18.28.29:617][434]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
+[2019.11.29-18.28.29:618][434]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
+[2019.11.29-18.28.29:619][434]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
+[2019.11.29-18.28.29:619][434]LogModuleManager: Shutting down and abandoning module MovieScene (454)
+[2019.11.29-18.28.29:619][434]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
+[2019.11.29-18.28.29:620][434]LogModuleManager: Shutting down and abandoning module LauncherPlatform (450)
+[2019.11.29-18.28.29:620][434]LogModuleManager: Shutting down and abandoning module AnalyticsET (448)
+[2019.11.29-18.28.29:620][434]LogModuleManager: Shutting down and abandoning module PortalServices (446)
+[2019.11.29-18.28.29:620][434]LogModuleManager: Shutting down and abandoning module PortalRpc (444)
+[2019.11.29-18.28.29:620][434]LogModuleManager: Shutting down and abandoning module MessagingRpc (442)
+[2019.11.29-18.28.29:620][434]LogModuleManager: Shutting down and abandoning module AIModule (440)
+[2019.11.29-18.28.29:621][434]LogModuleManager: Shutting down and abandoning module GameplayDebugger (439)
+[2019.11.29-18.28.29:621][434]LogModuleManager: Shutting down and abandoning module AITestSuite (437)
+[2019.11.29-18.28.29:621][434]LogModuleManager: Shutting down and abandoning module NavigationSystem (435)
+[2019.11.29-18.28.29:621][434]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (432)
+[2019.11.29-18.28.29:624][434]LogModuleManager: Shutting down and abandoning module ProfilerService (430)
+[2019.11.29-18.28.29:757][434]LogModuleManager: Shutting down and abandoning module TaskGraph (428)
+[2019.11.29-18.28.29:758][434]LogModuleManager: Shutting down and abandoning module ScreenshotTools (426)
+[2019.11.29-18.28.29:758][434]LogModuleManager: Shutting down and abandoning module SteamVRController (424)
+[2019.11.29-18.28.29:758][434]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (422)
+[2019.11.29-18.28.29:758][434]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (420)
+[2019.11.29-18.28.29:758][434]LogModuleManager: Shutting down and abandoning module OculusEditor (418)
+[2019.11.29-18.28.29:759][434]LogModuleManager: Shutting down and abandoning module OculusInput (416)
+[2019.11.29-18.28.29:759][434]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (414)
+[2019.11.29-18.28.29:759][434]LogModuleManager: Shutting down and abandoning module EditableMesh (412)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (410)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module CableComponent (408)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module AudioCapture (406)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (404)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (402)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module AppleImageUtils (400)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
+[2019.11.29-18.28.29:760][434]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
+[2019.11.29-18.28.29:762][434]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2019.11.29-18.28.29:762][434]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (388)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (386)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (384)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module HTML5Networking (382)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (380)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (378)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module BackChannel (376)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (374)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module AutomationUtils (372)
+[2019.11.29-18.28.29:763][434]LogModuleManager: Shutting down and abandoning module AlembicImporter (370)
+[2019.11.29-18.28.29:764][434]LogModuleManager: Shutting down and abandoning module AlembicLibrary (369)
+[2019.11.29-18.28.29:764][434]LogModuleManager: Shutting down and abandoning module GeometryCache (368)
+[2019.11.29-18.28.29:764][434]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (367)
+[2019.11.29-18.28.29:764][434]LogModuleManager: Shutting down and abandoning module VariantManagerContent (362)
+[2019.11.29-18.28.29:764][434]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (360)
+[2019.11.29-18.28.29:765][434]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (358)
+[2019.11.29-18.28.29:765][434]LogModuleManager: Shutting down and abandoning module PluginBrowser (356)
+[2019.11.29-18.28.29:767][434]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (354)
+[2019.11.29-18.28.29:768][434]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (352)
+[2019.11.29-18.28.29:768][434]LogModuleManager: Shutting down and abandoning module CurveEditorTools (350)
+[2019.11.29-18.28.29:769][434]LogModuleManager: Shutting down and abandoning module CurveEditor (349)
+[2019.11.29-18.28.29:771][434]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (346)
+[2019.11.29-18.28.29:771][434]LogModuleManager: Shutting down and abandoning module CryptoKeys (344)
+[2019.11.29-18.28.29:771][434]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
+[2019.11.29-18.28.29:771][434]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (340)
+[2019.11.29-18.28.29:771][434]LogModuleManager: Shutting down and abandoning module UObjectPlugin (338)
+[2019.11.29-18.28.29:771][434]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (336)
+[2019.11.29-18.28.29:772][434]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
+[2019.11.29-18.28.29:773][434]LogModuleManager: Shutting down and abandoning module GitSourceControl (332)
+[2019.11.29-18.28.29:774][434]LogModuleManager: Shutting down and abandoning module SourceControl (331)
+[2019.11.29-18.28.29:775][434]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (328)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (326)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (324)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (320)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (318)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (316)
+[2019.11.29-18.28.29:776][434]LogModuleManager: Shutting down and abandoning module Paper2DEditor (314)
+[2019.11.29-18.28.29:779][434]LogModuleManager: Shutting down and abandoning module SignificanceManager (310)
+[2019.11.29-18.28.29:779][434]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (308)
+[2019.11.29-18.28.29:779][434]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (306)
+[2019.11.29-18.28.29:779][434]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (302)
+[2019.11.29-18.28.29:779][434]LogModuleManager: Shutting down and abandoning module ActorSequence (300)
+[2019.11.29-18.28.29:779][434]LogModuleManager: Shutting down and abandoning module UdpMessaging (298)
+[2019.11.29-18.28.29:879][434]LogModuleManager: Shutting down and abandoning module TcpMessaging (296)
+[2019.11.29-18.28.29:982][434]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (294)
+[2019.11.29-18.28.29:982][434]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (292)
+[2019.11.29-18.28.29:982][434]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (290)
+[2019.11.29-18.28.29:983][434]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (288)
+[2019.11.29-18.28.29:983][434]LogModuleManager: Shutting down and abandoning module MagicLeapController (286)
+[2019.11.29-18.28.29:983][434]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.29-18.28.29:983][434]LogModuleManager: Shutting down and abandoning module MagicLeapAR (284)
+[2019.11.29-18.28.29:983][434]LogModuleManager: Shutting down and abandoning module AugmentedReality (283)
+[2019.11.29-18.28.29:983][434]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (280)
+[2019.11.29-18.28.29:984][434]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (278)
+[2019.11.29-18.28.29:984][434]LogModuleManager: Shutting down and abandoning module FacialAnimation (276)
+[2019.11.29-18.28.29:984][434]LogModuleManager: Shutting down and abandoning module DataValidation (274)
+[2019.11.29-18.28.29:985][434]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (272)
+[2019.11.29-18.28.29:986][434]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2019.11.29-18.28.29:989][434]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2019.11.29-18.28.29:990][434]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (268)
+[2019.11.29-18.28.29:991][434]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2019.11.29-18.28.29:991][434]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2019.11.29-18.28.29:992][434]LogModuleManager: Shutting down and abandoning module ContentBrowser (261)
+[2019.11.29-18.28.29:994][434]LogModuleManager: Shutting down and abandoning module TreeMap (259)
+[2019.11.29-18.28.29:995][434]LogModuleManager: Shutting down and abandoning module AnimationSharing (256)
+[2019.11.29-18.28.29:995][434]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2019.11.29-18.28.29:995][434]LogModuleManager: Shutting down and abandoning module Paper2D (252)
+[2019.11.29-18.28.29:995][434]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (250)
+[2019.11.29-18.28.30:003][434]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (248)
+[2019.11.29-18.28.30:003][434]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (246)
+[2019.11.29-18.28.30:003][434]LogModuleManager: Shutting down and abandoning module PacketHandler (244)
+[2019.11.29-18.28.30:003][434]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (242)
+[2019.11.29-18.28.30:003][434]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (240)
+[2019.11.29-18.28.30:005][434]LogModuleManager: Shutting down and abandoning module MediaAssets (238)
+[2019.11.29-18.28.30:005][434]LogModuleManager: Shutting down and abandoning module Overlay (236)
+[2019.11.29-18.28.30:005][434]LogModuleManager: Shutting down and abandoning module OverlayEditor (235)
+[2019.11.29-18.28.30:005][434]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (232)
+[2019.11.29-18.28.30:007][434]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.11.29-18.28.30:008][434]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.11.29-18.28.30:009][434]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.11.29-18.28.30:009][434]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.11.29-18.28.30:011][434]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.11.29-18.28.30:012][434]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.11.29-18.28.30:013][434]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.11.29-18.28.30:015][434]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.11.29-18.28.30:015][434]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.11.29-18.28.30:017][434]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.11.29-18.28.30:020][434]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.11.29-18.28.30:020][434]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.11.29-18.28.30:022][434]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.11.29-18.28.30:022][434]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.11.29-18.28.30:022][434]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.11.29-18.28.30:026][434]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.11.29-18.28.30:027][434]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.11.29-18.28.30:027][434]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.11.29-18.28.30:027][434]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.11.29-18.28.30:028][434]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.11.29-18.28.30:029][434]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.11.29-18.28.30:030][434]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.11.29-18.28.30:031][434]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.11.29-18.28.30:031][434]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.11.29-18.28.30:031][434]LogDerivedDataCache: Shutdown
+[2019.11.29-18.28.30:031][434]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.11.29-18.28.30:031][434]LogXGEController: Cleaning working directory: C:/Users/Jamie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.29-18.28.30:032][434]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.11.29-18.28.30:032][434]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.11.29-18.28.30:032][434]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.11.29-18.28.30:033][434]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.11.29-18.28.30:033][434]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.11.29-18.28.30:033][434]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.11.29-18.28.30:034][434]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.11.29-18.28.30:034][434]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.11.29-18.28.30:034][434]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.11.29-18.28.30:034][434]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.11.29-18.28.30:036][434]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.11.29-18.28.30:049][434]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.11.29-18.28.30:049][434]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.11.29-18.28.30:050][434]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.11.29-18.28.30:050][434]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.11.29-18.28.30:050][434]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.11.29-18.28.30:055][434]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.11.29-18.28.30:055][434]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.11.29-18.28.30:059][434]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.11.29-18.28.30:059][434]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.11.29-18.28.30:088][434]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.11.29-18.28.30:089][434]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.11.29-18.28.30:090][434]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.11.29-18.28.30:090][434]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.11.29-18.28.30:090][434]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.11.29-18.28.30:091][434]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.11.29-18.28.30:091][434]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.29-18.28.30:091][434]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.11.29-18.28.30:091][434]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.11.29-18.28.30:091][434]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.11.29-18.28.30:091][434]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.11.29-18.28.30:091][434]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.11.29-18.28.30:093][434]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.11.29-18.28.30:094][434]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.11.29-18.28.30:128][434]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.11.29-18.28.30:128][434]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.29-18.28.30:128][434]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1269979B-4154-B0AB-9701-EEB14B238653%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=c50db520426ceff661abd880a32c62d1%7Ca85322c062ab4204a0d5627d245a9e44%7Cf744776d-9fd8-4043-b289-7c2d45ae40f3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.29-18.28.30:156][434]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.11.29-18.28.30:161][434]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.11.29-18.28.30:162][434]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.11.29-18.28.30:163][434]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.11.29-18.28.30:163][434]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.11.29-18.28.30:163][434]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.11.29-18.28.30:164][434]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.11.29-18.28.30:164][434]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.11.29-18.28.30:164][434]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.29-18.28.30:164][434]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.29-18.28.30:167][434]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.29-18.28.30:170][434]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.29-18.28.30:171][434]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.29-18.28.30:171][434]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.29-18.28.30:171][434]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.29-18.28.30:179][434]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.29-18.28.30:179][434]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.29-18.28.30:179][434]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.29-18.28.30:180][434]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.29-18.28.30:180][434]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.29-18.28.30:180][434]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.29-18.28.30:180][434]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.29-18.28.30:180][434]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.29-18.28.30:180][434]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.29-18.28.30:181][434]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.29-18.28.30:181][434]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.29-18.28.30:182][434]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.29-18.28.30:183][434]LogD3D11RHI: Shutdown
+[2019.11.29-18.28.30:184][434]LogD3D11RHI: CleanupD3DDevice
+[2019.11.29-18.28.30:189][434]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.29-18.28.30:190][434]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.29-18.28.30:190][434]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.29-18.28.30:345][434]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.29-18.28.30:359][434]LogExit: Exiting.
+[2019.11.29-18.28.30:374][434]Log file closed, 11/29/19 18:28:30

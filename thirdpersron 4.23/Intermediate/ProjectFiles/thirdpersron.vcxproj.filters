@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\thirdpersron.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{472C3BF2-C78A-4541-9ED3-0F4021308746}</UniqueIdentifier>
+      <UniqueIdentifier>{C885A281-8081-43C8-9087-95CFF9754F93}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\thirdpersron.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5BF1D0D7-2332-4CE1-B5A6-66972565F30E}</UniqueIdentifier>
+      <UniqueIdentifier>{E47C61ED-836E-4F22-A33A-61AF625F93F5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\thirdpersron">
-      <UniqueIdentifier>{46E67B02-94B3-49A0-A6C0-C701F9198425}</UniqueIdentifier>
+      <UniqueIdentifier>{EFC92109-0BC0-459A-89C1-977494041EF6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\thirdpersron\thirdpersron.Build.cs">
       <Filter>Source\thirdpersron</Filter>
@@ -39,7 +39,7 @@
       <Filter>Source\thirdpersron</Filter>
     </ClInclude>
     <Filter Include="Source\thirdpersron\Private">
-      <UniqueIdentifier>{DDDC39E3-12E7-495F-B721-556D715152D3}</UniqueIdentifier>
+      <UniqueIdentifier>{3473756F-389D-44C9-9A66-ADA14F305580}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\EnemyCharacter.cpp">
       <Filter>Source\thirdpersron\Private</Filter>
@@ -54,13 +54,13 @@
       <Filter>Source\thirdpersron\Private</Filter>
     </ClCompile>
     <Filter Include="Source\thirdpersron\Private\AI">
-      <UniqueIdentifier>{B26D9F44-49D9-42DA-8832-F303E50898A9}</UniqueIdentifier>
+      <UniqueIdentifier>{28765B2E-B4C8-44D3-9F61-EFACE7006F5C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\AI\STrackerBot.cpp">
       <Filter>Source\thirdpersron\Private\AI</Filter>
     </ClCompile>
     <Filter Include="Source\thirdpersron\Private\Components">
-      <UniqueIdentifier>{36A61C04-710B-4ABF-B3AA-154ED567791D}</UniqueIdentifier>
+      <UniqueIdentifier>{58F7CB4E-66D6-472E-A557-005C0DA4B93D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\thirdpersron\Private\Components\EnemyHealthComponent.cpp">
       <Filter>Source\thirdpersron\Private\Components</Filter>
@@ -69,7 +69,7 @@
       <Filter>Source\thirdpersron\Private\Components</Filter>
     </ClCompile>
     <Filter Include="Source\thirdpersron\Public">
-      <UniqueIdentifier>{25640861-1DE8-4CF1-8F95-BC842DBD669F}</UniqueIdentifier>
+      <UniqueIdentifier>{EC9ECD3D-5A68-4FEC-80F5-CD85535FA70F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\EnemyCharacter.h">
       <Filter>Source\thirdpersron\Public</Filter>
@@ -84,13 +84,13 @@
       <Filter>Source\thirdpersron\Public</Filter>
     </ClInclude>
     <Filter Include="Source\thirdpersron\Public\AI">
-      <UniqueIdentifier>{19FABFBA-3EB8-4DF4-A33F-3ACC7C5628F2}</UniqueIdentifier>
+      <UniqueIdentifier>{0E20F248-8646-4B36-8428-0EAE13F16C38}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\AI\STrackerBot.h">
       <Filter>Source\thirdpersron\Public\AI</Filter>
     </ClInclude>
     <Filter Include="Source\thirdpersron\Public\Components">
-      <UniqueIdentifier>{10516275-16FC-401E-A29E-454CA3B67AA8}</UniqueIdentifier>
+      <UniqueIdentifier>{06062777-06B7-4CA1-8F8D-1F4D1948A6E4}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\thirdpersron\Public\Components\EnemyHealthComponent.h">
       <Filter>Source\thirdpersron\Public\Components</Filter>

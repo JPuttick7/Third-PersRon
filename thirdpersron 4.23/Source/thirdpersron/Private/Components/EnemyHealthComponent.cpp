@@ -34,3 +34,8 @@ void UEnemyHealthComponent::HandleTakeAnyDamage(AActor* DamagedActor, float Dama
 
 	OnEnemyHealthChanged.Broadcast(this, EnemyHealth, Damage, DamageType, InstigatedBy, DamageCauser);
 }
+
+float UEnemyHealthComponent::GetHealth() const
+{
+	return EnemyHealth;
+}

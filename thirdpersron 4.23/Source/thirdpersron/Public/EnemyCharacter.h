@@ -31,5 +31,6 @@ protected:
 	UFUNCTION()
 	void OnEnemyHealthChanged(UEnemyHealthComponent* OwningHealthComp, float EnemyHealth, float EnemyHealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 	
+	void KillBot();
 	
 };

@@ -107,11 +107,8 @@ void AMyCharacter::StopFire()
 
 void AMyCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
-	if (Health < 1.0f)
-	{
-		Health = 1.0f;
-	}
-	if (Health <= 1.0f && !bDied)
+	
+	if (Health <= 0.0f && !bDied)
 	{
 		//You are dead		
 		bDied = true; 

@@ -33,17 +33,22 @@ void AEnemyCharacter::OnEnemyHealthChanged(UEnemyHealthComponent* OwningHealthCo
 	}
 	if (EnemyHealth <= 1.0f && !bDied)
 	{
-		//You are dead		
-		bDied = true;
-		
-		GetMovementComponent()->StopMovementImmediately();
-		
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-
-		DetachFromControllerPendingDestroy();
-
-		SetLifeSpan(1.0f);
+		KillBot();
 	}
+}
+
+void AEnemyCharacter::KillBot()
+{
+	//Enemy is dead		
+	bDied = true;
+
+	GetMovementComponent()->StopMovementImmediately();
+
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	DetachFromControllerPendingDestroy();
+
+	SetLifeSpan(1.0f);
 }
 
 

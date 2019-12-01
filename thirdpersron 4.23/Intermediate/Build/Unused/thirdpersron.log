@@ -1,28 +1,16 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jamie\Documents\GitHub\Third-PersRon).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Jamie\Documents\GitHub\Third-PersRon).
   Parsing headers for thirdpersronEditor
-    Running UnrealHeaderTool "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for thirdpersronEditor in 17.2841771 seconds
+    Running UnrealHeaderTool "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for thirdpersronEditor in 4.8229676 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Distributing 4 actions to XGE
-  --------------------Build System Warning---------------------------------------
-  License is invalid:
-      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
-      This build will run in standalone mode.
-  
-  -------------------------------------------------------------------------------
-  --------------------Project: Default-------------------------------------------
-  EnemyCharacter.cpp (0:11.09 at +0:00)
-  UE4Editor-thirdpersron-0002.dll (0:01.40 at +0:11)
-     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.suppressed.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.suppressed.exp
-  UE4Editor-thirdpersron-0002.lib (0:00.25 at +0:12)
-     Creating library C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.lib and object C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0002.exp
-  thirdpersronEditor.target (0:00.29 at +0:12)
-  ---------------------- Done ----------------------
-  
-      Rebuild All: 1 succeeded, 0 failed, 0 skipped
-  
-  1 build system warning(s):
-     - License is invalid
-  
-  Total time in XGE executor: 13.37 seconds
-  Total execution time: 33.73 seconds
+  Building 6 actions with 12 processes...
+    [1/6] thirdpersron.init.gen.cpp
+    [2/6] HordeGameMode.gen.cpp
+    [3/6] HordeGameMode.cpp
+    [4/6] UE4Editor-thirdpersron-0013.lib
+       Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.exp
+    [5/6] UE4Editor-thirdpersron-0013.dll
+       Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.suppressed.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.suppressed.exp
+    [6/6] thirdpersronEditor.target
+  Total time in Parallel executor: 1.32 seconds
+  Total execution time: 6.76 seconds

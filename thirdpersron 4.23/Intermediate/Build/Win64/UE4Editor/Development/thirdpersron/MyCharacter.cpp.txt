@@ -1,10 +1,10 @@
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\Definitions.thirdpersron.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\../Public/MyCharacter.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\Definitions.thirdpersron.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\../Public/MyCharacter.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\MyCharacter.generated.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\MyCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
@@ -21,12 +21,12 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\thirdpersron.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\Components\SHealthComponent.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\SHealthComponent.generated.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\SWeapon.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\thirdpersron.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\Components\SHealthComponent.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\SHealthComponent.generated.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Public\SWeapon.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera\CameraModifier_CameraShake.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraModifier.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraModifier.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraModifier_CameraShake.generated.h
-C:\Users\jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\SWeapon.generated.h
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Inc\thirdpersron\SWeapon.generated.h

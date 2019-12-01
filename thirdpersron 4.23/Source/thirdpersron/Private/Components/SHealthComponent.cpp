@@ -35,3 +35,9 @@ void USHealthComponent::HandleTakeAnyDamage(AActor* DamagedActor, float Damage, 
 	//broadcasts to the health event when you take damage, and supplies the event ith the listed information
 	OnHealthChanged.Broadcast(this, Health, Damage, DamageType, InstigatedBy, DamageCauser);
 }
+
+float USHealthComponent::GetHealth() const
+{
+	
+	return Health;
+}
