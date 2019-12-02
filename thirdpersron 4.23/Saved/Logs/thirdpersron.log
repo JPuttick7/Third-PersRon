@@ -7660,3 +7660,129 @@ Script Stack (0 frames):
 [2019.12.02-20.09.37:532][659]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
 [2019.12.02-20.09.37:551][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/VREditor/Devices/Generic/GenericHMDMaterial" FILE="../../../Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset" SILENT=true
 [2019.12.02-20.09.37:585][659]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/GenericHMDMaterialA2B15F0F46DC29D2CA466797DFC8C1D3.tmp' to '../../../Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset'
+[2019.12.02-20.21.51:096][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.02-20.21.54:102][251]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.12.02-20.21.54:444][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.02-20.21.54:444][275]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.12.02-20.21.54:805][309]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2019.12.02-20.21.54:821][309]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2019.12.02-20.21.57:657][561]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2019.12.02-20.22.31:954][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.12.02-20.23.16:593][134]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.02-20.23.19:520][341]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.02-20.24.11:785][ 30]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.02-20.24.11:795][ 30]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.02-20.24.17:076][254]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.02-20.25.31:821][ 62]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.02-20.28.25:556][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.12.02-20.28.43:126][ 27]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2019.12.02-20.28.43:126][ 27]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject="C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/thirdpersron.uproject" BuildCookRun -nocompile -nocompileeditor -installed -nop4 -project="C:/Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/thirdpersron.uproject" -cook -stage -archive -archivedirectory="C:/Users/Jamie/Documents/Third-PersRon Game" -package -clientconfig=Development -ue4exe="C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -utf8output
+[2019.12.02-20.28.43:486][ 47]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject
+[2019.12.02-20.28.44:484][138]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2019.12.02-20.28.44:512][141]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\DotNET\UnrealBuildTool.exe thirdpersron Win64 Development -Project="C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject"  "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" -NoUBTMakefiles  -remoteini="C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23" -skipdeploy -Manifest="C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Jamie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.23\UBT-thirdpersron-Win64-Development.txt"
+[2019.12.02-20.28.45:204][200]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Jamie\Documents\GitHub\Third-PersRon).
+[2019.12.02-20.28.49:455][521]UATHelper: Packaging (Windows (64-bit)):   Parsing headers for thirdpersron
+[2019.12.02-20.28.49:504][525]UATHelper: Packaging (Windows (64-bit)):     Running UnrealHeaderTool "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersron\Development\thirdpersron.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.02-20.29.15:296][760]UATHelper: Packaging (Windows (64-bit)):   Reflection code generated for thirdpersron in 25.584854 seconds
+[2019.12.02-20.29.16:635][764]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Manifest.xml
+[2019.12.02-20.29.16:635][764]UATHelper: Packaging (Windows (64-bit)):   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.02-20.29.16:635][764]UATHelper: Packaging (Windows (64-bit)):   Building 6 actions with 12 processes...
+[2019.12.02-20.29.25:989][792]UATHelper: Packaging (Windows (64-bit)):     [1/6] thirdpersron.init.gen.cpp
+[2019.12.02-20.29.26:322][793]UATHelper: Packaging (Windows (64-bit)):     [2/6] HordeGameMode.cpp
+[2019.12.02-20.29.26:322][793]UATHelper: Packaging (Windows (64-bit)):     [3/6] HordeGameMode.gen.cpp
+[2019.12.02-20.29.26:322][793]UATHelper: Packaging (Windows (64-bit)):     [4/6] MyCharacter.cpp
+[2019.12.02-20.29.26:322][793]UATHelper: Packaging (Windows (64-bit)):     C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\MyCharacter.cpp(108): warning C4458: declaration of 'HealthComp' hides class member
+[2019.12.02-20.29.26:322][793]UATHelper: Packaging (Windows (64-bit)):     C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\../Public/MyCharacter.h(49): note: see declaration of 'AMyCharacter::HealthComp'
+[2019.12.02-20.29.36:294][173]UATHelper: Packaging (Windows (64-bit)):     [5/6] thirdpersron.exe
+[2019.12.02-20.29.36:294][173]UATHelper: Packaging (Windows (64-bit)):        Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Binaries\Win64\thirdpersron.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Binaries\Win64\thirdpersron.exp
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)):     [6/6] thirdpersron.target
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)):   Total time in Parallel executor: 19.83 seconds
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)):   Total execution time: 51.90 seconds
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)): Took 51.9981572s to run UnrealBuildTool.exe, ExitCode=0
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND COMPLETED **********
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\Epic Games\UE_4.23\Engine\Programs\AutomationTool\Saved\Cook-2019.12.02-20.29.36.txt
+[2019.12.02-20.29.36:627][174]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\Win64\UE4Editor-Cmd.exe "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files\Epic Games\UE_4.23\Engine\Programs\AutomationTool\Saved\Cook-2019.12.02-20.29.36.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2019.12.02-20.29.36:960][175]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2019.12.02-20.29.36:960][175]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: thirdpersron
+[2019.12.02-20.29.38:296][179]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17022173184 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.02-20.29.41:295][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2019.12.02-20.29.41:296][188]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.02-20.29.41:629][189]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.02-20.29.43:631][195]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.02-20.29.43:631][195]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jamie/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.02-20.29.43:631][195]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.02-20.29.46:964][205]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.02-20.29.46:964][205]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2019.12.02-20.29.46:964][205]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2019.12.02-20.29.47:968][208]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets
+[2019.12.02-20.29.47:968][208]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+[2019.12.02-20.29.47:968][208]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2019.12.02-20.29.48:301][209]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.221 seconds for platforms WindowsNoEditor  iterative false
+[2019.12.02-20.29.49:313][212]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 4193 Total 4193
+[2019.12.02-20.29.49:647][213]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 4192 Total 4242
+[2019.12.02-20.29.51:988][220]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Minion_Dusk_Parent, compiling.
+[2019.12.02-20.29.52:326][221]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Minion_Dusk_Parent, compiling.
+[2019.12.02-20.29.52:326][221]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 4206 Total 4306
+[2019.12.02-20.29.53:301][250]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 4208 Total 4358
+[2019.12.02-20.29.54:178][256]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 4207 Total 4407
+[2019.12.02-20.29.54:178][256]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 4206 Total 4456
+[2019.12.02-20.29.55:450][257]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 300 Packages Remain 4205 Total 4505
+[2019.12.02-20.29.56:215][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 350 Packages Remain 4204 Total 4554
+[2019.12.02-20.29.56:327][266]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Wraith_Lowerbody, compiling.
+[2019.12.02-20.29.57:097][270]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 400 Packages Remain 4203 Total 4603
+[2019.12.02-20.30.00:250][377]LogSlate: Took 0.015889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.02-20.30.19:241][276]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MyCharacter.MyCharacter
+[2019.12.02-20.30.30:588][411]BlueprintLog: New page: Compile MyCharacter
+[2019.12.02-20.30.30:942][411]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.12.02-20.30.30:982][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2019.12.02-20.30.31:040][411]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/MyCharacter86D0A88C4D4CC830E9B42FA12D483CA1.tmp' to '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Blueprints/MyCharacter.uasset'
+[2019.12.02-20.30.37:212][ 41]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_TestGamemode.BP_TestGamemode
+[2019.12.02-20.30.46:297][ 36]BlueprintLog: New page: Compile BP_TestGamemode
+[2019.12.02-20.30.46:553][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.12.02-20.30.46:577][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TestGamemode" FILE="../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Blueprints/BP_TestGamemode.uasset" SILENT=true
+[2019.12.02-20.30.46:622][ 36]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/BP_TestGamemode7F27676B4F2A35CD00F0CC9B73AB7153.tmp' to '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Blueprints/BP_TestGamemode.uasset'
+[2019.12.02-20.30.52:857][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.12.02-20.30.53:141][708]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/MyLevel5967FDFD4B9D485114754CAC5DFCC266.tmp' to '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel.umap'
+[2019.12.02-20.30.53:200][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyLevel_BuiltData" FILE="../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel_BuiltData.uasset" SILENT=true
+[2019.12.02-20.30.53:438][708]LogSavePackage: Moving '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Saved/MyLevel_BuiltDataE5777D5A482DD65A755EAC9D6F861DEB.tmp' to '../../../../../../Users/Jamie/Documents/GitHub/Third-PersRon/thirdpersron 4.23/Content/Maps/MyLevel_BuiltData.uasset'
+[2019.12.02-20.30.54:135][772]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
