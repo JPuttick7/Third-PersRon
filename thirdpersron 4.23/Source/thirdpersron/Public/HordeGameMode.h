@@ -69,6 +69,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Game Mode")
 	int32 WaveCount;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Game Mode")
+	int32 MaxWaves;
+
 	AHordeGameMode();
 
 	virtual void StartPlay() override;

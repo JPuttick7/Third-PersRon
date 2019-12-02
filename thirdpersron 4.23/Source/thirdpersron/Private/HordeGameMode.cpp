@@ -17,13 +17,13 @@ void AHordeGameMode::StartWave()
 {
 	WaveCount++;
 
-	if (WaveCount <= 20)
+	if (WaveCount <= MaxWaves)
 	{
 		BotsToSpawn = WaveCount;
 
 		GetWorldTimerManager().SetTimer(TimerHandle_BotSpawner, this, &AHordeGameMode::SpawnBotTimerElapsed, 1.0f, true, 0.0f);
 	}
-	if (WaveCount == 21)
+	if (WaveCount == MaxWaves + 1)
 	{
 		bWin = true;
 		GameOver();

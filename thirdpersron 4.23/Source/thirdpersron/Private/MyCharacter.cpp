@@ -116,10 +116,6 @@ void AMyCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, 
 		GetMovementComponent()->StopMovementImmediately();
 
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);	
-
-		DetachFromControllerPendingDestroy();
-
-		SetLifeSpan(5.0f);
 	}
 }
 

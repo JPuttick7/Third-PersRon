@@ -64,6 +64,10 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxWaves_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MaxWaves;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WaveCount_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_WaveCount;
@@ -107,6 +111,13 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHordeGameMode_Statics::NewProp_MaxWaves_MetaData[] = {
+		{ "Category", "Game Mode" },
+		{ "ModuleRelativePath", "Public/HordeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_MaxWaves = { "MaxWaves", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHordeGameMode, MaxWaves), METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_MaxWaves_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_MaxWaves_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount_MetaData[] = {
 		{ "Category", "Game Mode" },
 		{ "Comment", "//The wave that the player is on\n" },
@@ -114,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 		{ "ToolTip", "The wave that the player is on" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount = { "WaveCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHordeGameMode, WaveCount), METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount = { "WaveCount", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHordeGameMode, WaveCount), METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_MetaData[] = {
 		{ "Category", "Game Mode" },
@@ -125,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 	{
 		((AHordeGameMode*)Obj)->bLose = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose = { "bLose", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHordeGameMode), &Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose = { "bLose", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHordeGameMode), &Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_MetaData[] = {
 		{ "Category", "Game Mode" },
@@ -136,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 	{
 		((AHordeGameMode*)Obj)->bWin = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin = { "bWin", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHordeGameMode), &Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin = { "bWin", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHordeGameMode), &Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_MetaData[] = {
 		{ "Category", "Game Mode" },
@@ -147,7 +158,7 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 	{
 		((AHordeGameMode*)Obj)->bGameOver = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver = { "bGameOver", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHordeGameMode), &Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver = { "bGameOver", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHordeGameMode), &Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bGameOver_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHordeGameMode_Statics::NewProp_TimeBetweenWaves_MetaData[] = {
 		{ "Category", "Gamemode" },
@@ -156,6 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHordeGameMode_Statics::NewProp_TimeBetweenWaves = { "TimeBetweenWaves", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHordeGameMode, TimeBetweenWaves), METADATA_PARAMS(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_TimeBetweenWaves_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHordeGameMode_Statics::NewProp_TimeBetweenWaves_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHordeGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHordeGameMode_Statics::NewProp_MaxWaves,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHordeGameMode_Statics::NewProp_WaveCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bLose,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHordeGameMode_Statics::NewProp_bWin,
@@ -189,7 +201,7 @@ void EmptyLinkFunctionForGeneratedCodeHordeGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHordeGameMode, 3077295143);
+	IMPLEMENT_CLASS(AHordeGameMode, 326556950);
 	template<> THIRDPERSRON_API UClass* StaticClass<AHordeGameMode>()
 	{
 		return AHordeGameMode::StaticClass();

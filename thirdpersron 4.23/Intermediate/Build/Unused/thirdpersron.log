@@ -1,16 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Jamie\Documents\GitHub\Third-PersRon).
   Parsing headers for thirdpersronEditor
     Running UnrealHeaderTool "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\thirdpersron.uproject" "C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\thirdpersronEditor\Development\thirdpersronEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for thirdpersronEditor in 4.8229676 seconds
+  Reflection code generated for thirdpersronEditor in 5.0646241 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] thirdpersron.init.gen.cpp
-    [2/6] HordeGameMode.gen.cpp
-    [3/6] HordeGameMode.cpp
-    [4/6] UE4Editor-thirdpersron-0013.lib
-       Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.exp
-    [5/6] UE4Editor-thirdpersron-0013.dll
-       Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.suppressed.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0013.suppressed.exp
-    [6/6] thirdpersronEditor.target
-  Total time in Parallel executor: 1.32 seconds
-  Total execution time: 6.76 seconds
+  Building 4 actions with 12 processes...
+    [1/4] MyCharacter.cpp
+C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\MyCharacter.cpp(108): warning C4458: declaration of 'HealthComp' hides class member
+    C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Source\thirdpersron\Private\../Public/MyCharacter.h(49): note: see declaration of 'AMyCharacter::HealthComp'
+    [2/4] UE4Editor-thirdpersron-0019.lib
+       Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0019.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0019.exp
+    [3/4] UE4Editor-thirdpersron-0019.dll
+       Creating library C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0019.suppressed.lib and object C:\Users\Jamie\Documents\GitHub\Third-PersRon\thirdpersron 4.23\Intermediate\Build\Win64\UE4Editor\Development\thirdpersron\UE4Editor-thirdpersron-0019.suppressed.exp
+    [4/4] thirdpersronEditor.target
+  Total time in Parallel executor: 2.26 seconds
+  Total execution time: 7.99 seconds
