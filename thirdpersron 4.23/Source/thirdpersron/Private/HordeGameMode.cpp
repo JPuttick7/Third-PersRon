@@ -1,52 +1,52 @@
 
-#include "HordeGameMode.h"
-#include "TimerManager.h"
-#include "EnemyHealthComponent.h"
-#include "SHealthComponent.h"
-#include <Runtime\Engine\Classes\Engine\World.h>
+#include "HordeGameMode.h"//includes the header for this file
+#include "TimerManager.h"//includes the timer manager files
+#include "EnemyHealthComponent.h"//includes the enemy's health component
+#include "SHealthComponent.h"//includes the player's health component
+#include <Runtime\Engine\Classes\Engine\World.h>//includes the world
 
 AHordeGameMode::AHordeGameMode()
 {
-	TimeBetweenWaves = 5.0f;
+	TimeBetweenWaves = 5.0f; //sets the time between enemy waves
 
-	PrimaryActorTick.bCanEverTick = true;
-	PrimaryActorTick.TickInterval = 1.0f;
+	PrimaryActorTick.bCanEverTick = true; //allows the primary actor to tick
+	PrimaryActorTick.TickInterval = 1.0f; //sets the tick time to tick every second
 }
 
 void AHordeGameMode::StartWave()
 {
-	WaveCount++;
+	WaveCount++; //increases the wavecount
 
-	if (WaveCount <= MaxWaves)
+	if (WaveCount <= MaxWaves) //if the wave count is less than the max amount of waves, spawn the enemies
 	{
-		BotsToSpawn = WaveCount;
+		BotsToSpawn = WaveCount; //increases each wave
 
-		GetWorldTimerManager().SetTimer(TimerHandle_BotSpawner, this, &AHordeGameMode::SpawnBotTimerElapsed, 1.0f, true, 0.0f);
+		GetWorldTimerManager().SetTimer(TimerHandle_BotSpawner, this, &AHordeGameMode::SpawnBotTimerElapsed, 1.0f, true, 0.0f); //spawns the bots every second
 	}
-	if (WaveCount == MaxWaves + 1)
+	if (WaveCount == MaxWaves + 1) // if the wave count has reached the max amount of waves
 	{
-		bWin = true;
-		GameOver();
+		bWin = true;//you have won!
+		GameOver(); //end the game
 		
 	}
 }
 
 void AHordeGameMode::EndWave()
 {
-	GetWorldTimerManager().ClearTimer(TimerHandle_BotSpawner);
+	GetWorldTimerManager().ClearTimer(TimerHandle_BotSpawner); //clears the spawn timer
 
 }
 
 void AHordeGameMode::PrepareForNextWave()
-{
-	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &AHordeGameMode::StartWave, TimeBetweenWaves, false);
+{   //sets the timer to count down to the next wave
+	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &AHordeGameMode::StartWave, TimeBetweenWaves, false); 
 }
 
 void AHordeGameMode::CheckWaveState()
-{
-	bool IsPreparingForWave = GetWorldTimerManager().IsTimerActive(TimerHandle_NextWaveStart);
+{	
+	bool IsPreparingForWave = GetWorldTimerManager().IsTimerActive(TimerHandle_NextWaveStart); //checks if the timer is active
 
-	if (BotsToSpawn > 0 || IsPreparingForWave)
+	if (BotsToSpawn > 0 || IsPreparingForWave) //returns if there are still bots to spawn
 	{
 		return;
 	}
