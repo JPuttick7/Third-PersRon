@@ -1,13 +1,13 @@
 //includes vital header files, that allow the code in this file to work
 #include "../Public/MyCharacter.h" //includes declarations and code in the header file
-#include "Camera/CameraComponent.h"//includes the ability to create a camera for your character
-#include "GameFramework/SpringArmComponent.h"//includes the ability to create a spring arm for you camera, and attach it to a character
-#include "GameFramework/PawnMovementComponent.h"//include the ability to move your character, to also crouch and jump
-#include "Components/SkeletalMeshComponent.h"//includes the mesh components of the skeleton
+#include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/PawnMovementComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "thirdpersron.h"
 #include "SHealthComponent.h"
-#include "SWeapon.h" //includes the weapon file, in order to call its functions
+#include "SWeapon.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -23,8 +23,9 @@ AMyCharacter::AMyCharacter()
 	//allow the character to crouch, uses built-in function from Unreal Engine
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 
-	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON, ECR_Ignore);
+	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON, ECR_Ignore); //sets up collision for the weapon mesh
 
+	//initialise the health component for the character.
 	HealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 
 	//Attaches the spring arm camera to the character
@@ -46,7 +47,7 @@ void AMyCharacter::BeginPlay()
 
 	//Spawn the players weapon
 	FActorSpawnParameters SpawnParams;
-	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn; //sets the collison spawn parameters
 
 	CurrentWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
 	if (CurrentWeapon)
@@ -101,21 +102,21 @@ void AMyCharacter::StopFire()
 {
 	if (CurrentWeapon)
 	{
-		CurrentWeapon->StopFire();
+		CurrentWeapon->StopFire(); //stops firing the weapon
 	}
 }
 
 void AMyCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
 	
-	if (Health <= 0.0f && !bDied)
+	if (Health <= 0.0f && !bDied)  //checks if you are dead
 	{
 		//You are dead		
 		bDied = true; 
 
-		GetMovementComponent()->StopMovementImmediately();
+		GetMovementComponent()->StopMovementImmediately(); //stops all movement
 
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);	
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);	//disables collision
 	}
 }
 
@@ -141,20 +142,26 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	//binds the different movement controls to input controls, that can be set in the Unreal Engine settings.
 	// for example, MoveForward, is an input component that is binded to the W key, in the Unreal Engine, outside of the code.
 	
+	//moving
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMyCharacter::MoveRight);
 
+	//Looking around
 	PlayerInputComponent->BindAxis("LookUp", this, &AMyCharacter::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn", this, &AMyCharacter::AddControllerYawInput);
 
+	//crouching
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AMyCharacter::BeginCrouch);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AMyCharacter::EndCrouch);
 
+	//jumping
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyCharacter::Jump);
 
+	//zooming
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &AMyCharacter::BeginZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &AMyCharacter::EndZoom);
 
+	//shooting
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMyCharacter::StartFire);
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AMyCharacter::StopFire);
 }
@@ -165,5 +172,5 @@ FVector AMyCharacter::GetPawnViewLocation() const //get the pawns view location
 	{
 		return CameraComp->GetComponentLocation(); // gets the location of the camera component
 	}
-	return Super::GetPawnViewLocation();
+	return Super::GetPawnViewLocation(); //return the pawn view location
 }

@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//includes vital header files, that allow the code in this file to work
 
 #pragma once
 
@@ -25,15 +25,16 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HealthComponent")
-	float DefaultHealth;
+	float DefaultHealth; //the player's base health
 
-	UFUNCTION()
+	UFUNCTION() //creates the function that handles damage taken
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 		
 public: 
 
-	float GetHealth() const;
+	float GetHealth() const; //fetches the current health of the player
 
+	//Exposes the OnHealthChanged event macro
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnHealthChangedSignature OnHealthChanged;
 };

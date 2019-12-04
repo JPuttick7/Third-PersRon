@@ -1,5 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+//includes vital header files, that allow the code in this file to work
 #pragma once
 
 #include "CoreMinimal.h"
@@ -23,14 +22,15 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(BlueprintReadOnly, Category = "Enemy")
-	bool bDied;
+	bool bDied; //has the enemy died?
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	UEnemyHealthComponent* EnemyHealthComp;
+	UEnemyHealthComponent* EnemyHealthComp; //the inherited health component
 
+	//UFunction event to ahandle when health has been changed, broadcasted from the inherited health component
 	UFUNCTION()
 	void OnEnemyHealthChanged(UEnemyHealthComponent* OwningHealthComp, float EnemyHealth, float EnemyHealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 	
-	void KillBot();
+	void KillBot(); //kills the bot
 	
 };

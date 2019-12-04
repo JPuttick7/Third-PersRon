@@ -1,16 +1,17 @@
-#include "SWeapon.h" //includes the header file and all declarations
-#include "DrawDebugHelpers.h" //includes helper to draw a debug line
-#include "Kismet/GameplayStatics.h"//includes the class of gameplay statics, to apply damage
-#include "Particles/ParticleSystem.h" //includes the particle system, used to create effects
-#include "Components/SkeletalMeshComponent.h" //includes the mesh components of the skeleton
-#include "Particles/ParticleSystemComponent.h" //includes the particlesystem components
+//includes vital header files, that allow the code in this file to work
+#include "SWeapon.h"
+#include "DrawDebugHelpers.h" 
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystem.h" 
+#include "Components/SkeletalMeshComponent.h" 
+#include "Particles/ParticleSystemComponent.h" 
 #include "PhysicalMaterials/PhysicalMaterial.h"
 #include "TimerManager.h"	
 #include "thirdpersron.h"
 
 //creates a console command to draw debug lines from the camera to where the player is aiming
 static int32 DebugWeaponDrawing = 0;
-FAutoConsoleVariableRef CVARDebugWeaponDrawing(TEXT("COOP.DebugWeapons"),
+FAutoConsoleVariableRef CVARDebugWeaponDrawing(TEXT("DebugWeapons"),
 	DebugWeaponDrawing,
 	TEXT("Draw Debug Lines for Weapons"),
 	ECVF_Cheat);
@@ -25,17 +26,18 @@ ASWeapon::ASWeapon()
 	MuzzleSocketName = "MuzzleSocket"; //assigns the name of the muzzle socket
 	TracerTargetName = "Target"; // assigns the name of the target for the tracer
 
-	BaseDamage = 200;
+	BaseDamage = 200; // The damage the weapon deals per hit
 
-	RateOfFire = 600;
+	RateOfFire = 600; // Rate of fire of the weapon in Rounds per Minute
 	
 }
 
 void ASWeapon::BeginPlay()
-{
+{	
+	//called when the game begins
 	Super::BeginPlay();
 
-	TimeBetweenShots = 60 / RateOfFire;
+	TimeBetweenShots = 60 / RateOfFire; //calculates the time between individual shots at the specified rate of fire
 }
 
 void ASWeapon::Fire() //function that fires the weapon
@@ -66,22 +68,23 @@ void ASWeapon::Fire() //function that fires the weapon
 		{
 			AActor* HitActor = Hit.GetActor(); //fetches the actor that was hit
 			
-			EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get());
+			EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get()); //gets the material that was hit
 
+			//determines the damage multiplier dependant on the part of enemy hit
 			float ActualDamage = BaseDamage;
 			if (SurfaceType == SURFACE_ENEMYVULNERABLE)
 			{
-				ActualDamage *= 4.0f;
+				ActualDamage *= 4.0f; //x4 on headshots
 			}
 			else if (SurfaceType == SURFACE_ENEMYMETAL)
 			{
-				ActualDamage = 0;
+				ActualDamage = 0; //no damage
 			}
 			
 			//applies the damage of the weapon
 			UGameplayStatics::ApplyPointDamage(HitActor, ActualDamage, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
 			   
-
+			//determines the effect based upon what material was impacted
 			UParticleSystem* SelectedEffect = nullptr;
 			switch (SurfaceType)
 			{
@@ -113,19 +116,21 @@ void ASWeapon::Fire() //function that fires the weapon
 		}
 		PlayFireEffects(TracerEndPoint); //plays the muzzle flash and bullet tracer effects
 
-		LastFireTime = GetWorld()->TimeSeconds;
+		LastFireTime = GetWorld()->TimeSeconds; //gets the world time of the last weapon discharge
 	}
 }
 
 
 void ASWeapon::StartFire()
 {
+	//starts firing fully automatic
 	float FirstDelay = FMath::Max(LastFireTime + TimeBetweenShots - GetWorld()->TimeSeconds, 0.0f);
 	GetWorldTimerManager().SetTimer(TimerHandle_TimeBetweenShots, this, &ASWeapon::Fire, TimeBetweenShots, true, FirstDelay);
 }
 
 void ASWeapon::StopFire()
 {
+	//stops the automatic fire
 	GetWorldTimerManager().ClearTimer(TimerHandle_TimeBetweenShots);
 }
 
@@ -138,19 +143,20 @@ void ASWeapon::PlayFireEffects(FVector TraceEnd) //function for the weapon effec
 	}
 
 	if (TracerEffect)
-	{	//plays the tracer location from the muzzle tocket to the target location
+	{	
+		//plays the tracer location from the muzzle tocket to the target location
 		FVector MuzzleLocation = MeshComp->GetSocketLocation(MuzzleSocketName);
 
 		UParticleSystemComponent* TracerComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), TracerEffect, MuzzleLocation);
 
-		if (TracerComp) //checks if null
+		if (TracerComp) 
 		{
 			TracerComp->SetVectorParameter(TracerTargetName, TraceEnd);
 		}
 	}
-
+	//shakes the camera slightly when firing
 	APawn* MyOwner = Cast<APawn>(GetOwner()); 
-	if (MyOwner) // checks if null
+	if (MyOwner) 
 	{
 		APlayerController* PC = Cast<APlayerController>(MyOwner->GetController());
 		if (PC)

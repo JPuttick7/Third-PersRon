@@ -3,7 +3,7 @@
 // Sets default values for this component's properties
 USHealthComponent::USHealthComponent()
 {
-	DefaultHealth = 1000;
+	DefaultHealth = 1000; //sets the player's base health
 }
 
 
@@ -39,5 +39,5 @@ void USHealthComponent::HandleTakeAnyDamage(AActor* DamagedActor, float Damage, 
 float USHealthComponent::GetHealth() const
 {
 	
-	return Health;
+	return Health; //gets the health
 }

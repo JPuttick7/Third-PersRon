@@ -55,12 +55,13 @@ void AHordeGameMode::CheckWaveState()
 
 	for (FConstPawnIterator It = GetWorld()->GetPawnIterator(); It; It++)
 	{
-		APawn* TestPawn = It->Get();
-		if (TestPawn == nullptr || TestPawn->IsPlayerControlled())
+	/*checks if there are still enemies left to kill*/
+		APawn* EnemyPawn = It->Get();
+		if (EnemyPawn == nullptr || EnemyPawn->IsPlayerControlled())
 		{
 			continue;
 		}
-		UEnemyHealthComponent* EnemyHealthComp = Cast<UEnemyHealthComponent>(TestPawn->GetComponentByClass(UEnemyHealthComponent::StaticClass()));
+		UEnemyHealthComponent* EnemyHealthComp = Cast<UEnemyHealthComponent>(EnemyPawn->GetComponentByClass(UEnemyHealthComponent::StaticClass()));
 		if (EnemyHealthComp && EnemyHealthComp->GetHealth() > 0.0f)
 		{
 			IsAnyBotAlive = true;
@@ -77,7 +78,7 @@ void AHordeGameMode::CheckWaveState()
 void AHordeGameMode::CheckPlayerAlive()
 {
 	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
-	{
+	{	//checks if any player is alive
 		APlayerController* PC = It->Get();
 		if (PC && PC->GetPawn())
 		{
@@ -85,7 +86,6 @@ void AHordeGameMode::CheckPlayerAlive()
 			USHealthComponent* HealthComp = Cast<USHealthComponent>(MyPawn->GetComponentByClass(USHealthComponent::StaticClass()));
 			if (ensure(HealthComp) && HealthComp->GetHealth() > 0.0f)
 			{
-				//checks if player is still alive
 				return;
 			}
 		}
@@ -97,16 +97,17 @@ void AHordeGameMode::CheckPlayerAlive()
 
 void AHordeGameMode::GameOver()
 {
-	EndWave();
+	EndWave(); //calls the endwave function
 
-	bGameOver = true;
-
-	UE_LOG(LogTemp, Log, TEXT("GAME OVER -- PLAYER DIED"));
+	bGameOver = true; //game is over
+	 
+	UE_LOG(LogTemp, Log, TEXT("GAME OVER -- PLAYER DIED")); //DevOutputLog data for testing
 }
 
 
 void AHordeGameMode::StartPlay()
 {
+	//called when the program starts running
 	Super::StartPlay();
 
 	PrepareForNextWave();
@@ -116,18 +117,19 @@ void AHordeGameMode::StartPlay()
 void AHordeGameMode::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-	CheckWaveState();
+	//checks the state and player condition every tick
+	CheckWaveState(); 
 	CheckPlayerAlive();
 }
 
 
 void AHordeGameMode::SpawnBotTimerElapsed()
 {
-	SpawnNewBot();
+	SpawnNewBot(); //calls the blueprint function  and runs EQS to spawn a bot
 
 	BotsToSpawn--;
 
-	if (BotsToSpawn <= 0)
+	if (BotsToSpawn <= 0) //ends the wave when there are no more bots to spawn
 	{
 		EndWave();
 	}

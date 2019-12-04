@@ -1,3 +1,5 @@
+
+//includes vital header files, that allow the code in this file to work
 #pragma once
 
 #include "CoreMinimal.h"
@@ -18,8 +20,6 @@ class THIRDPERSRON_API ASWeapon : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ASWeapon();
-	
-	
 
 protected:
 	
@@ -64,13 +64,13 @@ protected:
 	TSubclassOf<UCameraShake> FireCameraShake;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
-	float BaseDamage;
+	float BaseDamage; // damage that the weapon deals
 
-	void Fire();
+	void Fire(); //shoots
 
-	FTimerHandle TimerHandle_TimeBetweenShots;
+	FTimerHandle TimerHandle_TimeBetweenShots; //the world time that has passed between shots being fired
 
-	float LastFireTime;
+	float LastFireTime; //the world timestamp for when the last shot was fired
 
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
@@ -78,7 +78,7 @@ protected:
 
 	float TimeBetweenShots; // Derived from RateOfFire
 public:	
-	void StartFire();
+	void StartFire(); //opens fire
 
-	void StopFire();
+	void StopFire(); //stops shooting
 };

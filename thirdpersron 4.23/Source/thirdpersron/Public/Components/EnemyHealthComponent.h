@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//includes vital header files, that allow the code in this file to work
 
 #pragma once
 
@@ -18,21 +18,22 @@ public:
 	UEnemyHealthComponent();
 
 	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
-	float EnemyHealth;
+	float EnemyHealth; //the enemies' health
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HealthComponent")
-	float DefaultEnemyHealth;
+	float DefaultEnemyHealth; //the enemies' base health
 
-	UFUNCTION()
+	UFUNCTION() //declares the function that controls the tsking of any damage
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
-
+	
 public:	
 
-	float GetHealth() const;
+	float GetHealth() const; //fetches the enemies' health
 
+	//exposes the OnEnemyHealthChanged macro
 	UPROPERTY(BlueprintAssignable, Category = "Components")
 	FOnEnemyHealthChanged OnEnemyHealthChanged;
 		
