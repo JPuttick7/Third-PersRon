@@ -25,10 +25,10 @@ void EmptyLinkFunctionForGeneratedCodethirdpersron_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/thirdpersron",
 				SingletonFuncArray,
-				ARRAY_COUNT(SingletonFuncArray),
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x5BEC2D25,
-				0xAFD3F7DD,
+				0x39ACFD7F,
+				0xD4C9832D,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

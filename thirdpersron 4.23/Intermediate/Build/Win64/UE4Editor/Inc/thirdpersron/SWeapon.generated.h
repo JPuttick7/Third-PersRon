@@ -13,27 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THIRDPERSRON_SWeapon_generated_h
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_RPC_WRAPPERS
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_INCLASS_NO_PURE_DECLS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_SPARSE_DATA
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_RPC_WRAPPERS
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend struct Z_Construct_UClass_ASWeapon_Statics; \
 public: \
-	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
+	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
 	DECLARE_SERIALIZER(ASWeapon)
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_INCLASS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend struct Z_Construct_UClass_ASWeapon_Statics; \
 public: \
-	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
+	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
 	DECLARE_SERIALIZER(ASWeapon)
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_STANDARD_CONSTRUCTORS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASWeapon) \
@@ -46,7 +47,7 @@ private: \
 public:
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_ENHANCED_CONSTRUCTORS \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASWeapon(ASWeapon&&); \
@@ -57,7 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASWeapon)
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(ASWeapon, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__DamageType() { return STRUCT_OFFSET(ASWeapon, DamageType); } \
 	FORCEINLINE static uint32 __PPO__MuzzleSocketName() { return STRUCT_OFFSET(ASWeapon, MuzzleSocketName); } \
@@ -73,25 +74,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__RateOfFire() { return STRUCT_OFFSET(ASWeapon, RateOfFire); }
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_13_PROLOG
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_GENERATED_BODY_LEGACY \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_15_PROLOG
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_RPC_WRAPPERS \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_INCLASS \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_STANDARD_CONSTRUCTORS \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_SPARSE_DATA \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_RPC_WRAPPERS \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_INCLASS \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_GENERATED_BODY \
+#define thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_INCLASS_NO_PURE_DECLS \
-	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_16_ENHANCED_CONSTRUCTORS \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_SPARSE_DATA \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_INCLASS_NO_PURE_DECLS \
+	thirdpersron_4_23_Source_thirdpersron_Public_SWeapon_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

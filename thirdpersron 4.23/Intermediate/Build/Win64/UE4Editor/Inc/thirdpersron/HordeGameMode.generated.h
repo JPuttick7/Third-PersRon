@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THIRDPERSRON_HordeGameMode_generated_h
 
+#define thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_SPARSE_DATA
 #define thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_RPC_WRAPPERS
 #define thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_RPC_WRAPPERS_NO_PURE_DECLS
 #define thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_EVENT_PARMS
@@ -22,7 +23,7 @@ private: \
 	static void StaticRegisterNativesAHordeGameMode(); \
 	friend struct Z_Construct_UClass_AHordeGameMode_Statics; \
 public: \
-	DECLARE_CLASS(AHordeGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
+	DECLARE_CLASS(AHordeGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
 	DECLARE_SERIALIZER(AHordeGameMode)
 
 
@@ -31,7 +32,7 @@ private: \
 	static void StaticRegisterNativesAHordeGameMode(); \
 	friend struct Z_Construct_UClass_AHordeGameMode_Statics; \
 public: \
-	DECLARE_CLASS(AHordeGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
+	DECLARE_CLASS(AHordeGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
 	DECLARE_SERIALIZER(AHordeGameMode)
 
 
@@ -71,6 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHordeGameMode); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_SPARSE_DATA \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_RPC_WRAPPERS \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_CALLBACK_WRAPPERS \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_INCLASS \
@@ -83,6 +85,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_SPARSE_DATA \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_CALLBACK_WRAPPERS \
 	thirdpersron_4_23_Source_thirdpersron_Public_HordeGameMode_h_18_INCLASS_NO_PURE_DECLS \

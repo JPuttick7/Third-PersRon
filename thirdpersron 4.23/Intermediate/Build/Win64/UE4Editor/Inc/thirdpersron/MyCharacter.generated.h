@@ -17,6 +17,7 @@ class AActor;
 #endif
 #define THIRDPERSRON_MyCharacter_generated_h
 
+#define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_SPARSE_DATA
 #define thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHealthChanged) \
@@ -56,7 +57,7 @@ private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AMyCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
+	DECLARE_CLASS(AMyCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
@@ -65,7 +66,7 @@ private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AMyCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
+	DECLARE_CLASS(AMyCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/thirdpersron"), NO_API) \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
@@ -109,6 +110,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_SPARSE_DATA \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_RPC_WRAPPERS \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_INCLASS \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_STANDARD_CONSTRUCTORS \
@@ -120,6 +122,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_SPARSE_DATA \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_INCLASS_NO_PURE_DECLS \
 	thirdpersron_4_23_Source_thirdpersron_Public_MyCharacter_h_18_ENHANCED_CONSTRUCTORS \

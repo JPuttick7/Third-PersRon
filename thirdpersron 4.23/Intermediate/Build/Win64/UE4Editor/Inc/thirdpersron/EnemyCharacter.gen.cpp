@@ -29,7 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnEnemyHealthChanged", &AEnemyCharacter::execOnEnemyHealthChanged },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics
 	{
@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageType = { "DamageType", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacter_eventOnEnemyHealthChanged_Parms, DamageType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageType_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageType_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageType = { "DamageType", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacter_eventOnEnemyHealthChanged_Parms, DamageType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageType_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageType_MetaData)) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_EnemyHealthDelta = { "EnemyHealthDelta", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacter_eventOnEnemyHealthChanged_Parms, EnemyHealthDelta), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_EnemyHealth = { "EnemyHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacter_eventOnEnemyHealthChanged_Parms, EnemyHealth), METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
@@ -75,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_OwningHealthComp = { "OwningHealthComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacter_eventOnEnemyHealthChanged_Parms, OwningHealthComp), Z_Construct_UClass_UEnemyHealthComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_OwningHealthComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_OwningHealthComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_OwningHealthComp = { "OwningHealthComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemyCharacter_eventOnEnemyHealthChanged_Parms, OwningHealthComp), Z_Construct_UClass_UEnemyHealthComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_OwningHealthComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_OwningHealthComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_DamageCauser,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::NewProp_InstigatedBy,
@@ -86,10 +86,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//UFunction event to ahandle when health has been changed, broadcasted from the inherited health component\n" },
 		{ "ModuleRelativePath", "Public/EnemyCharacter.h" },
+		{ "ToolTip", "UFunction event to ahandle when health has been changed, broadcasted from the inherited health component" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "OnEnemyHealthChanged", nullptr, nullptr, sizeof(EnemyCharacter_eventOnEnemyHealthChanged_Parms), Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, nullptr, "OnEnemyHealthChanged", nullptr, nullptr, sizeof(EnemyCharacter_eventOnEnemyHealthChanged_Parms), Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -128,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_thirdpersron,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged, "OnEnemyHealthChanged" }, // 3548636154
+		{ &Z_Construct_UFunction_AEnemyCharacter_OnEnemyHealthChanged, "OnEnemyHealthChanged" }, // 1053249338
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams[] = {
@@ -140,11 +142,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp_MetaData[] = {
 		{ "Category", "Components" },
+		{ "Comment", "//has the enemy died?\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/EnemyCharacter.h" },
+		{ "ToolTip", "has the enemy died?" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp = { "EnemyHealthComp", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, EnemyHealthComp), Z_Construct_UClass_UEnemyHealthComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp = { "EnemyHealthComp", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyCharacter, EnemyHealthComp), Z_Construct_UClass_UEnemyHealthComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_MetaData[] = {
 		{ "Category", "Enemy" },
@@ -155,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	{
 		((AEnemyCharacter*)Obj)->bDied = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied = { "bDied", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemyCharacter), &Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied = { "bDied", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemyCharacter), &Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_EnemyHealthComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_bDied,
@@ -165,18 +169,18 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AEnemyCharacter_Statics::ClassParams = {
 		&AEnemyCharacter::StaticClass,
-		nullptr,
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AEnemyCharacter()
 	{
@@ -187,7 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 129218201);
+	IMPLEMENT_CLASS(AEnemyCharacter, 4034567631);
 	template<> THIRDPERSRON_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

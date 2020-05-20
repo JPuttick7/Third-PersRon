@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "thirdpersron",
+			"Path": "C:\\Users\\Jamie\\Documents\\GitHub\\Third-PersRon\\thirdpersron 4.23\\Source\\thirdpersron.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "thirdpersronEditor",
+			"Path": "C:\\Users\\Jamie\\Documents\\GitHub\\Third-PersRon\\thirdpersron 4.23\\Source\\thirdpersronEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
